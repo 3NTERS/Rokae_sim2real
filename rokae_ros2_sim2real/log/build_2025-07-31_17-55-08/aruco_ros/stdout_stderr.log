@@ -1,0 +1,66 @@
+[  9%] [32mBuilding CXX object CMakeFiles/aruco_ros_utils.dir/src/aruco_ros_utils.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/single.dir/src/aruco_ros_utils.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/marker_publisher.dir/src/aruco_ros_utils.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/double.dir/src/aruco_ros_utils.cpp.o[0m
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:133:28:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+  133 |   visMarker.color.r = 0.0; [01;31m[K#[m[K默认1.0
+      |                            [01;31m[K^[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:133:28:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+  133 |   visMarker.color.r = 0.0; [01;31m[K#[m[K默认1.0
+      |                            [01;31m[K^[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:133:28:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+  133 |   visMarker.color.r = 0.0; [01;31m[K#[m[K默认1.0
+      |                            [01;31m[K^[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:133:28:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+  133 |   visMarker.color.r = 0.0; [01;31m[K#[m[K默认1.0
+      |                            [01;31m[K^[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:135:28:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+  135 |   visMarker.color.b = 1.0; [01;31m[K#[m[K默认0.0
+      |                            [01;31m[K^[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:135:28:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+  135 |   visMarker.color.b = 1.0; [01;31m[K#[m[K默认0.0
+      |                            [01;31m[K^[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:135:28:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+  135 |   visMarker.color.b = 1.0; [01;31m[K#[m[K默认0.0
+      |                            [01;31m[K^[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:135:28:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K#[m[K’ in program
+  135 |   visMarker.color.b = 1.0; [01;31m[K#[m[K默认0.0
+      |                            [01;31m[K^[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:[m[K In function ‘[01m[Kvisualization_msgs::msg::Marker aruco_ros::visMarkerFromPose(const PoseStamped&, double, int)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:133:29:[m[K [01;31m[Kerror: [m[K‘[01m[K默认1[m[K’ was not declared in this scope
+  133 |   visMarker.color.r = 0.0; #[01;31m[K默认1[m[K.0
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:[m[K In function ‘[01m[Kvisualization_msgs::msg::Marker aruco_ros::visMarkerFromPose(const PoseStamped&, double, int)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:133:29:[m[K [01;31m[Kerror: [m[K‘[01m[K默认1[m[K’ was not declared in this scope
+  133 |   visMarker.color.r = 0.0; #[01;31m[K默认1[m[K.0
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:[m[K In function ‘[01m[Kvisualization_msgs::msg::Marker aruco_ros::visMarkerFromPose(const PoseStamped&, double, int)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:133:29:[m[K [01;31m[Kerror: [m[K‘[01m[K默认1[m[K’ was not declared in this scope
+  133 |   visMarker.color.r = 0.0; #[01;31m[K默认1[m[K.0
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:[m[K In function ‘[01m[Kvisualization_msgs::msg::Marker aruco_ros::visMarkerFromPose(const PoseStamped&, double, int)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:133:29:[m[K [01;31m[Kerror: [m[K‘[01m[K默认1[m[K’ was not declared in this scope
+  133 |   visMarker.color.r = 0.0; #[01;31m[K默认1[m[K.0
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:135:29:[m[K [01;31m[Kerror: [m[K‘[01m[K默认0[m[K’ was not declared in this scope
+  135 |   visMarker.color.b = 1.0; #[01;31m[K默认0[m[K.0
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:135:29:[m[K [01;31m[Kerror: [m[K‘[01m[K默认0[m[K’ was not declared in this scope
+  135 |   visMarker.color.b = 1.0; #[01;31m[K默认0[m[K.0
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:135:29:[m[K [01;31m[Kerror: [m[K‘[01m[K默认0[m[K’ was not declared in this scope
+  135 |   visMarker.color.b = 1.0; #[01;31m[K默认0[m[K.0
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/src/aruco_ros_utils.cpp:135:29:[m[K [01;31m[Kerror: [m[K‘[01m[K默认0[m[K’ was not declared in this scope
+  135 |   visMarker.color.b = 1.0; #[01;31m[K默认0[m[K.0
+      |                             [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/single.dir/build.make:90：CMakeFiles/single.dir/src/aruco_ros_utils.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:169：CMakeFiles/single.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** [CMakeFiles/aruco_ros_utils.dir/build.make:76：CMakeFiles/aruco_ros_utils.dir/src/aruco_ros_utils.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:143：CMakeFiles/aruco_ros_utils.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/double.dir/build.make:90：CMakeFiles/double.dir/src/aruco_ros_utils.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:195：CMakeFiles/double.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/marker_publisher.dir/build.make:90：CMakeFiles/marker_publisher.dir/src/aruco_ros_utils.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/marker_publisher.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,218 @@
+[0.070s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.127s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.424s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.490s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.494s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.507s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.535s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.571s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.648s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.659s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.952s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.054s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[1.072s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.100s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.149s] -- Found trajectory_msgs: 4.2.4 (/opt/ros/humble/share/trajectory_msgs/cmake)
+[1.202s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.618s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.620s] -- Configured cppcheck include dirs: /home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include
+[1.620s] -- Configured cppcheck exclude dirs and/or files: 
+[1.622s] -- Added test 'lint_cmake' to check CMake code style
+[1.625s] -- Added test 'uncrustify' to check C / C++ code style
+[1.625s] -- Configured uncrustify additional arguments: 
+[1.626s] -- Added test 'xmllint' to check XML markup files
+[1.628s] -- Configuring done
+[1.691s] -- Generating done
+[1.719s] -- Build files have been written to: /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver
+[1.789s] [35m[1mConsolidate compiler generated dependencies of target driver_pentu[0m
+[1.789s] [35m[1mConsolidate compiler generated dependencies of target move_example[0m
+[1.790s] [35m[1mConsolidate compiler generated dependencies of target read_force[0m
+[1.791s] [35m[1mConsolidate compiler generated dependencies of target sdk_example[0m
+[1.796s] [35m[1mConsolidate compiler generated dependencies of target read_robot_state[0m
+[1.825s] [  8%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[1.830s] [ 16%] [32mBuilding CXX object CMakeFiles/sdk_example.dir/src/sdk_example.cpp.o[0m
+[1.832s] [ 25%] [32mBuilding CXX object CMakeFiles/move_example.dir/src/move_example.cpp.o[0m
+[1.833s] [ 33%] [32mBuilding CXX object CMakeFiles/read_force.dir/src/read_force.cpp.o[0m
+[1.833s] [ 41%] [32mBuilding CXX object CMakeFiles/read_robot_state.dir/src/read_robot_state.cpp.o[0m
+[1.838s] [ 50%] [32mBuilding CXX object CMakeFiles/driver_pentu.dir/src/driver_pentu.cpp.o[0m
+[2.479s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:49:13:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[2.479s]    49 |             [01;35m[K'xmate_joint_1'[m[K, 'xmate_joint_2', 'xmate_joint_3', 'xmate_joint_4', 'xmate_joint_5', 'xmate_joint_6', 'xmate_joint_7'
+[2.479s]       |             [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.479s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:49:30:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[2.479s]    49 |             'xmate_joint_1', [01;35m[K'xmate_joint_2'[m[K, 'xmate_joint_3', 'xmate_joint_4', 'xmate_joint_5', 'xmate_joint_6', 'xmate_joint_7'
+[2.479s]       |                              [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.479s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:49:47:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[2.479s]    49 |             'xmate_joint_1', 'xmate_joint_2', [01;35m[K'xmate_joint_3'[m[K, 'xmate_joint_4', 'xmate_joint_5', 'xmate_joint_6', 'xmate_joint_7'
+[2.479s]       |                                               [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.480s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:49:64:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[2.480s]    49 |             'xmate_joint_1', 'xmate_joint_2', 'xmate_joint_3', [01;35m[K'xmate_joint_4'[m[K, 'xmate_joint_5', 'xmate_joint_6', 'xmate_joint_7'
+[2.480s]       |                                                                [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.480s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:49:81:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[2.480s]    49 |             'xmate_joint_1', 'xmate_joint_2', 'xmate_joint_3', 'xmate_joint_4', [01;35m[K'xmate_joint_5'[m[K, 'xmate_joint_6', 'xmate_joint_7'
+[2.480s]       |                                                                                 [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.480s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:49:98:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[2.480s]    49 |             'xmate_joint_1', 'xmate_joint_2', 'xmate_joint_3', 'xmate_joint_4', 'xmate_joint_5', [01;35m[K'xmate_joint_6'[m[K, 'xmate_joint_7'
+[2.480s]       |                                                                                                  [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.480s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:49:115:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[2.480s]    49 |             'xmate_joint_1', 'xmate_joint_2', 'xmate_joint_3', 'xmate_joint_4', 'xmate_joint_5', 'xmate_joint_6', [01;35m[K'xmate_joint_7'[m[K
+[2.480s]       |                                                                                                                   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[4.466s] [ 58%] [32m[1mLinking CXX executable read_robot_state[0m
+[5.348s] [ 58%] Built target read_robot_state
+[5.456s] [ 66%] [32m[1mLinking CXX executable sdk_example[0m
+[5.492s] [ 75%] [32m[1mLinking CXX executable move_example[0m
+[6.307s] [ 75%] Built target sdk_example
+[6.338s] [ 75%] Built target move_example
+[7.402s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:[m[K In lambda function:
+[7.402s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:53:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.403s]    53 |             if ([01;35m[Kindex_ < timeData_.size() - 1[m[K) {
+[7.403s]       |                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.403s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:89:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.403s]    89 |                         if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[7.404s]       |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.404s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:79:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.404s]    79 |                         double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 100.0;
+[7.404s]       |                                [01;35m[K^[m[K
+[7.405s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:117:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.405s]   117 |                         if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[7.405s]       |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.405s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:107:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.405s]   107 |                         double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 500.0;
+[7.405s]       |                                [01;35m[K^[m[K
+[7.459s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:58:75:[m[K [01;31m[Kerror: [m[K‘[01m[KSharePtr[m[K’ in ‘[01m[Kusing JointTrajectory = struct trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct trajectory_msgs::msg::JointTrajectory_<std::allocator<void> >[m[K’} does not name a type
+[7.459s]    58 |     void trajectory_callback(const trajectory_msgs::msg::JointTrajectory::[01;31m[KSharePtr[m[K msg){
+[7.459s]       |                                                                           [01;31m[K^~~~~~~~[m[K
+[7.483s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:140:17:[m[K [01;31m[Kerror: [m[K‘[01m[KJointData[m[K’ was not declared in this scope
+[7.483s]   140 |     std::vector<[01;31m[KJointData[m[K> joint_data;
+[7.483s]       |                 [01;31m[K^~~~~~~~~[m[K
+[7.484s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:140:26:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[7.484s]   140 |     std::vector<JointData[01;31m[K>[m[K joint_data;
+[7.484s]       |                          [01;31m[K^[m[K
+[7.484s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:140:26:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[7.526s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController(const string&, const string&)[m[K’:
+[7.526s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:30:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_publisher_[m[K’ was not declared in this scope
+[7.526s]    30 |         [01;31m[Kjoint_state_publisher_[m[K = this->create_publisher<sensor_msgs::msg::JointState>("joint_state", 10);
+[7.526s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.563s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:32:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktrajectory_subscriber_[m[K’ was not declared in this scope
+[7.563s]    32 |         [01;31m[Ktrajectory_subscriber_[m[K = this->create_publisher<trajectory_msgs::msg::JointTrajectory>(
+[7.563s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.573s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:32:95:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::create_publisher<trajectory_msgs::msg::JointTrajectory>(const char [17], int, std::_Bind_helper<false, void (RobotController::*)(int), RobotController*, const std::_Placeholder<1>&>::type)[m[K’
+[7.573s]    32 |         trajectory_subscriber_ = [01;31m[Kthis->create_publisher<trajectory_msgs::msg::JointTrajectory>([m[K
+[7.573s]       |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.573s]    33 | [01;31m[K            "joint_trajectory",10,[m[K
+[7.573s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~[m[K                                                             
+[7.574s]    34 | [01;31m[K            std::bind(&RobotController::trajectory_callback,this,std::placeholders::_1)[m[K
+[7.574s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+[7.574s]    35 | [01;31m[K        )[m[K;
+[7.574s]       |         [01;31m[K~[m[K                                                                                      
+[7.574s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[7.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[7.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[7.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.574s]                  from [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:14[m[K:
+[7.575s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[7.575s]    73 | [01;36m[KNode[m[K::create_publisher(
+[7.575s]       | [01;36m[K^~~~[m[K
+[7.575s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[7.575s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:32:95:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Bind_helper<false, void (RobotController::*)(int), RobotController*, const std::_Placeholder<1>&>::type[m[K’ is not derived from ‘[01m[Kconst rclcpp::PublisherOptionsWithAllocator<AllocatorT>[m[K’
+[7.575s]    32 |         trajectory_subscriber_ = [01;36m[Kthis->create_publisher<trajectory_msgs::msg::JointTrajectory>([m[K
+[7.575s]       |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[7.575s]    33 | [01;36m[K            "joint_trajectory",10,[m[K
+[7.575s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K                                                             
+[7.575s]    34 | [01;36m[K            std::bind(&RobotController::trajectory_callback,this,std::placeholders::_1)[m[K
+[7.576s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+[7.576s]    35 | [01;36m[K        )[m[K;
+[7.576s]       |         [01;36m[K~[m[K                                                                                      
+[7.605s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:37:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_command_subscriber_[m[K’ was not declared in this scope
+[7.605s]    37 |         [01;31m[Kjoint_command_subscriber_[m[K = this->create_publisher<sensor_msgs::msg::JointState>(
+[7.606s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.606s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:39:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_command_callback[m[K’ is not a member of ‘[01m[KRobotController[m[K’
+[7.606s]    39 |             std::bind(&RobotController::[01;31m[Kjoint_command_callback[m[K,this,std::placeholders::_1)
+[7.606s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.617s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktime_[m[K’?
+[7.617s]    43 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[7.617s]       |         [01;31m[K^~~~~~[m[K
+[7.617s]       |         [32m[Ktime_[m[K
+[7.649s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:48:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names_[m[K’ was not declared in this scope; did you mean ‘[01m[KjointAngles_[m[K’?
+[7.649s]    48 |         [01;31m[Kjoint_names_[m[K = {
+[7.649s]       |         [01;31m[K^~~~~~~~~~~~[m[K
+[7.649s]       |         [32m[KjointAngles_[m[K
+[7.680s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:51:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_joint_positions_[m[K’ was not declared in this scope
+[7.680s]    51 |         [01;31m[Kcurrent_joint_positions_[m[K.resize(joint_name_.size(),0,0);
+[7.680s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.699s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:51:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_name_[m[K’ was not declared in this scope
+[7.699s]    51 |         current_joint_positions_.resize([01;31m[Kjoint_name_[m[K.size(),0,0);
+[7.699s]       |                                         [01;31m[K^~~~~~~~~~~[m[K
+[7.729s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:52:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_joint_positions_[m[K’ was not declared in this scope
+[7.729s]    52 |         [01;31m[Ktarget_joint_positions_[m[K.resize(joint_name_.size(),0,0);
+[7.729s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.731s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::trajectory_callback(int)[m[K’:
+[7.731s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:59:15:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[7.731s]    59 |         if(msg[01;31m[K->[m[Kpoints.empty()){
+[7.731s]       |               [01;31m[K^~[m[K
+[7.731s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:63:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[7.731s]    63 |         auto target_point = msg[01;31m[K->[m[Kpoints.back();
+[7.732s]       |                                [01;31m[K^~[m[K
+[7.748s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:65:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names_[m[K’ was not declared in this scope; did you mean ‘[01m[KjointAngles_[m[K’?
+[7.748s]    65 |         if (target_point.positions.size()!=[01;31m[Kjoint_names_[m[K.size()){
+[7.748s]       |                                            [01;31m[K^~~~~~~~~~~~[m[K
+[7.748s]       |                                            [32m[KjointAngles_[m[K
+[7.765s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:69:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names_[m[K’ was not declared in this scope; did you mean ‘[01m[KjointAngles_[m[K’?
+[7.765s]    69 |         for(size_t i = 0;i< [01;31m[Kjoint_names_[m[K.size();++i){
+[7.765s]       |                             [01;31m[K^~~~~~~~~~~~[m[K
+[7.765s]       |                             [32m[KjointAngles_[m[K
+[7.795s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:70:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_joint_positions_[m[K’ was not declared in this scope
+[7.796s]    70 |             [01;31m[Ktarget_joint_positions_[m[K[i] = target_point.positions[i];
+[7.796s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.826s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:74:28:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_joint_positions_[m[K’ was not declared in this scope
+[7.826s]    74 |         send_joint_command([01;31m[Ktarget_joint_positions_[m[K);
+[7.826s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.846s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[7.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[7.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[7.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[7.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[7.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[7.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[7.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[7.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[7.846s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[7.847s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[7.847s]                  from [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:14[m[K:
+[7.847s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::send_joint_command(const std::vector<double>&)[m[K’:
+[7.847s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:81:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition[m[K’ was not declared in this scope; did you mean ‘[01m[Kpositions[m[K’?
+[7.847s]    81 |         [01;31m[Kposition[m[K[0], position[1], position[2], position[3], position[4], position[5], position[6]
+[7.847s]       |         [01;31m[K^~~~~~~~[m[K
+[7.877s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:85:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_joint_positions_[m[K’ was not declared in this scope
+[7.878s]    85 |         [01;31m[Kcurrent_joint_positions_[m[K= example_basicOperation(robot_);
+[7.878s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.878s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:77:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpositions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.878s]    77 |     void send_joint_command([01;35m[Kconst std::vector<double>& positions[m[K){
+[7.878s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[7.895s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::publish_joint_states()[m[K’:
+[7.895s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:93:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names_[m[K’ was not declared in this scope; did you mean ‘[01m[KjointAngles_[m[K’?
+[7.895s]    93 |         joint_state.name =[01;31m[Kjoint_names_[m[K;
+[7.895s]       |                           [01;31m[K^~~~~~~~~~~~[m[K
+[7.896s]       |                           [32m[KjointAngles_[m[K
+[7.926s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:94:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_joint_positions_[m[K’ was not declared in this scope
+[7.926s]    94 |         joint_state.position = [01;31m[Kcurrent_joint_positions_[m[K;
+[7.926s]       |                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.956s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:96:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_state_publisher_[m[K’ was not declared in this scope
+[7.956s]    96 |         [01;31m[Kjoint_state_publisher_[m[K->publish(joint_state);
+[7.956s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.959s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::example_basicOperation(rokae::xMateErProRobot&)[m[K’:
+[7.959s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:130:16:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[7.959s]   130 |         return [01;31m[Kjoint_pos[m[K;
+[7.959s]       |                [01;31m[K^~~~~~~~~[m[K
+[7.960s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.960s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:159:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass RobotController[m[K’ has no member named ‘[01m[Kinit[m[K’
+[7.960s]   159 |     controller.[01;31m[Kinit[m[K();
+[7.960s]       |                [01;31m[K^~~~[m[K
+[10.237s] gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+[10.237s] gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+[10.238s] gmake[1]: *** 正在等待未完成的任务....
+[12.174s] [ 83%] [32m[1mLinking CXX executable driver_pentu[0m
+[13.102s] [ 83%] Built target driver_pentu
+[17.809s] [ 91%] [32m[1mLinking CXX executable read_force[0m
+[19.140s] [ 91%] Built target read_force
+[19.142s] gmake: *** [Makefile:146：all] 错误 2
+[19.146s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

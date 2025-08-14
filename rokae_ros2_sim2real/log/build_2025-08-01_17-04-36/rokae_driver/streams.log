@@ -1,0 +1,55 @@
+[0.063s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target rokae_controller[0m
+[0.218s] [ 16%] Built target sdk_example
+[0.218s] [ 33%] Built target move_example
+[0.219s] [ 41%] [32mBuilding CXX object CMakeFiles/driver_pentu.dir/src/driver_pentu.cpp.o[0m
+[0.220s] [ 58%] Built target read_robot_state
+[0.226s] [ 75%] Built target read_force
+[0.229s] [ 83%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[5.645s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:[m[K In lambda function:
+[5.645s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:53:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.645s]    53 |             if ([01;35m[Kindex_ < timeData_.size() - 1[m[K) {
+[5.645s]       |                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.646s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:89:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.646s]    89 |                         if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[5.646s]       |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.647s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:79:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.647s]    79 |                         double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 100.0;
+[5.647s]       |                                [01;35m[K^[m[K
+[5.647s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:117:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.647s]   117 |                         if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[5.648s]       |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.648s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:107:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[5.648s]   107 |                         double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 500.0;
+[5.648s]       |                                [01;35m[K^[m[K
+[10.160s] [ 91%] [32m[1mLinking CXX executable driver_pentu[0m
+[11.080s] [ 91%] Built target driver_pentu
+[23.418s] [100%] [32m[1mLinking CXX executable rokae_controller[0m
+[25.135s] [100%] Built target rokae_controller
+[25.164s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[25.166s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver
+[25.188s] -- Install configuration: ""
+[25.189s] -- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/driver_pentu
+[25.197s] -- Set runtime path of "/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/driver_pentu" to ""
+[25.198s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/move_example
+[25.198s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/read_force
+[25.199s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/read_robot_state
+[25.199s] -- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/rokae_controller
+[25.215s] -- Set runtime path of "/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/rokae_controller" to ""
+[25.215s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/sdk_example
+[25.216s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/ament_index/resource_index/package_run_dependencies/rokae_driver
+[25.216s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/ament_index/resource_index/parent_prefix_path/rokae_driver
+[25.216s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/ament_prefix_path.sh
+[25.216s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/ament_prefix_path.dsv
+[25.216s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/path.sh
+[25.216s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/path.dsv
+[25.216s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.bash
+[25.217s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.sh
+[25.217s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.zsh
+[25.217s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.dsv
+[25.217s] -- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/package.dsv
+[25.217s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/ament_index/resource_index/packages/rokae_driver
+[25.218s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/cmake/rokae_driverConfig.cmake
+[25.218s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/cmake/rokae_driverConfig-version.cmake
+[25.218s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/package.xml
+[25.220s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver

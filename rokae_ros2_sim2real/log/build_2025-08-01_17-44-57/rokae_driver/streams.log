@@ -1,0 +1,19 @@
+[0.037s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target rokae_controller[0m
+[0.196s] [ 16%] Built target move_example
+[0.198s] [ 33%] Built target read_robot_state
+[0.200s] [ 50%] Built target sdk_example
+[0.202s] [ 66%] Built target read_force
+[0.205s] [ 83%] Built target driver_pentu
+[0.209s] [ 91%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[6.336s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.336s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:196:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot[m[K’ was not declared in this scope
+[6.337s]   196 |     auto temp_joint_pos = [01;31m[Krobot[m[K.jointPos(ec); // 轴角度 [rad]
+[6.337s]       |                           [01;31m[K^~~~~[m[K
+[6.343s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:196:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kec[m[K’ was not declared in this scope
+[6.343s]   196 |     auto temp_joint_pos = robot.jointPos([01;31m[Kec[m[K); // 轴角度 [rad]
+[6.343s]       |                                          [01;31m[K^~[m[K
+[12.919s] gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+[12.920s] gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+[12.920s] gmake: *** [Makefile:146：all] 错误 2
+[12.925s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

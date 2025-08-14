@@ -1,0 +1,77 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_description
+-- Install configuration: ""
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/ament_index/resource_index/package_run_dependencies/rokae_description
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/ament_index/resource_index/parent_prefix_path/rokae_description
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/environment/ament_prefix_path.sh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/environment/ament_prefix_path.dsv
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/environment/path.sh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/environment/path.dsv
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/local_setup.bash
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/local_setup.sh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/local_setup.zsh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/local_setup.dsv
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/package.dsv
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/ament_index/resource_index/packages/rokae_description
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/cmake/rokae_descriptionConfig.cmake
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/cmake/rokae_descriptionConfig-version.cmake
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/package.xml
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/xMatePro7_link3.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/xMatePro7_link6.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/2f_85
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/2f_85/left_knuckle.dae
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/2f_85/robotiq_base.dae
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/2f_85/left_finger.dae
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/2f_85/left_finger_tip.dae
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/2f_85/ur_to_robotiq_adapter.dae
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/2f_85/right_knuckle.dae
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/2f_85/left_inner_knuckle.dae
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/2f_85/right_finger.dae
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/2f_85/right_inner_knuckle.dae
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/2f_85/right_finger_tip.dae
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/xMatePro7_link7.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/xMatePro7_link2.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/xMatePro7_base.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/xMatePro7_link4.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/xMatePro7_link1.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/visual/xMatePro7_link5.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/xMatePro7_link3.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/xMatePro7_link6.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/2f_85
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/2f_85/robotiq_base.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/2f_85/right_finger_tip.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/2f_85/right_inner_knuckle.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/2f_85/left_finger_tip.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/2f_85/right_finger.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/2f_85/left_finger.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/2f_85/left_inner_knuckle.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/2f_85/left_knuckle.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/2f_85/ur_to_robotiq_adapter.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/2f_85/right_knuckle.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/xMatePro7_link7.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/xMatePro7_link2.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/xMatePro7_base.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/xMatePro7_link4.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/xMatePro7_link1.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/meshes/collision/xMatePro7_link5.stl
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/urdf
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/urdf/xMatePro7.urdf
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/urdf/xMatePro7.xacro

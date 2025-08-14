@@ -1,0 +1,28 @@
+[ 16%] Built target move_example
+[ 33%] Built target driver_pentu
+[ 50%] Built target rokae_controller
+[ 66%] Built target read_force
+[ 91%] Built target read_robot_state
+[100%] Built target sdk_example
+-- Install configuration: "Release"
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/driver_pentu
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/move_example
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/read_force
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/read_robot_state
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/rokae_controller
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/sdk_example
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/ament_index/resource_index/package_run_dependencies/rokae_driver
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/ament_index/resource_index/parent_prefix_path/rokae_driver
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/path.sh
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/path.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.bash
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.sh
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.zsh
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.dsv
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/package.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/ament_index/resource_index/packages/rokae_driver
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/cmake/rokae_driverConfig.cmake
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/cmake/rokae_driverConfig-version.cmake
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/package.xml

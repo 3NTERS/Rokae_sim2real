@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target rokae_controller[0m
+[35m[1mConsolidate compiler generated dependencies of target read_robot_state[0m
+[35m[1mConsolidate compiler generated dependencies of target read_force[0m
+[35m[1mConsolidate compiler generated dependencies of target move_example[0m
+[35m[1mConsolidate compiler generated dependencies of target sdk_example[0m
+[35m[1mConsolidate compiler generated dependencies of target driver_pentu[0m
+[ 16%] Built target read_robot_state
+[ 33%] Built target sdk_example
+[ 50%] Built target move_example
+[ 58%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[ 75%] Built target read_force
+[ 91%] Built target driver_pentu

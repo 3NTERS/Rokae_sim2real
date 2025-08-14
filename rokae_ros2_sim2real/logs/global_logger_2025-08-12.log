@@ -1,0 +1,120 @@
+[I|2025-08-12 16:13:12.198 64376] uid: bf1f9d7c-5a0f | Connect to 192.168.0.160 from 192.168.0.22
+[I|2025-08-12 16:13:12.286 64376] uid: bf1f9d7c-5a0f | Connect to 192.168.0.160 from 192.168.0.22
+[I|2025-08-12 16:13:12.327 64376] uid: bf1f9d7c-5a0f | setOperationMode end, switch to auto (0)
+[I|2025-08-12 16:13:12.327 64376] uid: bf1f9d7c-5a0f | setMotionControlMode end, mode: NrtCommand (0)
+[I|2025-08-12 16:13:12.368 64376] uid: bf1f9d7c-5a0f | setPowerState end, switch motor true (0)
+[I|2025-08-12 16:13:12.416 64394] uid: bf1f9d7c-5a0f | Notified  [0] finish:false (0)
+[I|2025-08-12 16:13:12.454 64376] uid: bf1f9d7c-5a0f | Connect to 192.168.0.160 from 192.168.0.22
+[I|2025-08-12 16:13:25.440 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:25.440 64376] uid: bf1f9d7c-5a0f | Append cmd absj#0
+[I|2025-08-12 16:13:25.482 64376] uid: bf1f9d7c-5a0f | moveStart end (0)
+[I|2025-08-12 16:13:26.441 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:26.441 64376] uid: bf1f9d7c-5a0f | Append cmd absj#1
+[I|2025-08-12 16:13:26.482 64376] uid: bf1f9d7c-5a0f | moveStart end (-20)
+[I|2025-08-12 16:13:27.441 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:27.441 64376] uid: bf1f9d7c-5a0f | Append cmd absj#2
+[I|2025-08-12 16:13:27.482 64376] uid: bf1f9d7c-5a0f | moveStart end (-20)
+[I|2025-08-12 16:13:28.441 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:28.441 64376] uid: bf1f9d7c-5a0f | Append cmd absj#3
+[I|2025-08-12 16:13:28.482 64376] uid: bf1f9d7c-5a0f | moveStart end (-20)
+[I|2025-08-12 16:13:29.441 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:29.441 64376] uid: bf1f9d7c-5a0f | Append cmd absj#4
+[I|2025-08-12 16:13:29.482 64376] uid: bf1f9d7c-5a0f | moveStart end (-20)
+[I|2025-08-12 16:13:30.441 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:30.441 64376] uid: bf1f9d7c-5a0f | Append cmd absj#5
+[I|2025-08-12 16:13:30.483 64376] uid: bf1f9d7c-5a0f | moveStart end (-20)
+[I|2025-08-12 16:13:31.441 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:31.441 64376] uid: bf1f9d7c-5a0f | Append cmd absj#6
+[I|2025-08-12 16:13:31.482 64376] uid: bf1f9d7c-5a0f | moveStart end (-20)
+[I|2025-08-12 16:13:32.441 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:32.441 64376] uid: bf1f9d7c-5a0f | Append cmd absj#7
+[I|2025-08-12 16:13:32.482 64376] uid: bf1f9d7c-5a0f | moveStart end (-20)
+[I|2025-08-12 16:13:33.441 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:33.441 64376] uid: bf1f9d7c-5a0f | Append cmd absj#8
+[I|2025-08-12 16:13:33.482 64376] uid: bf1f9d7c-5a0f | moveStart end (-20)
+[I|2025-08-12 16:13:34.441 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:34.441 64376] uid: bf1f9d7c-5a0f | Append cmd absj#9
+[I|2025-08-12 16:13:34.482 64376] uid: bf1f9d7c-5a0f | moveStart end (-20)
+[I|2025-08-12 16:13:35.441 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:35.441 64376] uid: bf1f9d7c-5a0f | Append cmd absj#10
+[I|2025-08-12 16:13:35.483 64376] uid: bf1f9d7c-5a0f | moveStart end (-20)
+[I|2025-08-12 16:13:36.441 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:36.441 64376] uid: bf1f9d7c-5a0f | Append cmd absj#11
+[I|2025-08-12 16:13:36.482 64376] uid: bf1f9d7c-5a0f | moveStart end (-20)
+[I|2025-08-12 16:13:37.441 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:37.441 64376] uid: bf1f9d7c-5a0f | Append cmd absj#12
+[I|2025-08-12 16:13:37.482 64376] uid: bf1f9d7c-5a0f | moveStart end (-20)
+[I|2025-08-12 16:13:38.441 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:38.441 64376] uid: bf1f9d7c-5a0f | Append cmd absj#13
+[I|2025-08-12 16:13:38.482 64376] uid: bf1f9d7c-5a0f | moveStart end (-20)
+[I|2025-08-12 16:13:38.718 64399] uid: bf1f9d7c-5a0f | Notified absj#0 [0] finish:true (0)
+[I|2025-08-12 16:13:38.718 64394] uid: bf1f9d7c-5a0f | Notified absj#0 [0] finish:true (0)
+[I|2025-08-12 16:13:38.722 64394] uid: bf1f9d7c-5a0f | Notified absj#1 [0] finish:true (0)
+[I|2025-08-12 16:13:38.722 64399] uid: bf1f9d7c-5a0f | Notified absj#1 [0] finish:true (0)
+[I|2025-08-12 16:13:38.724 64394] uid: bf1f9d7c-5a0f | Notified absj#2 [0] finish:true (0)
+[I|2025-08-12 16:13:38.724 64399] uid: bf1f9d7c-5a0f | Notified absj#2 [0] finish:true (0)
+[I|2025-08-12 16:13:38.725 64394] uid: bf1f9d7c-5a0f | Notified absj#3 [0] finish:true (0)
+[I|2025-08-12 16:13:38.725 64399] uid: bf1f9d7c-5a0f | Notified absj#3 [0] finish:true (0)
+[I|2025-08-12 16:13:38.726 64394] uid: bf1f9d7c-5a0f | Notified absj#4 [0] finish:true (0)
+[I|2025-08-12 16:13:38.726 64399] uid: bf1f9d7c-5a0f | Notified absj#4 [0] finish:true (0)
+[I|2025-08-12 16:13:38.728 64394] uid: bf1f9d7c-5a0f | Notified absj#5 [0] finish:true (0)
+[I|2025-08-12 16:13:38.728 64399] uid: bf1f9d7c-5a0f | Notified absj#5 [0] finish:true (0)
+[I|2025-08-12 16:13:38.729 64394] uid: bf1f9d7c-5a0f | Notified absj#6 [0] finish:true (0)
+[I|2025-08-12 16:13:38.729 64399] uid: bf1f9d7c-5a0f | Notified absj#6 [0] finish:true (0)
+[I|2025-08-12 16:13:38.731 64399] uid: bf1f9d7c-5a0f | Notified absj#7 [0] finish:true (0)
+[I|2025-08-12 16:13:38.731 64394] uid: bf1f9d7c-5a0f | Notified absj#7 [0] finish:true (0)
+[I|2025-08-12 16:13:38.733 64394] uid: bf1f9d7c-5a0f | Notified absj#8 [0] finish:true (0)
+[I|2025-08-12 16:13:38.733 64399] uid: bf1f9d7c-5a0f | Notified absj#8 [0] finish:true (0)
+[I|2025-08-12 16:13:38.734 64394] uid: bf1f9d7c-5a0f | Notified absj#9 [0] finish:true (0)
+[I|2025-08-12 16:13:38.734 64399] uid: bf1f9d7c-5a0f | Notified absj#9 [0] finish:true (0)
+[I|2025-08-12 16:13:38.735 64394] uid: bf1f9d7c-5a0f | Notified absj#10 [0] finish:true (0)
+[I|2025-08-12 16:13:38.735 64399] uid: bf1f9d7c-5a0f | Notified absj#10 [0] finish:true (0)
+[I|2025-08-12 16:13:38.737 64394] uid: bf1f9d7c-5a0f | Notified absj#11 [0] finish:true (0)
+[I|2025-08-12 16:13:38.737 64399] uid: bf1f9d7c-5a0f | Notified absj#11 [0] finish:true (0)
+[I|2025-08-12 16:13:38.738 64394] uid: bf1f9d7c-5a0f | Notified absj#12 [0] finish:true (0)
+[I|2025-08-12 16:13:38.738 64399] uid: bf1f9d7c-5a0f | Notified absj#12 [0] finish:true (0)
+[I|2025-08-12 16:13:38.740 64394] uid: bf1f9d7c-5a0f | Notified absj#13 [0] finish:true (0)
+[I|2025-08-12 16:13:38.740 64399] uid: bf1f9d7c-5a0f | Notified absj#13 [0] finish:true (0)
+[I|2025-08-12 16:13:39.441 64376] uid: bf1f9d7c-5a0f | Process joints [0.00119048, -0.0673833, -0.0132488, 1.71956, 0.00269501, 0.907211, 0.788142], s:-1, z:-1, js:-1
+[I|2025-08-12 16:13:39.441 64376] uid: bf1f9d7c-5a0f | Append cmd absj#14
+[I|2025-08-12 16:13:39.445 64394] uid: bf1f9d7c-5a0f | Notified absj#14 [0] finish:true (0)
+[I|2025-08-12 16:13:39.482 64399] uid: bf1f9d7c-5a0f | Notified absj#14 [0] finish:true (0)
+[I|2025-08-12 16:13:39.482 64376] uid: bf1f9d7c-5a0f | moveStart end (0)
+[I|2025-08-12 16:13:40.441 64376] uid: bf1f9d7c-5a0f[I|2025-08-12 18:03:54.674 87535] uid: bf1f9d7c-5a0f | Connect to 192.168.0.160 from 192.168.0.22
+[I|2025-08-12 18:03:54.763 87535] uid: bf1f9d7c-5a0f | Connect to 192.168.0.160 from 192.168.0.22
+[I|2025-08-12 18:03:54.804 87535] uid: bf1f9d7c-5a0f | setOperationMode end, switch to auto (0)
+[I|2025-08-12 18:03:54.805 87535] uid: bf1f9d7c-5a0f | setMotionControlMode end, mode: NrtCommand (0)
+[I|2025-08-12 18:03:54.846 87535] uid: bf1f9d7c-5a0f | setPowerState end, switch motor true (0)
+[I|2025-08-12 18:03:54.897 87568] uid: bf1f9d7c-5a0f | Notified  [0] finish:false (0)
+[I|2025-08-12 18:03:54.935 87535] uid: bf1f9d7c-5a0f | Connect to 192.168.0.160 from 192.168.0.22
+[I|2025-08-12 18:04:18.867 87535] uid: bf1f9d7c-5a0f | Process joints [0.0011906327443471753, -0.06738280255848049, -0.01324856063287169, 1.7195598661280613, 0.12000044082231642, 0.7300097124143694, 0.82], s:-1, z:-1, js:-1
+[I|2025-08-12 18:04:18.867 87535] uid: bf1f9d7c-5a0f | Append cmd absj#0
+[I|2025-08-12 18:04:18.909 87535] uid: bf1f9d7c-5a0f | moveStart end (0)
+[I|2025-08-12 18:04:20.716 87568] uid: bf1f9d7c-5a0f | Notified absj#0 [0] finish:true (0)
+[I|2025-08-12 18:04:20.716 87583] uid: bf1f9d7c-5a0f | Notified absj#0 [0] finish:true (0)
+[I|2025-08-12 18:04:35.125 87535] uid: bf1f9d7c-5a0f | Process joints [0.0011907825471584924, -0.06738265275566918, -0.01324856063287169, 1.7195598661280613, 0.12000092019131264, 0.7300097124143694, 0.77], s:-1, z:-1, js:-1
+[I|2025-08-12 18:04:35.125 87535] uid: bf1f9d7c-5a0f | Append cmd absj#1
+[I|2025-08-12 18:04:35.166 87535] uid: bf1f9d7c-5a0f | moveStart end (0)
+[I|2025-08-12 18:04:36.653 87583] uid: bf1f9d7c-5a0f | Notified absj#1 [0] finish:true (0)
+[I|2025-08-12 18:04:36.653 87568] uid: bf1f9d7c-5a0f | Notified absj#1 [0] finish:true (0)
+[I|2025-08-12 18:04:44.237 87535] uid: bf1f9d7c-5a0f | Process joints [0.0011907825471584924, -0.06738265275566918, -0.01324856063287169, 1.7195601058125591, 0.12000139956030885, 0.7300097124143694, 0.77], s:-1, z:-1, js:-1
+[I|2025-08-12 18:04:44.237 87535] uid: bf1f9d7c-5a0f | Append cmd absj#2
+[I|2025-08-12 18:04:44.242 87568] uid: bf1f9d7c-5a0f | Notified absj#2 [0] finish:true (0)
+[I|2025-08-12 18:04:44.279 87583] uid: bf1f9d7c-5a0f | Notified absj#2 [0] finish:true (0)
+[I|2025-08-12 18:04:44.279 87535] uid: bf1f9d7c-5a0f | moveStart end (0)
+[I|2025-08-12 18:04:52.999 87535] uid: bf1f9d7c-5a0f | Process joints [0.0011907825471584924, -0.06738280255848049, -0.01324856063287169, 1.7195598661280613, 0.12000068050681452, 0.7300094727298714, 0.79], s:-1, z:-1, js:-1
+[I|2025-08-12 18:04:52.999 87535] uid: bf1f9d7c-5a0f | Append cmd absj#3
+[I|2025-08-12 18:04:53.040 87535] uid: bf1f9d7c-5a0f | moveStart end (0)
+[I|2025-08-12 18:04:54.092 87583] uid: bf1f9d7c-5a0f | Notified absj#3 [0] finish:true (0)
+[I|2025-08-12 18:04:54.092 87568] uid: bf1f9d7c-5a0f | Notified absj#3 [0] finish:true (0)
+[I|2025-08-12 18:05:05.335 87535] uid: bf1f9d7c-5a0f | Process joints [0.0011907825471584924, -0.06738280255848049, 0.32, 1.7195598661280613, 0.12000020113781831, 0.7300094727298714, 0.7899998660766072], s:-1, z:-1, js:-1
+[I|2025-08-12 18:05:05.335 87535] uid: bf1f9d7c-5a0f | Append cmd absj#4
+[I|2025-08-12 18:05:05.376 87535] uid: bf1f9d7c-5a0f | moveStart end (0)
+[I|2025-08-12 18:05:12.577 87583] uid: bf1f9d7c-5a0f | Notified absj#4 [0] finish:true (0)
+[I|2025-08-12 18:05:12.577 87568] uid: bf1f9d7c-5a0f | Notified absj#4 [0] finish:true (0)
+[I|2025-08-12 18:05:19.400 87535] uid: bf1f9d7c-5a0f | Process joints [0.0011907825471584924, -0.06738280255848049, -0.02, 1.7195601058125591, 0.12000044082231642, 0.7300094727298714, 0.789999626392109], s:-1, z:-1, js:-1
+[I|2025-08-12 18:05:19.400 87535] uid: bf1f9d7c-5a0f | Append cmd absj#5
+[I|2025-08-12 18:05:19.441 87535] uid: bf1f9d7c-5a0f | moveStart end (0)
+[I|2025-08-12 18:05:26.773 87583] uid: bf1f9d7c-5a0f | Notified absj#5 [0] finish:true (0)
+[I|2025-08-12 18:05:26.773 87568] uid: bf1f9d7c-5a0f | Notified absj#5 [0] finish:true (0)
+[I|2025-08-12 18:05:30.073 87535] uid: bf1f9d7c-5a0f | Process joints [0.0011906327443471753, -0.06738280255848049

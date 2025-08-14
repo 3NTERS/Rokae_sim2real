@@ -1,0 +1,20 @@
+gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“move_example” 需求。 停止。
+gmake[1]: *** [CMakeFiles/Makefile2:179：CMakeFiles/move_example.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“sdk_example” 需求。 停止。
+gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/sdk_example.dir/all] 错误 2
+gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“driver_hanjie” 需求。 停止。
+gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“driver_home” 需求。 停止。
+gmake[1]: *** [CMakeFiles/Makefile2:257：CMakeFiles/driver_hanjie.dir/all] 错误 2
+gmake[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/driver_home.dir/all] 错误 2
+gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“driver_pentu” 需求。 停止。
+gmake[1]: *** [CMakeFiles/Makefile2:283：CMakeFiles/driver_pentu.dir/all] 错误 2
+gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“rokae_driver” 需求。 停止。
+gmake[1]: *** [CMakeFiles/Makefile2:205：CMakeFiles/rokae_driver.dir/all] 错误 2
+gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“driver_maduo” 需求。 停止。
+gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“driver_fenjian” 需求。 停止。
+gmake[1]: *** [CMakeFiles/Makefile2:309：CMakeFiles/driver_maduo.dir/all] 错误 2
+gmake[1]: *** [CMakeFiles/Makefile2:335：CMakeFiles/driver_fenjian.dir/all] 错误 2
+gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“read_force” 需求。 停止。
+gmake[1]: *** [CMakeFiles/Makefile2:231：CMakeFiles/read_force.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

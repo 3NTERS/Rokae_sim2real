@@ -1,0 +1,52 @@
+[0.038s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.192s] [  3%] [34m[1mAutomatic MOC and UIC for target move_example[0m
+[0.192s] [  7%] [34m[1mAutomatic MOC and UIC for target read_force[0m
+[0.193s] [ 10%] [34m[1mAutomatic MOC and UIC for target My_joint_publisher_gui[0m
+[0.193s] [ 14%] [34m[1mAutomatic MOC and UIC for target read_robot_state[0m
+[0.194s] [ 17%] [34m[1mAutomatic MOC and UIC for target rokae_controller[0m
+[0.195s] [ 21%] [34m[1mAutomatic MOC and UIC for target driver_pentu[0m
+[0.197s] [ 25%] [34m[1mAutomatic MOC and UIC for target sdk_example[0m
+[0.244s] [ 25%] Built target read_force_autogen
+[0.244s] [ 25%] Built target move_example_autogen
+[0.245s] [ 25%] Built target read_robot_state_autogen
+[0.246s] [ 25%] Built target My_joint_publisher_gui_autogen
+[0.246s] [ 25%] Built target driver_pentu_autogen
+[0.249s] [ 25%] Built target sdk_example_autogen
+[0.251s] [ 25%] Built target rokae_controller_autogen
+[0.282s] [35m[1mConsolidate compiler generated dependencies of target My_joint_publisher_gui[0m
+[0.312s] [ 35%] Built target move_example
+[0.317s] [ 46%] Built target read_force
+[0.318s] [ 57%] Built target read_robot_state
+[0.319s] [ 67%] Built target driver_pentu
+[0.321s] [ 78%] Built target sdk_example
+[0.325s] [ 89%] Built target rokae_controller
+[0.326s] [ 92%] [32mBuilding CXX object CMakeFiles/My_joint_publisher_gui.dir/src/My_joint_publisher_gui.cpp.o[0m
+[23.575s] [ 96%] [32m[1mLinking CXX executable My_joint_publisher_gui[0m
+[25.187s] [100%] Built target My_joint_publisher_gui
+[25.215s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[25.240s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver
+[25.259s] -- Install configuration: "Release"
+[25.260s] -- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/My_joint_publisher_gui
+[25.269s] -- Set runtime path of "/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/My_joint_publisher_gui" to ""
+[25.269s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/driver_pentu
+[25.269s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/move_example
+[25.270s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/read_force
+[25.270s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/read_robot_state
+[25.271s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/rokae_controller
+[25.271s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/sdk_example
+[25.271s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/ament_index/resource_index/package_run_dependencies/rokae_driver
+[25.272s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/ament_index/resource_index/parent_prefix_path/rokae_driver
+[25.272s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/ament_prefix_path.sh
+[25.272s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/ament_prefix_path.dsv
+[25.272s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/path.sh
+[25.273s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/path.dsv
+[25.273s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.bash
+[25.273s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.sh
+[25.273s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.zsh
+[25.273s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.dsv
+[25.274s] -- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/package.dsv
+[25.274s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/ament_index/resource_index/packages/rokae_driver
+[25.274s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/cmake/rokae_driverConfig.cmake
+[25.274s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/cmake/rokae_driverConfig-version.cmake
+[25.274s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/package.xml
+[25.277s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver

@@ -1,0 +1,23 @@
+[0.029s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs -- -j32 -l32
+[0.080s] [  1%] Built target realsense2_camera_msgs__cpp
+[0.081s] [ 12%] Built target realsense2_camera_msgs__rosidl_generator_c
+[0.089s] [ 12%] Built target ament_cmake_python_copy_realsense2_camera_msgs
+[0.102s] [ 24%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[0.104s] [ 35%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[0.104s] [ 47%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[0.105s] [ 58%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[0.108s] [ 70%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[0.109s] [ 81%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[0.128s] [ 81%] Built target realsense2_camera_msgs
+[0.147s] [ 82%] Built target realsense2_camera_msgs__py
+[0.168s] [ 93%] Built target realsense2_camera_msgs__rosidl_generator_py
+[0.187s] [ 95%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.189s] [ 97%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext
+[0.190s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[0.238s] running egg_info
+[0.239s] writing realsense2_camera_msgs.egg-info/PKG-INFO
+[0.239s] writing dependency_links to realsense2_camera_msgs.egg-info/dependency_links.txt
+[0.239s] writing top-level names to realsense2_camera_msgs.egg-info/top_level.txt
+[0.240s] reading manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[0.241s] writing manifest file 'realsense2_camera_msgs.egg-info/SOURCES.txt'
+[0.259s] [100%] Built target ament_cmake_python_build_realsense2_camera_msgs_egg

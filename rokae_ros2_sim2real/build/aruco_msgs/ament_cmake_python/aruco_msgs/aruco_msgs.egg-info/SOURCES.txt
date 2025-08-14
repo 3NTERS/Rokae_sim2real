@@ -1,0 +1,9 @@
+setup.py
+aruco_msgs/__init__.py
+aruco_msgs.egg-info/PKG-INFO
+aruco_msgs.egg-info/SOURCES.txt
+aruco_msgs.egg-info/dependency_links.txt
+aruco_msgs.egg-info/top_level.txt
+aruco_msgs/msg/__init__.py
+aruco_msgs/msg/_marker.py
+aruco_msgs/msg/_marker_array.py

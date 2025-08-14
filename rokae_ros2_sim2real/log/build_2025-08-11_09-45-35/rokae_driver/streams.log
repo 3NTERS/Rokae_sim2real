@@ -1,0 +1,64 @@
+[0.061s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.171s] [35m[1mConsolidate compiler generated dependencies of target rokae_controller[0m
+[0.209s] [ 16%] Built target sdk_example
+[0.211s] [ 33%] Built target move_example
+[0.212s] [ 50%] Built target read_robot_state
+[0.214s] [ 66%] Built target driver_pentu
+[0.214s] [ 83%] Built target read_force
+[0.214s] [ 91%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[6.179s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::send_joint_command(const std::vector<double>&)[m[K’:
+[6.179s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:109:57:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krokae::xMateErProRobot::xMateErProRobot(const rokae::xMateErProRobot&)[m[K’
+[6.179s]   109 |         current_joint_positions_= [01;31m[Kexample_basicOperation(robot_)[m[K;
+[6.180s]       |                                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[6.180s] In file included from [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:10[m[K:
+[6.180s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:1028:18:[m[K [01;36m[Knote: [m[K‘[01m[Krokae::xMateErProRobot::xMateErProRobot(const rokae::xMateErProRobot&)[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[6.180s]  1028 |  class XCORE_API [01;36m[KxMateErProRobot[m[K : public Cobot<7> {
+[6.180s]       |                  [01;36m[K^~~~~~~~~~~~~~~[m[K
+[6.180s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:1028:18:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krokae::Cobot<7>::Cobot(const rokae::Cobot<7>&)[m[K’
+[6.180s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:862:18:[m[K [01;36m[Knote: [m[K‘[01m[Krokae::Cobot<7>::Cobot(const rokae::Cobot<7>&)[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[6.180s]   862 |  class XCORE_API [01;36m[KCobot[m[K : public Robot_T<WorkType::collaborative, DoF>, public BaseCobot {
+[6.180s]       |                  [01;36m[K^~~~~[m[K
+[6.181s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:862:18:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krokae::Robot_T<rokae::WorkType::collaborative, 7>::Robot_T(const rokae::Robot_T<rokae::WorkType::collaborative, 7>&)[m[K’
+[6.181s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:617:18:[m[K [01;36m[Knote: [m[K‘[01m[Krokae::Robot_T<rokae::WorkType::collaborative, 7>::Robot_T(const rokae::Robot_T<rokae::WorkType::collaborative, 7>&)[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[6.181s]   617 |  class XCORE_API [01;36m[KRobot_T[m[K : virtual public BaseRobot {
+[6.181s]       |                  [01;36m[K^~~~~~~[m[K
+[6.181s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:617:18:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krokae::BaseRobot::BaseRobot(const rokae::BaseRobot&)[m[K’
+[6.181s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:603:4:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.181s]   603 |    [01;36m[KBaseRobot[m[K(const BaseRobot&) = delete;
+[6.182s]       |    [01;36m[K^~~~~~~~~[m[K
+[6.182s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:862:18:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krokae::BaseCobot::BaseCobot(const rokae::BaseCobot&)[m[K’
+[6.182s]   862 |  class XCORE_API [01;31m[KCobot[m[K : public Robot_T<WorkType::collaborative, DoF>, public BaseCobot {
+[6.182s]       |                  [01;31m[K^~~~~[m[K
+[6.182s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:742:18:[m[K [01;36m[Knote: [m[K‘[01m[Krokae::BaseCobot::BaseCobot(const rokae::BaseCobot&)[m[K’ is implicitly deleted because the default definition would be ill-formed:
+[6.182s]   742 |  class XCORE_API [01;36m[KBaseCobot[m[K: virtual public BaseRobot {
+[6.182s]       |                  [01;36m[K^~~~~~~~~[m[K
+[6.182s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:742:18:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krokae::BaseRobot::BaseRobot(const rokae::BaseRobot&)[m[K’
+[6.182s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:603:4:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.182s]   603 |    [01;36m[KBaseRobot[m[K(const BaseRobot&) = delete;
+[6.182s]       |    [01;36m[K^~~~~~~~~[m[K
+[6.182s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:862:18:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krokae::BaseRobot::BaseRobot(const rokae::BaseRobot&)[m[K’
+[6.183s]   862 |  class XCORE_API [01;31m[KCobot[m[K : public Robot_T<WorkType::collaborative, DoF>, public BaseCobot {
+[6.183s]       |                  [01;31m[K^~~~~[m[K
+[6.183s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:603:4:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.183s]   603 |    [01;36m[KBaseRobot[m[K(const BaseRobot&) = delete;
+[6.183s]       |    [01;36m[K^~~~~~~~~[m[K
+[6.183s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:1028:18:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krokae::BaseRobot::BaseRobot(const rokae::BaseRobot&)[m[K’
+[6.183s]  1028 |  class XCORE_API [01;31m[KxMateErProRobot[m[K : public Cobot<7> {
+[6.183s]       |                  [01;31m[K^~~~~~~~~~~~~~~[m[K
+[6.183s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:603:4:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.183s]   603 |    [01;36m[KBaseRobot[m[K(const BaseRobot&) = delete;
+[6.183s]       |    [01;36m[K^~~~~~~~~[m[K
+[6.183s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:123:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<double> RobotController::example_basicOperation(rokae::xMateErProRobot)[m[K’
+[6.184s]   123 |     std::vector<double> example_basicOperation([01;36m[Krokae::xMateErProRobot robot_[m[K){ //读取关节角度
+[6.184s]       |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.184s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::publish_joint_states()[m[K’:
+[6.184s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:118:54:[m[K [01;31m[Kerror: [m[Kuse of deleted function ‘[01m[Krokae::xMateErProRobot::xMateErProRobot(const rokae::xMateErProRobot&)[m[K’
+[6.184s]   118 |         joint_state.position = [01;31m[Kexample_basicOperation(robot_)[m[K;
+[6.184s]       |                                [01;31m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[6.184s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:123:71:[m[K [01;36m[Knote: [m[K  initializing argument 1 of ‘[01m[Kstd::vector<double> RobotController::example_basicOperation(rokae::xMateErProRobot)[m[K’
+[6.184s]   123 |     std::vector<double> example_basicOperation([01;36m[Krokae::xMateErProRobot robot_[m[K){ //读取关节角度
+[6.184s]       |                                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[12.622s] gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+[12.622s] gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+[12.623s] gmake: *** [Makefile:146：all] 错误 2
+[12.628s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

@@ -1,0 +1,52 @@
+[0.016s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/aruco -- -j32 -l32
+[0.065s] [100%] Built target aruco
+[0.076s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/aruco -- -j32 -l32
+[0.086s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/rokae/workspace/rokae_ros2_sim2real/build/aruco
+[0.092s] -- Install configuration: ""
+[0.092s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/lib/libaruco.so
+[0.092s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include
+[0.092s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco
+[0.092s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/marker.h
+[0.092s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/debug.h
+[0.092s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/levmarq.h
+[0.092s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/markerlabeler.h
+[0.092s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/fractallabelers
+[0.092s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/fractallabelers/fractalmarker.h
+[0.092s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/fractallabelers/fractalposetracker.h
+[0.092s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/fractallabelers/fractallabeler.h
+[0.092s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/fractallabelers/fractalmarkerset.h
+[0.092s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/ippe.h
+[0.092s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/fractaldetector.h
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/aruco_export.h
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/cvdrawingutils.h
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/timers.h
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/cameraparameters.h
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/markerdetector.h
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/dictionary.h
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/picoflann.h
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/markerdetector_impl.h
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/aruco.h
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/dictionary_based.h
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/markermap.h
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/posetracker.h
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/aruco_cvversioning.h
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/environment/library_path.sh
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/environment/library_path.dsv
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/ament_index/resource_index/package_run_dependencies/aruco
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/ament_index/resource_index/parent_prefix_path/aruco
+[0.093s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/environment/ament_prefix_path.sh
+[0.094s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/environment/ament_prefix_path.dsv
+[0.094s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/environment/path.sh
+[0.094s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/environment/path.dsv
+[0.094s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/local_setup.bash
+[0.094s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/local_setup.sh
+[0.094s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/local_setup.zsh
+[0.094s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/local_setup.dsv
+[0.094s] -- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/package.dsv
+[0.094s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/ament_index/resource_index/packages/aruco
+[0.094s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.094s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/cmake/ament_cmake_export_libraries-extras.cmake
+[0.094s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/cmake/arucoConfig.cmake
+[0.094s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/cmake/arucoConfig-version.cmake
+[0.094s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/package.xml
+[0.095s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/rokae/workspace/rokae_ros2_sim2real/build/aruco

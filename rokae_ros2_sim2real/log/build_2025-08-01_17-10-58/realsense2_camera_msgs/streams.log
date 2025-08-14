@@ -1,0 +1,53 @@
+[0.103s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs -- -j32 -l32
+[0.262s] [ 11%] Built target realsense2_camera_msgs__rosidl_generator_c
+[0.263s] [ 12%] Built target realsense2_camera_msgs__cpp
+[0.285s] [ 12%] Built target ament_cmake_python_copy_realsense2_camera_msgs
+[0.335s] [ 24%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c
+[0.338s] [ 35%] Built target realsense2_camera_msgs__rosidl_typesupport_c
+[0.346s] [ 47%] Built target realsense2_camera_msgs__rosidl_typesupport_cpp
+[0.351s] [ 58%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c
+[0.352s] [ 70%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_cpp
+[0.356s] [ 81%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[0.416s] [ 81%] Built target realsense2_camera_msgs
+[0.481s] [ 82%] Built target realsense2_camera_msgs__py
+[0.555s] [ 93%] Built target realsense2_camera_msgs__rosidl_generator_py
+[0.624s] [ 95%] Built target realsense2_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.625s] [ 97%] Built target realsense2_camera_msgs__rosidl_typesupport_c__pyext
+[0.629s] [100%] Built target realsense2_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[0.636s] Traceback (most recent call last):
+[0.636s]   File "/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs/ament_cmake_python/realsense2_camera_msgs/setup.py", line 1, in <module>
+[0.636s]     from setuptools import find_packages
+[0.636s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[0.638s]     import setuptools.version
+[0.638s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[0.638s]     import pkg_resources
+[0.638s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[0.656s]     def _initialize_master_working_set():
+[0.656s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[0.657s]     f(*args, **kwargs)
+[0.657s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[0.658s]     working_set = WorkingSet._build_master()
+[0.659s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[0.660s]     ws = cls()
+[0.660s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[0.660s]     self.add_entry(entry)
+[0.660s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[0.660s]     for dist in find_distributions(entry, True):
+[0.661s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+[0.662s]     for dist in factory(fullpath):
+[0.662s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata
+[0.662s]     yield Distribution.from_location(
+[0.662s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2603, in from_location
+[0.664s]     return cls(
+[0.664s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2584, in __init__
+[0.666s]     self._version = safe_version(version)
+[0.666s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1323, in safe_version
+[0.666s]     return str(packaging.version.Version(version))
+[0.666s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 301, in __str__
+[0.667s]     parts.append(".".join(str(x) for x in self.release))
+[0.667s]   File "/usr/lib/python3/dist-packages/pkg_resources/_vendor/packaging/version.py", line 301, in <genexpr>
+[0.668s]     parts.append(".".join(str(x) for x in self.release))
+[0.668s] KeyboardInterrupt
+[0.694s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_realsense2_camera_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_realsense2_camera_msgs_egg] 中断
+[0.694s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_realsense2_camera_msgs_egg.dir/all] 中断
+[0.695s] gmake: *** [Makefile:146: all] 中断

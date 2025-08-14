@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "realsense2_camera_msgs__py",
+		"source" : "/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs/realsense2_camera_msgs__py"
+	}
+}

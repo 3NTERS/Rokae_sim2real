@@ -1,0 +1,44 @@
+[1.223s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2_demo': PYTHONPATH=/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/easy_handeye2_demo build --build-base /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/build install --record /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/install.log --single-version-externally-managed install_data
+[1.670s] running egg_info
+[1.671s] creating ../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info
+[1.671s] writing ../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/PKG-INFO
+[1.672s] writing dependency_links to ../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/dependency_links.txt
+[1.672s] writing entry points to ../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/entry_points.txt
+[1.672s] writing requirements to ../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/requires.txt
+[1.672s] writing top-level names to ../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/top_level.txt
+[1.673s] writing manifest file '../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/SOURCES.txt'
+[1.675s] reading manifest file '../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/SOURCES.txt'
+[1.675s] adding license file 'LICENSE.md'
+[1.677s] writing manifest file '../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/SOURCES.txt'
+[1.677s] running build
+[1.677s] running build_py
+[1.677s] creating /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/build
+[1.677s] creating /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/build/lib
+[1.677s] creating /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/build/lib/easy_handeye2_demo
+[1.677s] copying easy_handeye2_demo/tracking_simulator.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/build/lib/easy_handeye2_demo
+[1.677s] copying easy_handeye2_demo/__init__.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/build/lib/easy_handeye2_demo
+[1.678s] running install
+[1.678s] running install_lib
+[1.679s] creating /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/lib/python3.10/site-packages/easy_handeye2_demo
+[1.680s] copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/build/lib/easy_handeye2_demo/tracking_simulator.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/lib/python3.10/site-packages/easy_handeye2_demo
+[1.680s] copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/build/lib/easy_handeye2_demo/__init__.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/lib/python3.10/site-packages/easy_handeye2_demo
+[1.681s] byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/lib/python3.10/site-packages/easy_handeye2_demo/tracking_simulator.py to tracking_simulator.cpython-310.pyc
+[1.683s] byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/lib/python3.10/site-packages/easy_handeye2_demo/__init__.py to __init__.cpython-310.pyc
+[1.684s] running install_data
+[1.684s] creating /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/share/ament_index
+[1.684s] creating /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/share/ament_index/resource_index
+[1.684s] creating /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/share/ament_index/resource_index/packages
+[1.684s] copying resource/easy_handeye2_demo -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/share/ament_index/resource_index/packages
+[1.684s] copying package.xml -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/share/easy_handeye2_demo
+[1.684s] creating /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/share/easy_handeye2_demo/launch
+[1.685s] copying launch/check_calibration.launch.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/share/easy_handeye2_demo/launch
+[1.685s] copying launch/run_move_group.rviz -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/share/easy_handeye2_demo/launch
+[1.685s] copying launch/calibrate.launch.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/share/easy_handeye2_demo/launch
+[1.685s] copying launch/run_move_group.launch.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/share/easy_handeye2_demo/launch
+[1.685s] copying launch/robot_and_sim.launch.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/share/easy_handeye2_demo/launch
+[1.685s] running install_egg_info
+[1.690s] Copying ../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/lib/python3.10/site-packages/easy_handeye2_demo-0.5.0-py3.10.egg-info
+[1.691s] running install_scripts
+[1.731s] Installing tracking_simulator script to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/lib/easy_handeye2_demo
+[1.731s] writing list of installed files to '/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/install.log'
+[1.771s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2_demo' returned '0': PYTHONPATH=/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/easy_handeye2_demo build --build-base /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/build install --record /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/install.log --single-version-externally-managed install_data

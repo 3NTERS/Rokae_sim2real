@@ -1,0 +1,322 @@
+[0.000000] (-) TimerEvent: {}
+[0.001194] (-) JobUnselected: {'identifier': 'aruco'}
+[0.001619] (-) JobUnselected: {'identifier': 'aruco_msgs'}
+[0.001679] (-) JobUnselected: {'identifier': 'aruco_ros'}
+[0.001730] (-) JobUnselected: {'identifier': 'easy_handeye2'}
+[0.001789] (-) JobUnselected: {'identifier': 'easy_handeye2_demo'}
+[0.001912] (-) JobUnselected: {'identifier': 'easy_handeye2_msgs'}
+[0.001959] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.001986] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.002013] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.002038] (-) JobUnselected: {'identifier': 'rokae_description'}
+[0.002070] (rokae_driver) JobQueued: {'identifier': 'rokae_driver', 'dependencies': OrderedDict()}
+[0.002105] (rokae_driver) JobStarted: {'identifier': 'rokae_driver'}
+[0.032213] (rokae_driver) JobProgress: {'identifier': 'rokae_driver', 'progress': 'cmake'}
+[0.033650] (rokae_driver) JobProgress: {'identifier': 'rokae_driver', 'progress': 'build'}
+[0.035542] (rokae_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver', '--', '-j32', '-l32'], 'cwd': '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'rokae'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera/lib:/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera_msgs/lib:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs/lib:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/lib:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco/lib:/home/rokae/workspace/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/rokae/workspace/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/rokae/workspace/ws_moveit/install/moveit_visual_tools/lib:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_demo/lib:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_core/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_control_interface/lib:/home/rokae/workspace/ws_moveit/install/moveit_simple_controller_manager/lib:/home/rokae/workspace/ws_moveit/install/moveit_setup_assistant/lib:/home/rokae/workspace/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/rokae/workspace/ws_moveit/install/moveit_setup_core_plugins/lib:/home/rokae/workspace/ws_moveit/install/moveit_setup_controllers/lib:/home/rokae/workspace/ws_moveit/install/moveit_setup_app_plugins/lib:/home/rokae/workspace/ws_moveit/install/moveit_setup_framework/lib:/home/rokae/workspace/ws_moveit/install/moveit_servo/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_visualization/lib:/home/rokae/workspace/ws_moveit/install/moveit_hybrid_planning/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_planning_interface/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_benchmarks/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_warehouse/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_perception/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_move_group/lib:/home/rokae/workspace/ws_moveit/install/moveit_planners_ompl/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_planning/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/rokae/workspace/ws_moveit/install/moveit_planners_chomp/lib:/home/rokae/workspace/ws_moveit/install/moveit_kinematics/lib:/home/rokae/workspace/ws_moveit/install/moveit_chomp_optimizer_adapter/lib:/home/rokae/workspace/ws_moveit/install/chomp_motion_planner/lib:/home/rokae/workspace/ws_moveit/install/moveit_core/lib:/home/rokae/workspace/ws_moveit/install/srdfdom/lib:/home/rokae/workspace/ws_moveit/install/rviz_marker_tools/lib:/home/rokae/workspace/ws_moveit/install/rosparam_shortcuts/lib:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/rokae/workspace/moveit_test/install/moveit_visual_tools/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rokae'), ('OLDPWD', '/home/rokae/workspace'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1788'), ('SYSTEMD_EXEC_PID', '2157'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9429'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rokae/workspace/rokae_ros2_sim2real/install:/home/rokae/workspace/ws_moveit/install:/home/rokae/workspace/moveit_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'rokae'), ('JOURNAL_STREAM', '8:17518'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rokae'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rokae/workspace/ws_moveit/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rokae-DX-1200:@/tmp/.ICE-unix/1917,unix/rokae-DX-1200:/tmp/.ICE-unix/1917'), ('INVOCATION_ID', '6af46b997a9b44139220175e321701be'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NO6WA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver:/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description:/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_description:/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera:/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera_msgs:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco:/home/rokae/workspace/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/rokae/workspace/ws_moveit/install/moveit_runtime:/home/rokae/workspace/ws_moveit/install/moveit2_tutorials:/home/rokae/workspace/ws_moveit/install/moveit:/home/rokae/workspace/ws_moveit/install/moveit_planners:/home/rokae/workspace/ws_moveit/install/pilz_industrial_motion_planner:/home/rokae/workspace/ws_moveit/install/moveit_visual_tools:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_visualization:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_demo:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_capabilities:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_core:/home/rokae/workspace/ws_moveit/install/moveit_ros_control_interface:/home/rokae/workspace/ws_moveit/install/moveit_plugins:/home/rokae/workspace/ws_moveit/install/moveit_simple_controller_manager:/home/rokae/workspace/ws_moveit/install/moveit_setup_assistant:/home/rokae/workspace/ws_moveit/install/moveit_setup_srdf_plugins:/home/rokae/workspace/ws_moveit/install/moveit_setup_core_plugins:/home/rokae/workspace/ws_moveit/install/moveit_setup_controllers:/home/rokae/workspace/ws_moveit/install/moveit_setup_app_plugins:/home/rokae/workspace/ws_moveit/install/moveit_setup_framework:/home/rokae/workspace/ws_moveit/install/moveit_servo:/home/rokae/workspace/ws_moveit/install/moveit_ros:/home/rokae/workspace/ws_moveit/install/moveit_ros_visualization:/home/rokae/workspace/ws_moveit/install/moveit_hybrid_planning:/home/rokae/workspace/ws_moveit/install/moveit_ros_planning_interface:/home/rokae/workspace/ws_moveit/install/moveit_ros_benchmarks:/home/rokae/workspace/ws_moveit/install/moveit_ros_warehouse:/home/rokae/workspace/ws_moveit/install/moveit_ros_robot_interaction:/home/rokae/workspace/ws_moveit/install/moveit_ros_perception:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/rokae/workspace/ws_moveit/install/moveit_ros_move_group:/home/rokae/workspace/ws_moveit/install/moveit_planners_ompl:/home/rokae/workspace/ws_moveit/install/moveit_ros_planning:/home/rokae/workspace/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/rokae/workspace/ws_moveit/install/moveit_planners_chomp:/home/rokae/workspace/ws_moveit/install/moveit_kinematics:/home/rokae/workspace/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/rokae/workspace/ws_moveit/install/chomp_motion_planner:/home/rokae/workspace/ws_moveit/install/moveit_core:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/srdfdom:/home/rokae/workspace/ws_moveit/install/rviz_marker_tools:/home/rokae/workspace/ws_moveit/install/rosparam_shortcuts:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_msgs:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_support:/home/rokae/workspace/ws_moveit/install/moveit_resources:/home/rokae/workspace/ws_moveit/install/moveit_resources_pr2_description:/home/rokae/workspace/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rokae/workspace/ws_moveit/install/moveit_resources_panda_description:/home/rokae/workspace/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/rokae/workspace/ws_moveit/install/moveit_resources_fanuc_description:/home/rokae/workspace/ws_moveit/install/moveit_common:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/home/rokae/workspace/moveit_test/install/test_5:/home/rokae/workspace/moveit_test/install/test_3:/home/rokae/workspace/moveit_test/install/test_2:/home/rokae/workspace/moveit_test/install/test_1:/home/rokae/workspace/moveit_test/install/study:/home/rokae/workspace/moveit_test/install/panda_configure:/home/rokae/workspace/moveit_test/install/moveit_study:/home/rokae/workspace/moveit_test/install/maduo_moveit:/home/rokae/workspace/moveit_test/install/hello_moveit:/home/rokae/workspace/moveit_test/install/hanjie_moveit:/home/rokae/workspace/moveit_test/install/g_maduo_moveit:/home/rokae/workspace/moveit_test/install/moveit_visual_tools:/home/rokae/workspace/moveit_test/install/moveit_resources_panda_description:/home/rokae/workspace/moveit_test/install/hanjie_configure:/home/rokae/workspace/moveit_test/install/hanjie_model:/home/rokae/workspace/moveit_test/install/hand_test:/home/rokae/workspace/moveit_test/install/hand_configure:/home/rokae/workspace/moveit_test/install/g_maduo_configure:/home/rokae/workspace/moveit_test/install/g_fenjian_configure:/home/rokae/workspace/moveit_test/install/Disort_configure:/home/rokae/workspace/moveit_test/install/g_maduo_model:/home/rokae/workspace/moveit_test/install/g_fenjian_model:/home/rokae/workspace/moveit_test/install/fake_hand_configure:/home/rokae/workspace/moveit_test/install/er7pro_hand:/home/rokae/workspace/moveit_test/install/erp7_model:/home/rokae/workspace/moveit_test/install/arm_with_hand_configure:/home/rokae/workspace/moveit_test/install/arm_hand_configure:/home/rokae/workspace/moveit_test/install/arm_with_hand:/home/rokae/workspace/moveit_test/install/arm_gripper_configure:/home/rokae/workspace/moveit_test/install/arm_with_gripper:/home/rokae/workspace/moveit_test/install/arm_configure:/home/rokae/workspace/moveit_test/install/arm:/home/rokae/workspace/moveit_test/install/allegro_hand_model:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9cc5cc13-8fd9-4695-90cb-81e71d746005'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/lib/python3.10/site-packages:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs/local/lib/python3.10/dist-packages:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/rokae/workspace/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/rokae/workspace/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver:/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description:/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_description:/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera:/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera_msgs:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco:/home/rokae/workspace/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/rokae/workspace/ws_moveit/install/moveit_runtime:/home/rokae/workspace/ws_moveit/install/moveit2_tutorials:/home/rokae/workspace/ws_moveit/install/moveit:/home/rokae/workspace/ws_moveit/install/moveit_planners:/home/rokae/workspace/ws_moveit/install/pilz_industrial_motion_planner:/home/rokae/workspace/ws_moveit/install/moveit_visual_tools:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_visualization:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_demo:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_capabilities:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_core:/home/rokae/workspace/ws_moveit/install/moveit_ros_control_interface:/home/rokae/workspace/ws_moveit/install/moveit_plugins:/home/rokae/workspace/ws_moveit/install/moveit_simple_controller_manager:/home/rokae/workspace/ws_moveit/install/moveit_setup_assistant:/home/rokae/workspace/ws_moveit/install/moveit_setup_srdf_plugins:/home/rokae/workspace/ws_moveit/install/moveit_setup_core_plugins:/home/rokae/workspace/ws_moveit/install/moveit_setup_controllers:/home/rokae/workspace/ws_moveit/install/moveit_setup_app_plugins:/home/rokae/workspace/ws_moveit/install/moveit_setup_framework:/home/rokae/workspace/ws_moveit/install/moveit_servo:/home/rokae/workspace/ws_moveit/install/moveit_ros:/home/rokae/workspace/ws_moveit/install/moveit_ros_visualization:/home/rokae/workspace/ws_moveit/install/moveit_hybrid_planning:/home/rokae/workspace/ws_moveit/install/moveit_ros_planning_interface:/home/rokae/workspace/ws_moveit/install/moveit_ros_benchmarks:/home/rokae/workspace/ws_moveit/install/moveit_ros_warehouse:/home/rokae/workspace/ws_moveit/install/moveit_ros_robot_interaction:/home/rokae/workspace/ws_moveit/install/moveit_ros_perception:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/rokae/workspace/ws_moveit/install/moveit_ros_move_group:/home/rokae/workspace/ws_moveit/install/moveit_planners_ompl:/home/rokae/workspace/ws_moveit/install/moveit_ros_planning:/home/rokae/workspace/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/rokae/workspace/ws_moveit/install/moveit_planners_chomp:/home/rokae/workspace/ws_moveit/install/moveit_kinematics:/home/rokae/workspace/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/rokae/workspace/ws_moveit/install/chomp_motion_planner:/home/rokae/workspace/ws_moveit/install/moveit_core:/home/rokae/workspace/ws_moveit/install/srdfdom:/home/rokae/workspace/ws_moveit/install/rviz_marker_tools:/home/rokae/workspace/ws_moveit/install/rosparam_shortcuts:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_msgs:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_support:/home/rokae/workspace/ws_moveit/install/moveit_resources:/home/rokae/workspace/ws_moveit/install/moveit_resources_pr2_description:/home/rokae/workspace/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rokae/workspace/ws_moveit/install/moveit_resources_panda_description:/home/rokae/workspace/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/rokae/workspace/ws_moveit/install/moveit_resources_fanuc_description:/home/rokae/workspace/ws_moveit/install/moveit_common:/home/rokae/workspace/moveit_test/install/test_5:/home/rokae/workspace/moveit_test/install/test_3:/home/rokae/workspace/moveit_test/install/test_2:/home/rokae/workspace/moveit_test/install/test_1:/home/rokae/workspace/moveit_test/install/study:/home/rokae/workspace/moveit_test/install/panda_configure:/home/rokae/workspace/moveit_test/install/moveit_study:/home/rokae/workspace/moveit_test/install/maduo_moveit:/home/rokae/workspace/moveit_test/install/hello_moveit:/home/rokae/workspace/moveit_test/install/hanjie_moveit:/home/rokae/workspace/moveit_test/install/g_maduo_moveit:/home/rokae/workspace/moveit_test/install/moveit_visual_tools:/home/rokae/workspace/moveit_test/install/moveit_resources_panda_description:/home/rokae/workspace/moveit_test/install/hanjie_configure:/home/rokae/workspace/moveit_test/install/hanjie_model:/home/rokae/workspace/moveit_test/install/hand_test:/home/rokae/workspace/moveit_test/install/hand_configure:/home/rokae/workspace/moveit_test/install/g_maduo_configure:/home/rokae/workspace/moveit_test/install/g_fenjian_configure:/home/rokae/workspace/moveit_test/install/Disort_configure:/home/rokae/workspace/moveit_test/install/g_maduo_model:/home/rokae/workspace/moveit_test/install/g_fenjian_model:/home/rokae/workspace/moveit_test/install/fake_hand_configure:/home/rokae/workspace/moveit_test/install/er7pro_hand:/home/rokae/workspace/moveit_test/install/erp7_model:/home/rokae/workspace/moveit_test/install/arm_with_hand_configure:/home/rokae/workspace/moveit_test/install/arm_hand_configure:/home/rokae/workspace/moveit_test/install/arm_with_hand:/home/rokae/workspace/moveit_test/install/arm_gripper_configure:/home/rokae/workspace/moveit_test/install/arm_with_gripper:/home/rokae/workspace/moveit_test/install/arm_configure:/home/rokae/workspace/moveit_test/install/arm:/home/rokae/workspace/moveit_test/install/allegro_hand_model:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[0.099472] (-) TimerEvent: {}
+[0.193753] (rokae_driver) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target move_example\x1b[0m\n'}
+[0.194371] (rokae_driver) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target read_force\x1b[0m\n'}
+[0.194585] (rokae_driver) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target My_joint_publisher_gui\x1b[0m\n'}
+[0.195319] (rokae_driver) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target read_robot_state\x1b[0m\n'}
+[0.196265] (rokae_driver) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target rokae_controller\x1b[0m\n'}
+[0.196567] (rokae_driver) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target driver_pentu\x1b[0m\n'}
+[0.199189] (rokae_driver) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target sdk_example\x1b[0m\n'}
+[0.199637] (-) TimerEvent: {}
+[0.245801] (rokae_driver) StdoutLine: {'line': b'[ 25%] Built target read_force_autogen\n'}
+[0.246335] (rokae_driver) StdoutLine: {'line': b'[ 25%] Built target move_example_autogen\n'}
+[0.246675] (rokae_driver) StdoutLine: {'line': b'[ 25%] Built target read_robot_state_autogen\n'}
+[0.247633] (rokae_driver) StdoutLine: {'line': b'[ 25%] Built target My_joint_publisher_gui_autogen\n'}
+[0.248307] (rokae_driver) StdoutLine: {'line': b'[ 25%] Built target driver_pentu_autogen\n'}
+[0.250934] (rokae_driver) StdoutLine: {'line': b'[ 25%] Built target sdk_example_autogen\n'}
+[0.252738] (rokae_driver) StdoutLine: {'line': b'[ 25%] Built target rokae_controller_autogen\n'}
+[0.284135] (rokae_driver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target My_joint_publisher_gui\x1b[0m\n'}
+[0.299794] (-) TimerEvent: {}
+[0.314197] (rokae_driver) StdoutLine: {'line': b'[ 35%] Built target move_example\n'}
+[0.319090] (rokae_driver) StdoutLine: {'line': b'[ 46%] Built target read_force\n'}
+[0.320347] (rokae_driver) StdoutLine: {'line': b'[ 57%] Built target read_robot_state\n'}
+[0.321394] (rokae_driver) StdoutLine: {'line': b'[ 67%] Built target driver_pentu\n'}
+[0.322722] (rokae_driver) StdoutLine: {'line': b'[ 78%] Built target sdk_example\n'}
+[0.327177] (rokae_driver) StdoutLine: {'line': b'[ 89%] Built target rokae_controller\n'}
+[0.328136] (rokae_driver) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/My_joint_publisher_gui.dir/src/My_joint_publisher_gui.cpp.o\x1b[0m\n'}
+[0.399861] (-) TimerEvent: {}
+[0.500190] (-) TimerEvent: {}
+[0.600444] (-) TimerEvent: {}
+[0.700699] (-) TimerEvent: {}
+[0.800989] (-) TimerEvent: {}
+[0.901212] (-) TimerEvent: {}
+[1.001429] (-) TimerEvent: {}
+[1.101643] (-) TimerEvent: {}
+[1.201878] (-) TimerEvent: {}
+[1.302091] (-) TimerEvent: {}
+[1.402296] (-) TimerEvent: {}
+[1.502515] (-) TimerEvent: {}
+[1.602731] (-) TimerEvent: {}
+[1.702982] (-) TimerEvent: {}
+[1.803288] (-) TimerEvent: {}
+[1.903635] (-) TimerEvent: {}
+[2.003897] (-) TimerEvent: {}
+[2.104125] (-) TimerEvent: {}
+[2.204351] (-) TimerEvent: {}
+[2.304569] (-) TimerEvent: {}
+[2.404889] (-) TimerEvent: {}
+[2.505322] (-) TimerEvent: {}
+[2.605626] (-) TimerEvent: {}
+[2.705922] (-) TimerEvent: {}
+[2.806133] (-) TimerEvent: {}
+[2.906318] (-) TimerEvent: {}
+[3.006522] (-) TimerEvent: {}
+[3.106748] (-) TimerEvent: {}
+[3.206973] (-) TimerEvent: {}
+[3.307240] (-) TimerEvent: {}
+[3.407651] (-) TimerEvent: {}
+[3.508106] (-) TimerEvent: {}
+[3.608486] (-) TimerEvent: {}
+[3.708813] (-) TimerEvent: {}
+[3.809212] (-) TimerEvent: {}
+[3.909425] (-) TimerEvent: {}
+[4.009640] (-) TimerEvent: {}
+[4.109865] (-) TimerEvent: {}
+[4.210080] (-) TimerEvent: {}
+[4.310266] (-) TimerEvent: {}
+[4.410456] (-) TimerEvent: {}
+[4.510738] (-) TimerEvent: {}
+[4.611095] (-) TimerEvent: {}
+[4.711377] (-) TimerEvent: {}
+[4.811624] (-) TimerEvent: {}
+[4.911896] (-) TimerEvent: {}
+[5.012114] (-) TimerEvent: {}
+[5.112341] (-) TimerEvent: {}
+[5.212556] (-) TimerEvent: {}
+[5.312800] (-) TimerEvent: {}
+[5.413059] (-) TimerEvent: {}
+[5.513327] (-) TimerEvent: {}
+[5.613719] (-) TimerEvent: {}
+[5.714118] (-) TimerEvent: {}
+[5.814504] (-) TimerEvent: {}
+[5.914823] (-) TimerEvent: {}
+[6.015067] (-) TimerEvent: {}
+[6.115274] (-) TimerEvent: {}
+[6.215511] (-) TimerEvent: {}
+[6.315726] (-) TimerEvent: {}
+[6.416018] (-) TimerEvent: {}
+[6.516352] (-) TimerEvent: {}
+[6.616575] (-) TimerEvent: {}
+[6.716794] (-) TimerEvent: {}
+[6.816996] (-) TimerEvent: {}
+[6.917208] (-) TimerEvent: {}
+[7.017392] (-) TimerEvent: {}
+[7.117559] (-) TimerEvent: {}
+[7.217742] (-) TimerEvent: {}
+[7.318006] (-) TimerEvent: {}
+[7.418201] (-) TimerEvent: {}
+[7.518441] (-) TimerEvent: {}
+[7.618703] (-) TimerEvent: {}
+[7.718980] (-) TimerEvent: {}
+[7.819235] (-) TimerEvent: {}
+[7.919555] (-) TimerEvent: {}
+[8.019881] (-) TimerEvent: {}
+[8.120323] (-) TimerEvent: {}
+[8.220578] (-) TimerEvent: {}
+[8.320809] (-) TimerEvent: {}
+[8.421018] (-) TimerEvent: {}
+[8.521240] (-) TimerEvent: {}
+[8.621476] (-) TimerEvent: {}
+[8.721669] (-) TimerEvent: {}
+[8.821897] (-) TimerEvent: {}
+[8.922102] (-) TimerEvent: {}
+[9.022276] (-) TimerEvent: {}
+[9.122434] (-) TimerEvent: {}
+[9.222588] (-) TimerEvent: {}
+[9.322750] (-) TimerEvent: {}
+[9.423047] (-) TimerEvent: {}
+[9.523491] (-) TimerEvent: {}
+[9.623864] (-) TimerEvent: {}
+[9.724177] (-) TimerEvent: {}
+[9.824581] (-) TimerEvent: {}
+[9.924946] (-) TimerEvent: {}
+[10.025301] (-) TimerEvent: {}
+[10.125594] (-) TimerEvent: {}
+[10.225968] (-) TimerEvent: {}
+[10.326497] (-) TimerEvent: {}
+[10.426898] (-) TimerEvent: {}
+[10.527136] (-) TimerEvent: {}
+[10.627356] (-) TimerEvent: {}
+[10.727608] (-) TimerEvent: {}
+[10.828045] (-) TimerEvent: {}
+[10.928450] (-) TimerEvent: {}
+[11.028834] (-) TimerEvent: {}
+[11.129203] (-) TimerEvent: {}
+[11.229601] (-) TimerEvent: {}
+[11.329995] (-) TimerEvent: {}
+[11.430431] (-) TimerEvent: {}
+[11.530848] (-) TimerEvent: {}
+[11.631140] (-) TimerEvent: {}
+[11.731366] (-) TimerEvent: {}
+[11.831671] (-) TimerEvent: {}
+[11.932053] (-) TimerEvent: {}
+[12.032265] (-) TimerEvent: {}
+[12.132480] (-) TimerEvent: {}
+[12.232682] (-) TimerEvent: {}
+[12.332958] (-) TimerEvent: {}
+[12.433351] (-) TimerEvent: {}
+[12.533758] (-) TimerEvent: {}
+[12.634143] (-) TimerEvent: {}
+[12.734459] (-) TimerEvent: {}
+[12.834884] (-) TimerEvent: {}
+[12.935301] (-) TimerEvent: {}
+[13.035669] (-) TimerEvent: {}
+[13.136005] (-) TimerEvent: {}
+[13.236298] (-) TimerEvent: {}
+[13.336575] (-) TimerEvent: {}
+[13.436816] (-) TimerEvent: {}
+[13.537114] (-) TimerEvent: {}
+[13.637552] (-) TimerEvent: {}
+[13.737867] (-) TimerEvent: {}
+[13.838188] (-) TimerEvent: {}
+[13.938401] (-) TimerEvent: {}
+[14.038603] (-) TimerEvent: {}
+[14.138837] (-) TimerEvent: {}
+[14.239110] (-) TimerEvent: {}
+[14.339338] (-) TimerEvent: {}
+[14.439575] (-) TimerEvent: {}
+[14.539806] (-) TimerEvent: {}
+[14.640030] (-) TimerEvent: {}
+[14.740223] (-) TimerEvent: {}
+[14.840443] (-) TimerEvent: {}
+[14.940637] (-) TimerEvent: {}
+[15.040837] (-) TimerEvent: {}
+[15.141085] (-) TimerEvent: {}
+[15.241271] (-) TimerEvent: {}
+[15.341457] (-) TimerEvent: {}
+[15.441660] (-) TimerEvent: {}
+[15.541848] (-) TimerEvent: {}
+[15.642042] (-) TimerEvent: {}
+[15.742242] (-) TimerEvent: {}
+[15.842522] (-) TimerEvent: {}
+[15.942985] (-) TimerEvent: {}
+[16.043426] (-) TimerEvent: {}
+[16.143791] (-) TimerEvent: {}
+[16.244082] (-) TimerEvent: {}
+[16.344302] (-) TimerEvent: {}
+[16.444506] (-) TimerEvent: {}
+[16.544684] (-) TimerEvent: {}
+[16.644869] (-) TimerEvent: {}
+[16.745035] (-) TimerEvent: {}
+[16.845252] (-) TimerEvent: {}
+[16.945442] (-) TimerEvent: {}
+[17.045727] (-) TimerEvent: {}
+[17.146091] (-) TimerEvent: {}
+[17.246416] (-) TimerEvent: {}
+[17.346634] (-) TimerEvent: {}
+[17.446833] (-) TimerEvent: {}
+[17.547076] (-) TimerEvent: {}
+[17.647464] (-) TimerEvent: {}
+[17.747762] (-) TimerEvent: {}
+[17.848060] (-) TimerEvent: {}
+[17.948315] (-) TimerEvent: {}
+[18.048588] (-) TimerEvent: {}
+[18.148972] (-) TimerEvent: {}
+[18.249333] (-) TimerEvent: {}
+[18.349664] (-) TimerEvent: {}
+[18.450017] (-) TimerEvent: {}
+[18.550388] (-) TimerEvent: {}
+[18.650700] (-) TimerEvent: {}
+[18.751090] (-) TimerEvent: {}
+[18.851479] (-) TimerEvent: {}
+[18.951833] (-) TimerEvent: {}
+[19.052100] (-) TimerEvent: {}
+[19.152408] (-) TimerEvent: {}
+[19.252717] (-) TimerEvent: {}
+[19.353001] (-) TimerEvent: {}
+[19.453298] (-) TimerEvent: {}
+[19.553665] (-) TimerEvent: {}
+[19.654058] (-) TimerEvent: {}
+[19.754407] (-) TimerEvent: {}
+[19.854699] (-) TimerEvent: {}
+[19.954947] (-) TimerEvent: {}
+[20.055150] (-) TimerEvent: {}
+[20.155360] (-) TimerEvent: {}
+[20.255603] (-) TimerEvent: {}
+[20.355770] (-) TimerEvent: {}
+[20.455976] (-) TimerEvent: {}
+[20.556155] (-) TimerEvent: {}
+[20.656330] (-) TimerEvent: {}
+[20.756490] (-) TimerEvent: {}
+[20.856665] (-) TimerEvent: {}
+[20.956831] (-) TimerEvent: {}
+[21.056994] (-) TimerEvent: {}
+[21.157163] (-) TimerEvent: {}
+[21.257343] (-) TimerEvent: {}
+[21.357510] (-) TimerEvent: {}
+[21.457728] (-) TimerEvent: {}
+[21.558004] (-) TimerEvent: {}
+[21.658221] (-) TimerEvent: {}
+[21.758430] (-) TimerEvent: {}
+[21.858737] (-) TimerEvent: {}
+[21.959107] (-) TimerEvent: {}
+[22.059418] (-) TimerEvent: {}
+[22.159757] (-) TimerEvent: {}
+[22.260119] (-) TimerEvent: {}
+[22.360491] (-) TimerEvent: {}
+[22.460835] (-) TimerEvent: {}
+[22.561131] (-) TimerEvent: {}
+[22.661434] (-) TimerEvent: {}
+[22.761766] (-) TimerEvent: {}
+[22.862219] (-) TimerEvent: {}
+[22.962580] (-) TimerEvent: {}
+[23.062961] (-) TimerEvent: {}
+[23.163311] (-) TimerEvent: {}
+[23.263678] (-) TimerEvent: {}
+[23.364089] (-) TimerEvent: {}
+[23.464481] (-) TimerEvent: {}
+[23.564813] (-) TimerEvent: {}
+[23.576820] (rokae_driver) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking CXX executable My_joint_publisher_gui\x1b[0m\n'}
+[23.664926] (-) TimerEvent: {}
+[23.765336] (-) TimerEvent: {}
+[23.865614] (-) TimerEvent: {}
+[23.965896] (-) TimerEvent: {}
+[24.066320] (-) TimerEvent: {}
+[24.166593] (-) TimerEvent: {}
+[24.266833] (-) TimerEvent: {}
+[24.367052] (-) TimerEvent: {}
+[24.467310] (-) TimerEvent: {}
+[24.567651] (-) TimerEvent: {}
+[24.668106] (-) TimerEvent: {}
+[24.768462] (-) TimerEvent: {}
+[24.868720] (-) TimerEvent: {}
+[24.968961] (-) TimerEvent: {}
+[25.069195] (-) TimerEvent: {}
+[25.169441] (-) TimerEvent: {}
+[25.188737] (rokae_driver) StdoutLine: {'line': b'[100%] Built target My_joint_publisher_gui\n'}
+[25.216405] (rokae_driver) CommandEnded: {'returncode': 0}
+[25.217876] (rokae_driver) JobProgress: {'identifier': 'rokae_driver', 'progress': 'install'}
+[25.240640] (rokae_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver'], 'cwd': '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'rokae'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera/lib:/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera_msgs/lib:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs/lib:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/lib:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco/lib:/home/rokae/workspace/ws_moveit/install/pilz_industrial_motion_planner_testutils/lib:/home/rokae/workspace/ws_moveit/install/pilz_industrial_motion_planner/lib:/home/rokae/workspace/ws_moveit/install/moveit_visual_tools/lib:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_visualization/lib:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_demo/lib:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_capabilities/lib:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_core/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_control_interface/lib:/home/rokae/workspace/ws_moveit/install/moveit_simple_controller_manager/lib:/home/rokae/workspace/ws_moveit/install/moveit_setup_assistant/lib:/home/rokae/workspace/ws_moveit/install/moveit_setup_srdf_plugins/lib:/home/rokae/workspace/ws_moveit/install/moveit_setup_core_plugins/lib:/home/rokae/workspace/ws_moveit/install/moveit_setup_controllers/lib:/home/rokae/workspace/ws_moveit/install/moveit_setup_app_plugins/lib:/home/rokae/workspace/ws_moveit/install/moveit_setup_framework/lib:/home/rokae/workspace/ws_moveit/install/moveit_servo/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_visualization/lib:/home/rokae/workspace/ws_moveit/install/moveit_hybrid_planning/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_planning_interface/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_benchmarks/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_warehouse/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_robot_interaction/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_perception/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_move_group/lib:/home/rokae/workspace/ws_moveit/install/moveit_planners_ompl/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_planning/lib:/home/rokae/workspace/ws_moveit/install/moveit_ros_occupancy_map_monitor/lib:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin/lib:/home/rokae/workspace/ws_moveit/install/moveit_planners_chomp/lib:/home/rokae/workspace/ws_moveit/install/moveit_kinematics/lib:/home/rokae/workspace/ws_moveit/install/moveit_chomp_optimizer_adapter/lib:/home/rokae/workspace/ws_moveit/install/chomp_motion_planner/lib:/home/rokae/workspace/ws_moveit/install/moveit_core/lib:/home/rokae/workspace/ws_moveit/install/srdfdom/lib:/home/rokae/workspace/ws_moveit/install/rviz_marker_tools/lib:/home/rokae/workspace/ws_moveit/install/rosparam_shortcuts/lib:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_msgs/lib:/home/rokae/workspace/moveit_test/install/moveit_visual_tools/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/rokae'), ('OLDPWD', '/home/rokae/workspace'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_US.UTF-8'), ('MANAGERPID', '1788'), ('SYSTEMD_EXEC_PID', '2157'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9429'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/rokae/workspace/rokae_ros2_sim2real/install:/home/rokae/workspace/ws_moveit/install:/home/rokae/workspace/moveit_test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'rokae'), ('JOURNAL_STREAM', '8:17518'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'rokae'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/rokae/workspace/ws_moveit/install/moveit_core/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/rokae-DX-1200:@/tmp/.ICE-unix/1917,unix/rokae-DX-1200:/tmp/.ICE-unix/1917'), ('INVOCATION_ID', '6af46b997a9b44139220175e321701be'), ('PAPERSIZE', 'letter'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.NO6WA3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver:/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description:/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_description:/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera:/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera_msgs:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco:/home/rokae/workspace/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/rokae/workspace/ws_moveit/install/moveit_runtime:/home/rokae/workspace/ws_moveit/install/moveit2_tutorials:/home/rokae/workspace/ws_moveit/install/moveit:/home/rokae/workspace/ws_moveit/install/moveit_planners:/home/rokae/workspace/ws_moveit/install/pilz_industrial_motion_planner:/home/rokae/workspace/ws_moveit/install/moveit_visual_tools:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_visualization:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_demo:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_capabilities:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_core:/home/rokae/workspace/ws_moveit/install/moveit_ros_control_interface:/home/rokae/workspace/ws_moveit/install/moveit_plugins:/home/rokae/workspace/ws_moveit/install/moveit_simple_controller_manager:/home/rokae/workspace/ws_moveit/install/moveit_setup_assistant:/home/rokae/workspace/ws_moveit/install/moveit_setup_srdf_plugins:/home/rokae/workspace/ws_moveit/install/moveit_setup_core_plugins:/home/rokae/workspace/ws_moveit/install/moveit_setup_controllers:/home/rokae/workspace/ws_moveit/install/moveit_setup_app_plugins:/home/rokae/workspace/ws_moveit/install/moveit_setup_framework:/home/rokae/workspace/ws_moveit/install/moveit_servo:/home/rokae/workspace/ws_moveit/install/moveit_ros:/home/rokae/workspace/ws_moveit/install/moveit_ros_visualization:/home/rokae/workspace/ws_moveit/install/moveit_hybrid_planning:/home/rokae/workspace/ws_moveit/install/moveit_ros_planning_interface:/home/rokae/workspace/ws_moveit/install/moveit_ros_benchmarks:/home/rokae/workspace/ws_moveit/install/moveit_ros_warehouse:/home/rokae/workspace/ws_moveit/install/moveit_ros_robot_interaction:/home/rokae/workspace/ws_moveit/install/moveit_ros_perception:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/rokae/workspace/ws_moveit/install/moveit_ros_move_group:/home/rokae/workspace/ws_moveit/install/moveit_planners_ompl:/home/rokae/workspace/ws_moveit/install/moveit_ros_planning:/home/rokae/workspace/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/rokae/workspace/ws_moveit/install/moveit_planners_chomp:/home/rokae/workspace/ws_moveit/install/moveit_kinematics:/home/rokae/workspace/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/rokae/workspace/ws_moveit/install/chomp_motion_planner:/home/rokae/workspace/ws_moveit/install/moveit_core:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/srdfdom:/home/rokae/workspace/ws_moveit/install/rviz_marker_tools:/home/rokae/workspace/ws_moveit/install/rosparam_shortcuts:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_msgs:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_support:/home/rokae/workspace/ws_moveit/install/moveit_resources:/home/rokae/workspace/ws_moveit/install/moveit_resources_pr2_description:/home/rokae/workspace/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rokae/workspace/ws_moveit/install/moveit_resources_panda_description:/home/rokae/workspace/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/rokae/workspace/ws_moveit/install/moveit_resources_fanuc_description:/home/rokae/workspace/ws_moveit/install/moveit_common:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/home/rokae/workspace/moveit_test/install/test_5:/home/rokae/workspace/moveit_test/install/test_3:/home/rokae/workspace/moveit_test/install/test_2:/home/rokae/workspace/moveit_test/install/test_1:/home/rokae/workspace/moveit_test/install/study:/home/rokae/workspace/moveit_test/install/panda_configure:/home/rokae/workspace/moveit_test/install/moveit_study:/home/rokae/workspace/moveit_test/install/maduo_moveit:/home/rokae/workspace/moveit_test/install/hello_moveit:/home/rokae/workspace/moveit_test/install/hanjie_moveit:/home/rokae/workspace/moveit_test/install/g_maduo_moveit:/home/rokae/workspace/moveit_test/install/moveit_visual_tools:/home/rokae/workspace/moveit_test/install/moveit_resources_panda_description:/home/rokae/workspace/moveit_test/install/hanjie_configure:/home/rokae/workspace/moveit_test/install/hanjie_model:/home/rokae/workspace/moveit_test/install/hand_test:/home/rokae/workspace/moveit_test/install/hand_configure:/home/rokae/workspace/moveit_test/install/g_maduo_configure:/home/rokae/workspace/moveit_test/install/g_fenjian_configure:/home/rokae/workspace/moveit_test/install/Disort_configure:/home/rokae/workspace/moveit_test/install/g_maduo_model:/home/rokae/workspace/moveit_test/install/g_fenjian_model:/home/rokae/workspace/moveit_test/install/fake_hand_configure:/home/rokae/workspace/moveit_test/install/er7pro_hand:/home/rokae/workspace/moveit_test/install/erp7_model:/home/rokae/workspace/moveit_test/install/arm_with_hand_configure:/home/rokae/workspace/moveit_test/install/arm_hand_configure:/home/rokae/workspace/moveit_test/install/arm_with_hand:/home/rokae/workspace/moveit_test/install/arm_gripper_configure:/home/rokae/workspace/moveit_test/install/arm_with_gripper:/home/rokae/workspace/moveit_test/install/arm_configure:/home/rokae/workspace/moveit_test/install/arm:/home/rokae/workspace/moveit_test/install/allegro_hand_model:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9cc5cc13-8fd9-4695-90cb-81e71d746005'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CMAKE_MODULE_PATH', '/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/lib/python3.10/site-packages:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs/local/lib/python3.10/dist-packages:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_core/local/lib/python3.10/dist-packages:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages:/home/rokae/workspace/ws_moveit/install/srdfdom/local/lib/python3.10/dist-packages:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages:/home/rokae/workspace/ws_moveit/install/launch_param_builder/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver:/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description:/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_description:/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera:/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera_msgs:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs:/home/rokae/workspace/rokae_ros2_sim2real/install/aruco:/home/rokae/workspace/ws_moveit/install/pilz_industrial_motion_planner_testutils:/home/rokae/workspace/ws_moveit/install/moveit_runtime:/home/rokae/workspace/ws_moveit/install/moveit2_tutorials:/home/rokae/workspace/ws_moveit/install/moveit:/home/rokae/workspace/ws_moveit/install/moveit_planners:/home/rokae/workspace/ws_moveit/install/pilz_industrial_motion_planner:/home/rokae/workspace/ws_moveit/install/moveit_visual_tools:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_visualization:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_demo:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_capabilities:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_core:/home/rokae/workspace/ws_moveit/install/moveit_ros_control_interface:/home/rokae/workspace/ws_moveit/install/moveit_plugins:/home/rokae/workspace/ws_moveit/install/moveit_simple_controller_manager:/home/rokae/workspace/ws_moveit/install/moveit_setup_assistant:/home/rokae/workspace/ws_moveit/install/moveit_setup_srdf_plugins:/home/rokae/workspace/ws_moveit/install/moveit_setup_core_plugins:/home/rokae/workspace/ws_moveit/install/moveit_setup_controllers:/home/rokae/workspace/ws_moveit/install/moveit_setup_app_plugins:/home/rokae/workspace/ws_moveit/install/moveit_setup_framework:/home/rokae/workspace/ws_moveit/install/moveit_servo:/home/rokae/workspace/ws_moveit/install/moveit_ros:/home/rokae/workspace/ws_moveit/install/moveit_ros_visualization:/home/rokae/workspace/ws_moveit/install/moveit_hybrid_planning:/home/rokae/workspace/ws_moveit/install/moveit_ros_planning_interface:/home/rokae/workspace/ws_moveit/install/moveit_ros_benchmarks:/home/rokae/workspace/ws_moveit/install/moveit_ros_warehouse:/home/rokae/workspace/ws_moveit/install/moveit_ros_robot_interaction:/home/rokae/workspace/ws_moveit/install/moveit_ros_perception:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_pg70_support:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_moveit_config:/home/rokae/workspace/ws_moveit/install/moveit_ros_move_group:/home/rokae/workspace/ws_moveit/install/moveit_planners_ompl:/home/rokae/workspace/ws_moveit/install/moveit_ros_planning:/home/rokae/workspace/ws_moveit/install/moveit_ros_occupancy_map_monitor:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_ikfast_manipulator_plugin:/home/rokae/workspace/ws_moveit/install/moveit_planners_chomp:/home/rokae/workspace/ws_moveit/install/moveit_kinematics:/home/rokae/workspace/ws_moveit/install/moveit_chomp_optimizer_adapter:/home/rokae/workspace/ws_moveit/install/chomp_motion_planner:/home/rokae/workspace/ws_moveit/install/moveit_core:/home/rokae/workspace/ws_moveit/install/srdfdom:/home/rokae/workspace/ws_moveit/install/rviz_marker_tools:/home/rokae/workspace/ws_moveit/install/rosparam_shortcuts:/home/rokae/workspace/ws_moveit/install/moveit_task_constructor_msgs:/home/rokae/workspace/ws_moveit/install/moveit_resources_prbt_support:/home/rokae/workspace/ws_moveit/install/moveit_resources:/home/rokae/workspace/ws_moveit/install/moveit_resources_pr2_description:/home/rokae/workspace/ws_moveit/install/moveit_resources_panda_moveit_config:/home/rokae/workspace/ws_moveit/install/moveit_resources_panda_description:/home/rokae/workspace/ws_moveit/install/moveit_resources_fanuc_moveit_config:/home/rokae/workspace/ws_moveit/install/moveit_resources_fanuc_description:/home/rokae/workspace/ws_moveit/install/moveit_common:/home/rokae/workspace/moveit_test/install/test_5:/home/rokae/workspace/moveit_test/install/test_3:/home/rokae/workspace/moveit_test/install/test_2:/home/rokae/workspace/moveit_test/install/test_1:/home/rokae/workspace/moveit_test/install/study:/home/rokae/workspace/moveit_test/install/panda_configure:/home/rokae/workspace/moveit_test/install/moveit_study:/home/rokae/workspace/moveit_test/install/maduo_moveit:/home/rokae/workspace/moveit_test/install/hello_moveit:/home/rokae/workspace/moveit_test/install/hanjie_moveit:/home/rokae/workspace/moveit_test/install/g_maduo_moveit:/home/rokae/workspace/moveit_test/install/moveit_visual_tools:/home/rokae/workspace/moveit_test/install/moveit_resources_panda_description:/home/rokae/workspace/moveit_test/install/hanjie_configure:/home/rokae/workspace/moveit_test/install/hanjie_model:/home/rokae/workspace/moveit_test/install/hand_test:/home/rokae/workspace/moveit_test/install/hand_configure:/home/rokae/workspace/moveit_test/install/g_maduo_configure:/home/rokae/workspace/moveit_test/install/g_fenjian_configure:/home/rokae/workspace/moveit_test/install/Disort_configure:/home/rokae/workspace/moveit_test/install/g_maduo_model:/home/rokae/workspace/moveit_test/install/g_fenjian_model:/home/rokae/workspace/moveit_test/install/fake_hand_configure:/home/rokae/workspace/moveit_test/install/er7pro_hand:/home/rokae/workspace/moveit_test/install/erp7_model:/home/rokae/workspace/moveit_test/install/arm_with_hand_configure:/home/rokae/workspace/moveit_test/install/arm_hand_configure:/home/rokae/workspace/moveit_test/install/arm_with_hand:/home/rokae/workspace/moveit_test/install/arm_gripper_configure:/home/rokae/workspace/moveit_test/install/arm_with_gripper:/home/rokae/workspace/moveit_test/install/arm_configure:/home/rokae/workspace/moveit_test/install/arm:/home/rokae/workspace/moveit_test/install/allegro_hand_model:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble')]), 'shell': False}
+[25.261416] (rokae_driver) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[25.262061] (rokae_driver) StdoutLine: {'line': b'-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/My_joint_publisher_gui\n'}
+[25.269513] (-) TimerEvent: {}
+[25.270672] (rokae_driver) StdoutLine: {'line': b'-- Set runtime path of "/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/My_joint_publisher_gui" to ""\n'}
+[25.270975] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/driver_pentu\n'}
+[25.271371] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/move_example\n'}
+[25.271755] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/read_force\n'}
+[25.272207] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/read_robot_state\n'}
+[25.272624] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/rokae_controller\n'}
+[25.272999] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/rokae_driver/sdk_example\n'}
+[25.273272] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/ament_index/resource_index/package_run_dependencies/rokae_driver\n'}
+[25.273609] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/ament_index/resource_index/parent_prefix_path/rokae_driver\n'}
+[25.273924] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/ament_prefix_path.sh\n'}
+[25.274122] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/ament_prefix_path.dsv\n'}
+[25.274317] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/path.sh\n'}
+[25.274510] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/environment/path.dsv\n'}
+[25.274773] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.bash\n'}
+[25.274973] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.sh\n'}
+[25.275147] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.zsh\n'}
+[25.275335] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/local_setup.dsv\n'}
+[25.275506] (rokae_driver) StdoutLine: {'line': b'-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/package.dsv\n'}
+[25.275675] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/ament_index/resource_index/packages/rokae_driver\n'}
+[25.275861] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/cmake/rokae_driverConfig.cmake\n'}
+[25.276040] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/cmake/rokae_driverConfig-version.cmake\n'}
+[25.276221] (rokae_driver) StdoutLine: {'line': b'-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/package.xml\n'}
+[25.278024] (rokae_driver) CommandEnded: {'returncode': 0}
+[25.308271] (rokae_driver) JobEnded: {'identifier': 'rokae_driver', 'rc': 0}
+[25.309503] (-) EventReactorShutdown: {}

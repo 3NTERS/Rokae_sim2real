@@ -1,0 +1,47 @@
+[0.037s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.162s] [35m[1mConsolidate compiler generated dependencies of target rokae_controller[0m
+[0.190s] [ 16%] Built target move_example
+[0.192s] [ 33%] Built target read_robot_state
+[0.196s] [ 50%] Built target sdk_example
+[0.198s] [ 66%] Built target read_force
+[0.200s] [ 83%] Built target driver_pentu
+[0.206s] [ 91%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[5.622s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:175:28:[m[K [01;31m[Kerror: [m[K‘[01m[KremoteIP_[m[K’ is not a type
+[5.622s]   175 |     xMateErProRobot robot_([01;31m[KremoteIP_[m[K);
+[5.622s]       |                            [01;31m[K^~~~~~~~~[m[K
+[6.220s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::send_joint_command(const std::vector<double>&)[m[K’:
+[6.220s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:109:58:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krokae::xMateErProRobot RobotController::robot_(int)[m[K’
+[6.221s]   109 |         current_joint_positions_= example_basicOperation([01;31m[Krobot_[m[K);
+[6.221s]       |                                                          [01;31m[K^~~~~~[m[K
+[6.221s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:175:21:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.221s]   175 |     xMateErProRobot [01;36m[Krobot_[m[K(remoteIP_);
+[6.221s]       |                     [01;36m[K^~~~~~[m[K
+[6.221s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::publish_joint_states()[m[K’:
+[6.221s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:118:55:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krokae::xMateErProRobot RobotController::robot_(int)[m[K’
+[6.221s]   118 |         joint_state.position = example_basicOperation([01;31m[Krobot_[m[K);
+[6.222s]       |                                                       [01;31m[K^~~~~~[m[K
+[6.222s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:175:21:[m[K [01;36m[Knote: [m[Kdeclared here
+[6.222s]   175 |     xMateErProRobot [01;36m[Krobot_[m[K(remoteIP_);
+[6.222s]       |                     [01;36m[K^~~~~~[m[K
+[6.224s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::connect()[m[K’:
+[6.224s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:145:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krokae::xMateErProRobot RobotController::robot_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[6.225s]   145 |         [01;31m[Krobot_[m[K.connectToRobot(remoteIP_, localIP_);
+[6.225s]       |         [01;31m[K^~~~~~[m[K
+[6.225s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::setpowerdown()[m[K’:
+[6.225s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:150:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krokae::xMateErProRobot RobotController::robot_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[6.225s]   150 |         [01;31m[Krobot_[m[K.setPowerState(false, ec);
+[6.225s]       |         [01;31m[K^~~~~~[m[K
+[6.225s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::configureRobot()[m[K’:
+[6.225s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:155:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krokae::xMateErProRobot RobotController::robot_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[6.225s]   155 |         [01;31m[Krobot_[m[K.setOperateMode(rokae::OperateMode::automatic, ec);
+[6.225s]       |         [01;31m[K^~~~~~[m[K
+[6.226s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:156:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krokae::xMateErProRobot RobotController::robot_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[6.226s]   156 |         [01;31m[Krobot_[m[K.setMotionControlMode(MotionControlMode::RtCommand, ec);
+[6.226s]       |         [01;31m[K^~~~~~[m[K
+[6.226s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:157:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krokae::xMateErProRobot RobotController::robot_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+[6.226s]   157 |         [01;31m[Krobot_[m[K.setPowerState(true, ec);
+[6.226s]       |         [01;31m[K^~~~~~[m[K
+[12.815s] gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+[12.816s] gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+[12.817s] gmake: *** [Makefile:146：all] 错误 2
+[12.821s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

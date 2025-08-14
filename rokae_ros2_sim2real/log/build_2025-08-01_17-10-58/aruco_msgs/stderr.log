@@ -1,0 +1,41 @@
+Traceback (most recent call last):
+  File "/home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs/ament_cmake_python/aruco_msgs/setup.py", line 1, in <module>
+    from setuptools import find_packages
+  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+    import setuptools.version
+  File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+    import pkg_resources
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+    def _initialize_master_working_set():
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+    f(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+    working_set = WorkingSet._build_master()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+    ws = cls()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+    self.add_entry(entry)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+    for dist in find_distributions(entry, True):
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+    for dist in factory(fullpath):
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata
+    yield Distribution.from_location(
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2606, in from_location
+    )._reload_version()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3004, in _reload_version
+    md_version = self._get_version()
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2785, in _get_version
+    version = _version_from_file(lines)
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2569, in _version_from_file
+    line = next(iter(version_lines), '')
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2780, in _get_metadata
+    for line in self.get_metadata_lines(name):
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1422, in get_metadata_lines
+    return yield_lines(self.get_metadata(name))
+  File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1414, in get_metadata
+    return value.decode('utf-8')
+KeyboardInterrupt
+gmake[2]: *** [CMakeFiles/ament_cmake_python_build_aruco_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_aruco_msgs_egg] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_aruco_msgs_egg.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

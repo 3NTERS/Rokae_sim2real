@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "easy_handeye2_msgs__py",
+		"source" : "/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_msgs/easy_handeye2_msgs__py"
+	}
+}

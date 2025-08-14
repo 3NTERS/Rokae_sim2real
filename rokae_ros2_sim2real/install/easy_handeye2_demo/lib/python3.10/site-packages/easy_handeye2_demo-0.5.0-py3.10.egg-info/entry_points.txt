@@ -1,0 +1,3 @@
+[console_scripts]
+tracking_simulator = easy_handeye2_demo.tracking_simulator:main
+

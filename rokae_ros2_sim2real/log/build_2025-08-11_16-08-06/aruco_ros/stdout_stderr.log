@@ -1,0 +1,80 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found aruco: 5.0.5 (/home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/cmake)
+-- Found aruco_msgs: 5.0.5 (/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake)
+-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rokae/workspace/rokae_ros2_sim2real/build/aruco_ros
+[35m[1mConsolidate compiler generated dependencies of target aruco_ros_utils[0m
+[35m[1mConsolidate compiler generated dependencies of target single[0m
+[35m[1mConsolidate compiler generated dependencies of target marker_publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target double[0m
+[ 18%] Built target aruco_ros_utils
+[ 45%] Built target single
+[ 72%] Built target marker_publisher
+[100%] Built target double
+-- Install configuration: "Release"
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/libaruco_ros_utils.so
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/aruco_ros/marker_publisher
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/aruco_ros/single
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/aruco_ros/double
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/include
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/include/aruco_ros
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker26_5cm_margin_2cm.jpg
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker582_5cm.jpg
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker26_5cm_margin_1cm.jpg
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/new_coordinates.png
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker582_5cm_margin_2cm.jpg
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker_in_object.jpg
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/reem_gazebo_floating_marker.png
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker26_5cm.jpg
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/reem_gazebo_floating_marker_world.png
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker_in_hand.jpg
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/launch
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/launch/single.launch.py
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/launch/double.launch.py
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/launch/marker_publisher.launch.py
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/ament_index/resource_index/package_run_dependencies/aruco_ros
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/ament_index/resource_index/parent_prefix_path/aruco_ros
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/environment/ament_prefix_path.sh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/environment/path.sh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/environment/path.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/local_setup.bash
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/local_setup.sh
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/local_setup.zsh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/local_setup.dsv
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/package.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/ament_index/resource_index/packages/aruco_ros
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/cmake/aruco_rosConfig.cmake
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/cmake/aruco_rosConfig-version.cmake
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/package.xml

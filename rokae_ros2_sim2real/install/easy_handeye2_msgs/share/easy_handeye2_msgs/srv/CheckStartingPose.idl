@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from easy_handeye2_msgs/srv/robot_movements/CheckStartingPose.srv
+// generated code does not contain a copyright notice
+
+#include "easy_handeye2_msgs/msg/TargetPoseList.idl"
+
+module easy_handeye2_msgs {
+  module srv {
+    struct CheckStartingPose_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct CheckStartingPose_Response {
+      boolean can_calibrate;
+
+      easy_handeye2_msgs::msg::TargetPoseList target_poses;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+[  9%] [32mBuilding CXX object CMakeFiles/aruco_ros_utils.dir/src/aruco_ros_utils.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/single.dir/src/aruco_ros_utils.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/marker_publisher.dir/src/aruco_ros_utils.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/double.dir/src/aruco_ros_utils.cpp.o[0m

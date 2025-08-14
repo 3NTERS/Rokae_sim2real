@@ -1,0 +1,11 @@
+[  5%] [32mBuilding CXX object CMakeFiles/sdk_example.dir/src/sdk_example.cpp.o[0m
+[ 16%] Built target move_example
+[ 22%] [32mBuilding CXX object CMakeFiles/driver_fenjian.dir/src/driver_fenjian.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/rokae_driver.dir/src/rokae_driver.cpp.o[0m
+[ 38%] Built target driver_pentu
+[ 44%] [32mBuilding CXX object CMakeFiles/driver_maduo.dir/src/driver_maduo.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/driver_hanjie.dir/src/driver_hanjie.cpp.o[0m
+[ 61%] Built target read_force
+[ 66%] [32mBuilding CXX object CMakeFiles/driver_home.dir/src/driver_home.cpp.o[0m
+[ 72%] [32m[1mLinking CXX executable sdk_example[0m
+[ 72%] Built target sdk_example

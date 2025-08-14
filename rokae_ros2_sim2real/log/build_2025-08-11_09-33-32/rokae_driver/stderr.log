@@ -1,0 +1,7 @@
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController(const string&, const string&)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:28:89:[m[K [01;31m[Kerror: [m[Kno match for call to ‘[01m[K(rokae::xMateErProRobot) (const string&)[m[K’
+   28 |         : Node("robot_controller"), remoteIP_(remoteIP), localIP_(localIP),robot_([01;31m[Krobot_(remoteIP)[m[K), running(false), index_(0), stepCount_(0), pauseCount_(0) {
+      |                                                                                   [01;31m[K~~~~~~^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

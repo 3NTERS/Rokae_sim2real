@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from easy_handeye2_msgs/srv/calibration/ComputeCalibration.srv
+// generated code does not contain a copyright notice
+
+#include "easy_handeye2_msgs/msg/HandeyeCalibration.idl"
+
+module easy_handeye2_msgs {
+  module srv {
+    struct ComputeCalibration_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ComputeCalibration_Response {
+      boolean valid;
+
+      easy_handeye2_msgs::msg::HandeyeCalibration calibration;
+    };
+  };
+};

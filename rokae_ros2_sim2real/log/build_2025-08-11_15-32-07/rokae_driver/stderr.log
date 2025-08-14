@@ -1,0 +1,30 @@
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:[m[K In lambda function:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:53:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   53 |             if ([01;35m[Kindex_ < timeData_.size() - 1[m[K) {
+      |                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:89:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   89 |                         if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+      |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:79:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   79 |                         double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 100.0;
+      |                                [01;35m[K^[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:117:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  117 |                         if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+      |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:107:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  107 |                         double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 500.0;
+      |                                [01;35m[K^[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController(const string&, const string&)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:181:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KRobotController::pauseCount_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  181 |     int [01;35m[KpauseCount_[m[K;
+      |         [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:176:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krokae::xMateErProRobot RobotController::robot_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+  176 |     xMateErProRobot [01;35m[Krobot_[m[K;
+      |                     [01;35m[K^~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:27:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+   27 |     [01;35m[KRobotController[m[K(const string& remoteIP, const string& localIP)
+      |     [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kstd::vector<double> RobotController::example_basicOperation(rokae::xMateErProRobot&)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:125:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  125 |     std::vector<double> example_basicOperation([01;35m[Krokae::xMateErProRobot& robot[m[K){ //读取关节角度
+      |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K

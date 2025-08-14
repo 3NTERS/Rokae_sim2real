@@ -1,0 +1,6 @@
+[console_scripts]
+handeye_calibration_commander = easy_handeye2.handeye_calibration_commander:main
+handeye_publisher = easy_handeye2.handeye_publisher:main
+handeye_server = easy_handeye2.handeye_server:main
+handeye_server_robot = easy_handeye2.handeye_server_robot:main
+

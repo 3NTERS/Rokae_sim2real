@@ -1,0 +1,43 @@
+[  3%] [34m[1mAutomatic MOC and UIC for target rokae_controller[0m
+[ 10%] [34m[1mAutomatic MOC and UIC for target driver_pentu[0m
+[ 10%] [34m[1mAutomatic MOC and UIC for target sdk_example[0m
+[ 14%] [34m[1mAutomatic MOC and UIC for target My_joint_publisher_gui[0m
+[ 17%] [34m[1mAutomatic MOC and UIC for target read_robot_state[0m
+[ 21%] [34m[1mAutomatic MOC and UIC for target move_example[0m
+[ 25%] [34m[1mAutomatic MOC and UIC for target read_force[0m
+[ 25%] Built target driver_pentu_autogen
+[ 25%] Built target rokae_controller_autogen
+[ 25%] Built target read_robot_state_autogen
+[ 25%] Built target read_force_autogen
+[ 25%] Built target sdk_example_autogen
+[ 25%] Built target move_example_autogen
+[35m[1mConsolidate compiler generated dependencies of target driver_pentu[0m
+[35m[1mConsolidate compiler generated dependencies of target read_force[0m
+[35m[1mConsolidate compiler generated dependencies of target rokae_controller[0m
+[35m[1mConsolidate compiler generated dependencies of target read_robot_state[0m
+[35m[1mConsolidate compiler generated dependencies of target sdk_example[0m
+[35m[1mConsolidate compiler generated dependencies of target move_example[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/driver_pentu.dir/driver_pentu_autogen/mocs_compilation.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/read_force.dir/src/read_force.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/rokae_controller_autogen/mocs_compilation.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/read_robot_state.dir/src/read_robot_state.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/move_example.dir/move_example_autogen/mocs_compilation.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/sdk_example.dir/sdk_example_autogen/mocs_compilation.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/read_force.dir/read_force_autogen/mocs_compilation.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/read_robot_state.dir/read_robot_state_autogen/mocs_compilation.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/driver_pentu.dir/src/driver_pentu.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/move_example.dir/src/move_example.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/sdk_example.dir/src/sdk_example.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable read_robot_state[0m
+[ 71%] Built target read_robot_state
+[ 75%] [32m[1mLinking CXX executable move_example[0m
+[ 78%] [32m[1mLinking CXX executable sdk_example[0m
+[ 78%] Built target move_example
+[ 78%] Built target sdk_example
+[ 82%] [32m[1mLinking CXX executable driver_pentu[0m
+[ 82%] Built target driver_pentu
+[ 85%] [32m[1mLinking CXX executable read_force[0m
+[ 85%] Built target read_force
+[ 89%] [32m[1mLinking CXX executable rokae_controller[0m
+[ 89%] Built target rokae_controller

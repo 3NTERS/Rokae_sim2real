@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from easy_handeye2_msgs/srv/calibration/SaveSamples.srv
+// generated code does not contain a copyright notice
+
+
+module easy_handeye2_msgs {
+  module srv {
+    struct SaveSamples_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct SaveSamples_Response {
+      boolean success;
+    };
+  };
+};

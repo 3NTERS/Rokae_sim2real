@@ -1,0 +1,41 @@
+[ 18%] Built target aruco_ros_utils
+[ 72%] Built target double
+[ 72%] Built target single
+[100%] Built target marker_publisher
+-- Install configuration: ""
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/libaruco_ros_utils.so
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/aruco_ros/marker_publisher
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/aruco_ros/single
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/aruco_ros/double
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/include
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/include/aruco_ros
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker26_5cm_margin_2cm.jpg
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker582_5cm.jpg
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker26_5cm_margin_1cm.jpg
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/new_coordinates.png
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker582_5cm_margin_2cm.jpg
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker_in_object.jpg
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/reem_gazebo_floating_marker.png
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker26_5cm.jpg
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/reem_gazebo_floating_marker_world.png
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker_in_hand.jpg
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/launch
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/launch/single.launch.py
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/launch/double.launch.py
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/launch/marker_publisher.launch.py
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/ament_index/resource_index/package_run_dependencies/aruco_ros
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/ament_index/resource_index/parent_prefix_path/aruco_ros
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/environment/path.sh
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/environment/path.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/local_setup.bash
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/local_setup.sh
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/local_setup.zsh
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/local_setup.dsv
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/package.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/ament_index/resource_index/packages/aruco_ros
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/cmake/aruco_rosConfig.cmake
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/cmake/aruco_rosConfig-version.cmake
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/package.xml

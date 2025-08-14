@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f1c2daea5ddd6bcde1af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rokae_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "My_joint_publisher_gui::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-My_joint_publisher_gui-Release-ada5be126877c0abb444.json",
+					"name" : "My_joint_publisher_gui",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "My_joint_publisher_gui_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-My_joint_publisher_gui_autogen-Release-03f175307a1bbff276da.json",
+					"name" : "My_joint_publisher_gui_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "driver_pentu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-driver_pentu-Release-dd6064cee6584f2ca677.json",
+					"name" : "driver_pentu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "driver_pentu_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-driver_pentu_autogen-Release-1ce38927fbdd1cf5c980.json",
+					"name" : "driver_pentu_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_example-Release-f4f5edb18408f54021c1.json",
+					"name" : "move_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "move_example_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-move_example_autogen-Release-1b73018de6578edd81b3.json",
+					"name" : "move_example_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "read_force::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-read_force-Release-b45305268f1aea82a168.json",
+					"name" : "read_force",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "read_force_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-read_force_autogen-Release-90213b3be010f2a4e174.json",
+					"name" : "read_force_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "read_robot_state::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-read_robot_state-Release-655917a436159a6f8562.json",
+					"name" : "read_robot_state",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "read_robot_state_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-read_robot_state_autogen-Release-1dfb38bf81a9667a2ae6.json",
+					"name" : "read_robot_state_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rokae_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rokae_controller-Release-fe8eda5a0b0b0c5f6efa.json",
+					"name" : "rokae_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rokae_controller_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rokae_controller_autogen-Release-137b5514aef116c5f007.json",
+					"name" : "rokae_controller_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rokae_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rokae_driver_uninstall-Release-fdf9d4170c9aef242435.json",
+					"name" : "rokae_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdk_example::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdk_example-Release-aced6d0dc5bb4b41e27a.json",
+					"name" : "sdk_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sdk_example_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sdk_example_autogen-Release-009e1ee6ce22495fd0d4.json",
+					"name" : "sdk_example_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-1bb292fd2fcdf4d024e3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver",
+		"source" : "/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,79 @@
+[0.062s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.175s] [35m[1mConsolidate compiler generated dependencies of target rokae_controller[0m
+[0.208s] [ 16%] Built target read_robot_state
+[0.210s] [ 33%] Built target read_force
+[0.210s] [ 50%] Built target sdk_example
+[0.211s] [ 66%] Built target move_example
+[0.219s] [ 83%] Built target driver_pentu
+[0.228s] [ 91%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[5.448s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:119:11:[m[K [01;31m[Kerror: [m[Kdeduced class type ‘[01m[Karray[m[K’ in function return type
+[5.448s]   119 |     array [01;31m[Kexample_basicOperation[m[K(rokae::xMateErProRobot &robot){ //读取关节角度
+[5.448s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.448s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[5.448s]                  from [01m[K/usr/include/c++/11/bits/std_thread.h:40[m[K,
+[5.448s]                  from [01m[K/usr/include/c++/11/thread:43[m[K,
+[5.448s]                  from [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:3[m[K:
+[5.448s] [01m[K/usr/include/c++/11/array:95:12:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> struct std::array[m[K’ declared here
+[5.449s]    95 |     struct [01;36m[Karray[m[K
+[5.449s]       |            [01;36m[K^~~~~[m[K
+[5.588s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:141:13:[m[K [01;31m[Kerror: [m[K‘[01m[KTimeBase[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type; did you mean ‘[01m[KTimerBase[m[K’?
+[5.588s]   141 |     rclcpp::[01;31m[KTimeBase[m[K::SharedPtr timer_;
+[5.588s]       |             [01;31m[K^~~~~~~~[m[K
+[5.589s]       |             [32m[KTimerBase[m[K
+[5.611s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:153:17:[m[K [01;31m[Kerror: [m[K‘[01m[KJointData[m[K’ was not declared in this scope
+[5.611s]   153 |     std::vector<[01;31m[KJointData[m[K> joint_data;
+[5.611s]       |                 [01;31m[K^~~~~~~~~[m[K
+[5.611s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:153:26:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.611s]   153 |     std::vector<JointData[01;31m[K>[m[K joint_data;
+[5.611s]       |                          [01;31m[K^[m[K
+[5.612s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:153:26:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[5.620s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController(const string&, const string&)[m[K’:
+[5.620s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:28:135:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KRobotController[m[K’ does not have any field named ‘[01m[Ktimer_[m[K’
+[5.621s]    28 |         : Node("robot_controller"), remoteIP_(remoteIP), localIP_(localIP), running(false), index_(0), stepCount_(0), pauseCount_(0), [01;31m[Ktimer_[m[K(0.0) {
+[5.621s]       |                                                                                                                                       [01;31m[K^~~~~~[m[K
+[5.638s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:32:95:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::create_publisher<trajectory_msgs::msg::JointTrajectory>(const char [17], int, std::_Bind_helper<false, void (RobotController::*)(std::shared_ptr<trajectory_msgs::msg::JointTrajectory_<std::allocator<void> > >), RobotController*, const std::_Placeholder<1>&>::type)[m[K’
+[5.638s]    32 |         trajectory_subscriber_ = [01;31m[Kthis->create_publisher<trajectory_msgs::msg::JointTrajectory>([m[K
+[5.638s]       |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.639s]    33 | [01;31m[K            "joint_trajectory",10,[m[K
+[5.639s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~[m[K                                                             
+[5.639s]    34 | [01;31m[K            std::bind(&RobotController::trajectory_callback,this,std::placeholders::_1)[m[K
+[5.639s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+[5.639s]    35 | [01;31m[K        )[m[K;
+[5.639s]       |         [01;31m[K~[m[K                                                                                      
+[5.639s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+[5.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[5.639s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.639s]                  from [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:14[m[K:
+[5.640s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[5.640s]    73 | [01;36m[KNode[m[K::create_publisher(
+[5.640s]       | [01;36m[K^~~~[m[K
+[5.640s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[5.640s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:32:95:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Bind_helper<false, void (RobotController::*)(std::shared_ptr<trajectory_msgs::msg::JointTrajectory_<std::allocator<void> > >), RobotController*, const std::_Placeholder<1>&>::type[m[K’ is not derived from ‘[01m[Kconst rclcpp::PublisherOptionsWithAllocator<AllocatorT>[m[K’
+[5.640s]    32 |         trajectory_subscriber_ = [01;36m[Kthis->create_publisher<trajectory_msgs::msg::JointTrajectory>([m[K
+[5.640s]       |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[5.640s]    33 | [01;36m[K            "joint_trajectory",10,[m[K
+[5.640s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K                                                             
+[5.640s]    34 | [01;36m[K            std::bind(&RobotController::trajectory_callback,this,std::placeholders::_1)[m[K
+[5.640s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+[5.640s]    35 | [01;36m[K        )[m[K;
+[5.640s]       |         [01;36m[K~[m[K                                                                                      
+[5.641s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:39:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_command_callback[m[K’ is not a member of ‘[01m[KRobotController[m[K’
+[5.641s]    39 |             std::bind(&RobotController::[01;31m[Kjoint_command_callback[m[K,this,std::placeholders::_1)
+[5.641s]       |                                         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.650s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[5.650s]    43 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[5.650s]       |         [01;31m[K^~~~~~[m[K
+[5.650s]       |         [32m[Ktimer_t[m[K
+[5.677s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:51:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_name_[m[K’ was not declared in this scope; did you mean ‘[01m[Kjoint_names_[m[K’?
+[5.678s]    51 |         current_joint_positions_.resize([01;31m[Kjoint_name_[m[K.size(),0,0);
+[5.678s]       |                                         [01;31m[K^~~~~~~~~~~[m[K
+[5.678s]       |                                         [32m[Kjoint_names_[m[K
+[6.233s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::send_joint_command(const std::vector<double>&)[m[K’:
+[6.233s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:85:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kexample_basicOperation[m[K’ was not declared in this scope
+[6.233s]    85 |         current_joint_positions_= [01;31m[Kexample_basicOperation[m[K(robot_);
+[6.233s]       |                                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[8.115s] gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+[8.115s] gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+[8.116s] gmake: *** [Makefile:146：all] 错误 2
+[8.120s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

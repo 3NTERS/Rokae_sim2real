@@ -1,0 +1,484 @@
+[0.231s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.231s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e9677f51fc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e9677f515a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e9677f515a0>>, mixin_verb=('build',))
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.531s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.531s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rokae/workspace/rokae_ros2_sim2real'
+[0.531s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.532s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.554s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.555s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.556s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros) by extension 'ignore'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros) by extension 'ignore_ament_install'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros) by extensions ['colcon_pkg']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros) by extension 'colcon_pkg'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros) by extensions ['colcon_meta']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros) by extension 'colcon_meta'
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros) by extensions ['ros']
+[0.557s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros) by extension 'ros'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros) by extensions ['cmake', 'python']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros) by extension 'cmake'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros) by extension 'python'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros) by extensions ['python_setup_py']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros) by extension 'python_setup_py'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco) by extension 'ignore'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco) by extension 'ignore_ament_install'
+[0.558s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco) by extensions ['colcon_pkg']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco) by extension 'colcon_pkg'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco) by extensions ['colcon_meta']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco) by extension 'colcon_meta'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco) by extensions ['ros']
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco) by extension 'ros'
+[0.564s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_ros/aruco' with type 'ros.ament_cmake' and name 'aruco'
+[0.564s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_msgs) by extension 'ignore'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_msgs) by extension 'ignore_ament_install'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_msgs) by extensions ['colcon_pkg']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_msgs) by extension 'colcon_pkg'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_msgs) by extensions ['colcon_meta']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_msgs) by extension 'colcon_meta'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_msgs) by extensions ['ros']
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_msgs) by extension 'ros'
+[0.567s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_ros/aruco_msgs' with type 'ros.ament_cmake' and name 'aruco_msgs'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_ros) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_ros) by extension 'ignore_ament_install'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_ros) by extensions ['colcon_pkg']
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_ros) by extension 'colcon_pkg'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_ros) by extensions ['colcon_meta']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_ros) by extension 'colcon_meta'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_ros) by extensions ['ros']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/aruco_ros/aruco_ros) by extension 'ros'
+[0.571s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aruco_ros/aruco_ros' with type 'ros.ament_cmake' and name 'aruco_ros'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['colcon_pkg']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['colcon_meta']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'colcon_meta'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['ros']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'ros'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['cmake', 'python']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'cmake'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'python'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extensions ['python_setup_py']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2) by extension 'python_setup_py'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'ignore'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'colcon_meta'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['ros']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'ros'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['cmake', 'python']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'cmake'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'python'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extensions ['python_setup_py']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs) by extension 'python_setup_py'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['ignore', 'ignore_ament_install']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'ignore'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'ignore_ament_install'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['colcon_pkg']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'colcon_pkg'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['colcon_meta']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'ros'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['cmake', 'python']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'cmake'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'python'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extensions ['python_setup_py']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/docs/img) by extension 'python_setup_py'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extensions ['ignore', 'ignore_ament_install']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'ignore'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'ignore_ament_install'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extensions ['colcon_pkg']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'colcon_pkg'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extensions ['colcon_meta']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'colcon_meta'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extensions ['ros']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2) by extension 'ros'
+[0.577s] DEBUG:colcon.colcon_core.package_identification:Package 'src/easy_handeye2/easy_handeye2' with type 'ros.ament_python' and name 'easy_handeye2'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2/easy_handeye2_msgs) by extension 'ros'
+[0.579s] DEBUG:colcon.colcon_core.package_identification:Package 'src/easy_handeye2/easy_handeye2_msgs' with type 'ros.ament_cmake' and name 'easy_handeye2_msgs'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2_demo) by extension 'ignore'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2_demo) by extension 'ignore_ament_install'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2_demo) by extensions ['colcon_pkg']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2_demo) by extension 'colcon_pkg'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2_demo) by extensions ['colcon_meta']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2_demo) by extension 'colcon_meta'
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2_demo) by extensions ['ros']
+[0.580s] Level 1:colcon.colcon_core.package_identification:_identify(src/easy_handeye2_demo) by extension 'ros'
+[0.582s] DEBUG:colcon.colcon_core.package_identification:Package 'src/easy_handeye2_demo' with type 'ros.ament_python' and name 'easy_handeye2_demo'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_pkg'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['colcon_meta']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'colcon_meta'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['ros']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'ros'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['cmake', 'python']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'cmake'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extensions ['python_setup_py']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros) by extension 'python_setup_py'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore'
+[0.583s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ignore_ament_install'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_pkg']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'colcon_meta'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extensions ['ros']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera) by extension 'ros'
+[0.610s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera' with type 'ros.ament_cmake' and name 'realsense2_camera'
+[0.610s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'colcon_meta'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extensions ['ros']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_camera_msgs) by extension 'ros'
+[0.613s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_camera_msgs' with type 'ros.ament_cmake' and name 'realsense2_camera_msgs'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/realsense2_description) by extension 'ros'
+[0.616s] DEBUG:colcon.colcon_core.package_identification:Package 'src/realsense-ros/realsense2_description' with type 'ros.ament_cmake' and name 'realsense2_description'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'ros'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['cmake', 'python']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'cmake'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extensions ['python_setup_py']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/realsense-ros/scripts) by extension 'python_setup_py'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver) by extension 'ros'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver) by extensions ['cmake', 'python']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver) by extension 'cmake'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver) by extension 'python'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver) by extensions ['python_setup_py']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver) by extension 'python_setup_py'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_description) by extensions ['ignore', 'ignore_ament_install']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_description) by extension 'ignore'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_description) by extension 'ignore_ament_install'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_description) by extensions ['colcon_pkg']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_description) by extension 'colcon_pkg'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_description) by extensions ['colcon_meta']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_description) by extension 'colcon_meta'
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_description) by extensions ['ros']
+[0.619s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_description) by extension 'ros'
+[0.621s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_driver/rokae_description' with type 'ros.ament_cmake' and name 'rokae_description'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_driver) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_driver) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_driver) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_driver) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_driver) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_driver) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_driver) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_driver/rokae_driver) by extension 'ros'
+[0.623s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_driver/rokae_driver' with type 'ros.ament_cmake' and name 'rokae_driver'
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.623s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.624s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.624s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.624s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.668s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.678s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 55 installed packages in /home/rokae/workspace/ws_moveit/install
+[0.680s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 33 installed packages in /home/rokae/workspace/moveit_test/install
+[0.683s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 352 installed packages in /opt/ros/humble
+[0.687s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.778s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_args' from command line to 'None'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_target' from command line to 'None'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_clean_cache' from command line to 'False'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_clean_first' from command line to 'False'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'cmake_force_configure' from command line to 'False'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'ament_cmake_args' from command line to 'None'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'catkin_cmake_args' from command line to 'None'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'aruco' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.779s] DEBUG:colcon.colcon_core.verb:Building package 'aruco' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokae/workspace/rokae_ros2_sim2real/install/aruco', 'merge_install': False, 'path': '/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco', 'symlink_install': False, 'test_result_base': None}
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_args' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_target' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.780s] Level 5:colcon.colcon_core.verb:set package 'aruco_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.780s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs', 'merge_install': False, 'path': '/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'cmake_args' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'cmake_target' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.781s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.781s] DEBUG:colcon.colcon_core.verb:Building package 'easy_handeye2_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs', 'merge_install': False, 'path': '/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.782s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.782s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera_msgs', 'merge_install': False, 'path': '/home/rokae/workspace/rokae_ros2_sim2real/src/realsense-ros/realsense2_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'rokae_description' build argument 'cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'rokae_description' build argument 'cmake_target' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'rokae_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'rokae_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'rokae_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'rokae_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'rokae_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'rokae_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.783s] Level 5:colcon.colcon_core.verb:set package 'rokae_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.783s] DEBUG:colcon.colcon_core.verb:Building package 'rokae_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description', 'merge_install': False, 'path': '/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_description', 'symlink_install': False, 'test_result_base': None}
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'rokae_driver' build argument 'cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'rokae_driver' build argument 'cmake_target' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'rokae_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'rokae_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'rokae_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'rokae_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'rokae_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'rokae_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.784s] Level 5:colcon.colcon_core.verb:set package 'rokae_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.784s] DEBUG:colcon.colcon_core.verb:Building package 'rokae_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver', 'merge_install': False, 'path': '/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver', 'symlink_install': False, 'test_result_base': None}
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'cmake_args' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'cmake_target' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.785s] Level 5:colcon.colcon_core.verb:set package 'aruco_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.785s] DEBUG:colcon.colcon_core.verb:Building package 'aruco_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros', 'merge_install': False, 'path': '/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros', 'symlink_install': False, 'test_result_base': None}
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'cmake_args' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'cmake_target' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'cmake_clean_first' from command line to 'False'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'cmake_force_configure' from command line to 'False'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'ament_cmake_args' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.786s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.786s] DEBUG:colcon.colcon_core.verb:Building package 'easy_handeye2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2', 'merge_install': False, 'path': '/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2', 'symlink_install': False, 'test_result_base': None}
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'realsense2_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.787s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera', 'merge_install': False, 'path': '/home/rokae/workspace/rokae_ros2_sim2real/src/realsense-ros/realsense2_camera', 'symlink_install': False, 'test_result_base': None}
+[0.787s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_args' from command line to 'None'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target' from command line to 'None'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'realsense2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.788s] DEBUG:colcon.colcon_core.verb:Building package 'realsense2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_description', 'merge_install': False, 'path': '/home/rokae/workspace/rokae_ros2_sim2real/src/realsense-ros/realsense2_description', 'symlink_install': False, 'test_result_base': None}
+[0.788s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_demo' build argument 'cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_demo' build argument 'cmake_target' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.789s] Level 5:colcon.colcon_core.verb:set package 'easy_handeye2_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.789s] DEBUG:colcon.colcon_core.verb:Building package 'easy_handeye2_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo', 'merge_install': False, 'path': '/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2_demo', 'symlink_install': False, 'test_result_base': None}
+[0.789s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.792s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs' with build type 'ament_cmake'
+[0.792s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs'
+[0.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.796s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.796s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.811s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rokae/workspace/rokae_ros2_sim2real/src/realsense-ros/realsense2_camera_msgs' with build type 'ament_cmake'
+[0.811s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rokae/workspace/rokae_ros2_sim2real/src/realsense-ros/realsense2_camera_msgs'
+[0.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.812s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.827s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco' with build type 'ament_cmake'
+[0.827s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco'
+[0.827s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.827s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.842s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_msgs' with build type 'ament_cmake'
+[0.843s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_msgs'
+[0.843s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.843s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.857s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_description' with build type 'ament_cmake'
+[0.858s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_description'
+[0.858s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.858s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.874s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver' with build type 'ament_cmake'
+[0.874s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver'
+[0.874s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.874s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_msgs -- -j32 -l32
+[0.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs -- -j32 -l32
+[0.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/aruco -- -j32 -l32
+[0.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs -- -j32 -l32
+[0.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_description -- -j32 -l32
+[0.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[1.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_description -- -j32 -l32
+[1.059s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_description
+[1.099s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rokae_description)
+[1.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_description
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description' for CMake module files
+[1.113s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description' for CMake config files
+[1.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('rokae_description', 'cmake_prefix_path')
+[1.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/hook/cmake_prefix_path.ps1'
+[1.126s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/hook/cmake_prefix_path.dsv'
+[1.128s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/hook/cmake_prefix_path.sh'
+[1.132s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/bin'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/lib/pkgconfig/rokae_description.pc'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/lib/python3.10/site-packages'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/bin'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/package.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/package.dsv'
+[1.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/package.sh'
+[1.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/package.bash'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/package.zsh'
+[1.151s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/colcon-core/packages/rokae_description)
+[1.153s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rokae_description)
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description' for CMake module files
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description' for CMake config files
+[1.156s] Level 1:colcon.colcon_core.shell:create_environment_hook('rokae_description', 'cmake_prefix_path')
+[1.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/hook/cmake_prefix_path.ps1'
+[1.157s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/hook/cmake_prefix_path.dsv'
+[1.158s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/hook/cmake_prefix_path.sh'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/bin'
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/lib/pkgconfig/rokae_description.pc'
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/lib/python3.10/site-packages'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/bin'
+[1.163s] INFO:colcon.colcon_core.shell:Creating package script '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/package.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/package.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/package.sh'
+[1.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/package.bash'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/rokae_description/package.zsh'
+[1.170s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_description/share/colcon-core/packages/rokae_description)
+[1.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/aruco -- -j32 -l32
+[1.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/rokae/workspace/rokae_ros2_sim2real/build/aruco
+[1.181s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[1.184s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rokae_driver)
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver' for CMake module files
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver' for CMake config files
+[1.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('rokae_driver', 'cmake_prefix_path')
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/hook/cmake_prefix_path.ps1'
+[1.196s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/hook/cmake_prefix_path.dsv'
+[1.198s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/hook/cmake_prefix_path.sh'
+[1.201s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib'
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/bin'
+[1.205s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/pkgconfig/rokae_driver.pc'
+[1.206s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/lib/python3.10/site-packages'
+[1.208s] Level 1:colcon.colcon_core.environment:checking '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/bin'
+[1.209s] INFO:colcon.colcon_core.shell:Creating package script '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/package.ps1'
+[1.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/package.dsv'
+[1.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/package.sh'
+[1.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/package.bash'
+[1.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/rokae_driver/package.zsh'
+[1.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver/share/colcon-core/packages/rokae_driver)
+[1.792s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.792s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.792s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.792s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.806s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.806s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.806s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.828s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.829s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rokae/workspace/rokae_ros2_sim2real/install/local_setup.ps1'
+[1.831s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rokae/workspace/rokae_ros2_sim2real/install/_local_setup_util_ps1.py'
+[1.835s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rokae/workspace/rokae_ros2_sim2real/install/setup.ps1'
+[1.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rokae/workspace/rokae_ros2_sim2real/install/local_setup.sh'
+[1.844s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rokae/workspace/rokae_ros2_sim2real/install/_local_setup_util_sh.py'
+[1.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rokae/workspace/rokae_ros2_sim2real/install/setup.sh'
+[1.852s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rokae/workspace/rokae_ros2_sim2real/install/local_setup.bash'
+[1.853s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rokae/workspace/rokae_ros2_sim2real/install/setup.bash'
+[1.860s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rokae/workspace/rokae_ros2_sim2real/install/local_setup.zsh'
+[1.861s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rokae/workspace/rokae_ros2_sim2real/install/setup.zsh'

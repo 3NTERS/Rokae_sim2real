@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target rokae_controller[0m
+[ 16%] Built target read_robot_state
+[ 33%] Built target move_example
+[ 50%] Built target sdk_example
+[ 66%] Built target read_force
+[ 83%] Built target driver_pentu
+[ 91%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:197:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kec[m[K’ was not declared in this scope
+  197 |     auto temp_joint_pos = robot.jointPos([01;31m[Kec[m[K); // 轴角度 [rad]
+      |                                          [01;31m[K^~[m[K
+gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

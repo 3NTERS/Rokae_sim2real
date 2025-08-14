@@ -1,0 +1,17 @@
+[0.067s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.259s] [35m[1mConsolidate compiler generated dependencies of target rokae_controller[0m
+[0.278s] [ 16%] Built target sdk_example
+[0.282s] [ 33%] Built target move_example
+[0.282s] [ 50%] Built target read_robot_state
+[0.355s] [ 66%] Built target driver_pentu
+[0.362s] [ 83%] Built target read_force
+[0.362s] [ 91%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[8.078s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::init()[m[K’:
+[8.078s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:59:35:[m[K [01;31m[Kerror: [m[K‘[01m[KremoteIP[m[K’ was not declared in this scope; did you mean ‘[01m[KremoteIP_[m[K’?
+[8.078s]    59 |             xMateErProRobot robot([01;31m[KremoteIP[m[K);
+[8.078s]       |                                   [01;31m[K^~~~~~~~[m[K
+[8.078s]       |                                   [32m[KremoteIP_[m[K
+[14.696s] gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+[14.697s] gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+[14.697s] gmake: *** [Makefile:146：all] 错误 2
+[14.702s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

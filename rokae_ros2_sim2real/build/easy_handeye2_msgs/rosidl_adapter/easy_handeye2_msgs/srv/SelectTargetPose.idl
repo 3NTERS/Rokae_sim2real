@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from easy_handeye2_msgs/srv/robot_movements/SelectTargetPose.srv
+// generated code does not contain a copyright notice
+
+#include "easy_handeye2_msgs/msg/TargetPoseList.idl"
+
+module easy_handeye2_msgs {
+  module srv {
+    struct SelectTargetPose_Request {
+      int64 target_pose_index;
+    };
+    struct SelectTargetPose_Response {
+      boolean success;
+
+      easy_handeye2_msgs::msg::TargetPoseList target_poses;
+    };
+  };
+};

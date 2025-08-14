@@ -1,0 +1,64 @@
+[0.065s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.213s] [ 16%] Built target move_example
+[0.215s] [ 33%] Built target read_robot_state
+[0.219s] [ 41%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[0.220s] [ 58%] Built target driver_pentu
+[0.227s] [ 75%] Built target read_force
+[0.234s] [ 91%] Built target sdk_example
+[5.942s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController(const string&, const string&)[m[K’:
+[5.942s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:181:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KRobotController::pauseCount_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.942s]   181 |     int [01;35m[KpauseCount_[m[K;
+[5.942s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[5.942s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:176:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krokae::xMateErProRobot RobotController::robot_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.943s]   176 |     xMateErProRobot [01;35m[Krobot_[m[K;
+[5.943s]       |                     [01;35m[K^~~~~~[m[K
+[5.943s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:27:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[5.943s]    27 |     [01;35m[KRobotController[m[K(const string& remoteIP, const string& localIP)
+[5.943s]       |     [01;35m[K^~~~~~~~~~~~~~~[m[K
+[6.540s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::send_joint_command(const std::vector<double>&)[m[K’:
+[6.540s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:102:37:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krokae::MoveJCommand::MoveJCommand(const std::vector<double>&)[m[K’
+[6.540s]   102 |         MoveJCommand moveJ(positions[01;31m[K)[m[K;
+[6.540s]       |                                     [01;31m[K^[m[K
+[6.541s] In file included from [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/model.h:17[m[K,
+[6.541s]                  from [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:18[m[K,
+[6.541s]                  from [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:10[m[K:
+[6.541s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/data_types.h:600:4:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krokae::MoveJCommand::MoveJCommand(rokae::CartesianPosition, int, int)[m[K’
+[6.541s]   600 |    [01;36m[KMoveJCommand[m[K(CartesianPosition target, int speed = USE_DEFAULT, int zone = USE_DEFAULT);
+[6.541s]       |    [01;36m[K^~~~~~~~~~~~[m[K
+[6.541s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/data_types.h:600:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<double>[m[K’ to ‘[01m[Krokae::CartesianPosition[m[K’
+[6.541s]   600 |    MoveJCommand([01;36m[KCartesianPosition target[m[K, int speed = USE_DEFAULT, int zone = USE_DEFAULT);
+[6.541s]       |                 [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.542s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/data_types.h:593:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krokae::MoveJCommand::MoveJCommand(const rokae::MoveJCommand&)[m[K’
+[6.542s]   593 |  class XCORE_API [01;36m[KMoveJCommand[m[K : public NrtCommand {
+[6.542s]       |                  [01;36m[K^~~~~~~~~~~~[m[K
+[6.542s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/data_types.h:593:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<double>[m[K’ to ‘[01m[Kconst rokae::MoveJCommand&[m[K’
+[6.542s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/data_types.h:593:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krokae::MoveJCommand::MoveJCommand(rokae::MoveJCommand&&)[m[K’
+[6.542s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/data_types.h:593:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kconst std::vector<double>[m[K’ to ‘[01m[Krokae::MoveJCommand&&[m[K’
+[6.558s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:104:28:[m[K [01;31m[Kerror: [m[K‘[01m[KmoveAbsJ[m[K’ was not declared in this scope; did you mean ‘[01m[KmoveJ[m[K’?
+[6.559s]   104 |         robot_.moveAppend({[01;31m[KmoveAbsJ[m[K}, remoteIP_, ec);
+[6.559s]       |                            [01;31m[K^~~~~~~~[m[K
+[6.559s]       |                            [32m[KmoveJ[m[K
+[6.559s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:104:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krokae::xMateErProRobot::moveAppend(<brace-enclosed initializer list>, std::string&, error_code&)[m[K’
+[6.559s]   104 |         [01;31m[Krobot_.moveAppend({moveAbsJ}, remoteIP_, ec)[m[K;
+[6.559s]       |         [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.559s] In file included from [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:10[m[K:
+[6.559s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:354:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Command> void rokae::BaseRobot::moveAppend(const std::vector<Command>&, std::string&, error_code&)[m[K’
+[6.559s]   354 |    void [01;36m[KmoveAppend[m[K(const std::vector<Command> &cmds, std::string &cmdID, error_code &ec) noexcept;
+[6.559s]       |         [01;36m[K^~~~~~~~~~[m[K
+[6.559s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:354:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.560s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:104:26:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[KCommand[m[K’
+[6.560s]   104 |         [01;36m[Krobot_.moveAppend({moveAbsJ}, remoteIP_, ec)[m[K;
+[6.560s]       |         [01;36m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.560s] In file included from [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:10[m[K:
+[6.560s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:366:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class Command> void rokae::BaseRobot::moveAppend(std::initializer_list<_Tp>, std::string&, error_code&)[m[K’
+[6.560s]   366 |    void [01;36m[KmoveAppend[m[K(std::initializer_list<Command> cmds, std::string &cmdID, error_code &ec) noexcept;
+[6.560s]       |         [01;36m[K^~~~~~~~~~[m[K
+[6.560s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include/rokae/robot.h:366:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.565s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kstd::vector<double> RobotController::example_basicOperation(rokae::xMateErProRobot&)[m[K’:
+[6.565s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:125:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[6.565s]   125 |     std::vector<double> example_basicOperation([01;35m[Krokae::xMateErProRobot& robot[m[K){ //读取关节角度
+[6.565s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[13.521s] gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+[13.522s] gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+[13.522s] gmake: *** [Makefile:146：all] 错误 2
+[13.527s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

@@ -1,0 +1,7 @@
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/My_joint_publisher_gui.cpp:[m[K In lambda function:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/My_joint_publisher_gui.cpp:238:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitialize_sliders_with_current_state[m[K’ was not declared in this scope
+  238 |             [01;31m[Kinitialize_sliders_with_current_state[m[K();
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/My_joint_publisher_gui.dir/build.make:90：CMakeFiles/My_joint_publisher_gui.dir/src/My_joint_publisher_gui.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:156：CMakeFiles/My_joint_publisher_gui.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

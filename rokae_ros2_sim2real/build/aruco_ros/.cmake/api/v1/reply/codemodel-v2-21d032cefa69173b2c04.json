@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-7eb56c958883e789d958.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "aruco_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_ros_uninstall-Release-25bc7d11ee29f5570b4d.json",
+					"name" : "aruco_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_ros_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_ros_utils-Release-88b0546475e2a794de28.json",
+					"name" : "aruco_ros_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "double::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-double-Release-0f9530565000fdbcea8d.json",
+					"name" : "double",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "marker_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-marker_publisher-Release-bf342ded26a8b9b28b70.json",
+					"name" : "marker_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "single::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-single-Release-9fb01a757499295a5df5.json",
+					"name" : "single",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-03964d36623689c25d28.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rokae/workspace/rokae_ros2_sim2real/build/aruco_ros",
+		"source" : "/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

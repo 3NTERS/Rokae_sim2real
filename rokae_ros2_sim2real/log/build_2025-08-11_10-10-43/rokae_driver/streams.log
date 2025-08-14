@@ -1,0 +1,38 @@
+[0.059s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.173s] [35m[1mConsolidate compiler generated dependencies of target rokae_controller[0m
+[0.202s] [ 16%] Built target sdk_example
+[0.216s] [ 33%] Built target read_robot_state
+[0.216s] [ 50%] Built target move_example
+[0.218s] [ 66%] Built target read_force
+[0.219s] [ 83%] Built target driver_pentu
+[0.221s] [ 91%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[6.166s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::init()[m[K’:
+[6.167s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:61:35:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot[m[K’ was not declared in this scope; did you mean ‘[01m[Krobot_[m[K’?
+[6.167s]    61 |             auto temp_joint_pos = [01;31m[Krobot[m[K.jointPos(ec); // 轴角度 [rad]
+[6.167s]       |                                   [01;31m[K^~~~~[m[K
+[6.167s]       |                                   [32m[Krobot_[m[K
+[6.177s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:61:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kec[m[K’ was not declared in this scope
+[6.177s]    61 |             auto temp_joint_pos = robot.jointPos([01;31m[Kec[m[K); // 轴角度 [rad]
+[6.178s]       |                                                  [01;31m[K^~[m[K
+[6.195s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.196s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:212:17:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kspin(RobotController&)[m[K’
+[6.196s]   212 |     [01;31m[Krclcpp::spin(controller)[m[K; // 确保节点持续运行
+[6.196s]       |     [01;31m[K~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[6.196s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.196s]                  from [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:14[m[K:
+[6.196s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr)[m[K’
+[6.196s]    45 | [01;36m[Kspin[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr);
+[6.196s]       | [01;36m[K^~~~[m[K
+[6.197s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:45:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KRobotController[m[K’ to ‘[01m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::node_interfaces::NodeBaseInterface>[m[K’}
+[6.197s]    45 | spin([01;36m[Krclcpp::node_interfaces::NodeBaseInterface::SharedPtr node_ptr[m[K);
+[6.197s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[6.197s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::spin(rclcpp::Node::SharedPtr)[m[K’
+[6.197s]    49 | [01;36m[Kspin[m[K(rclcpp::Node::SharedPtr node_ptr);
+[6.197s]       | [01;36m[K^~~~[m[K
+[6.197s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:49:30:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[KRobotController[m[K’ to ‘[01m[Krclcpp::Node::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Node>[m[K’}
+[6.197s]    49 | spin([01;36m[Krclcpp::Node::SharedPtr node_ptr[m[K);
+[6.197s]       |      [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[12.734s] gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+[12.734s] gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+[12.734s] gmake: *** [Makefile:146：all] 错误 2
+[12.739s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

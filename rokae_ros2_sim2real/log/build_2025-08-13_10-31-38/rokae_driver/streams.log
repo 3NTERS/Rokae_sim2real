@@ -1,0 +1,31 @@
+[0.035s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.173s] [  3%] [34m[1mAutomatic MOC and UIC for target driver_pentu[0m
+[0.175s] [  7%] [34m[1mAutomatic MOC and UIC for target read_robot_state[0m
+[0.177s] [ 10%] [34m[1mAutomatic MOC and UIC for target move_example[0m
+[0.177s] [ 14%] [34m[1mAutomatic MOC and UIC for target read_force[0m
+[0.178s] [ 17%] [34m[1mAutomatic MOC and UIC for target My_joint_publisher_gui[0m
+[0.178s] [ 21%] [34m[1mAutomatic MOC and UIC for target rokae_controller[0m
+[0.182s] [ 25%] [34m[1mAutomatic MOC and UIC for target sdk_example[0m
+[0.223s] [ 25%] Built target driver_pentu_autogen
+[0.225s] [ 25%] Built target read_robot_state_autogen
+[0.230s] [ 25%] Built target move_example_autogen
+[0.231s] [ 25%] Built target My_joint_publisher_gui_autogen
+[0.231s] [ 25%] Built target sdk_example_autogen
+[0.231s] [ 25%] Built target rokae_controller_autogen
+[0.232s] [ 25%] Built target read_force_autogen
+[0.271s] [35m[1mConsolidate compiler generated dependencies of target My_joint_publisher_gui[0m
+[0.295s] [ 35%] Built target driver_pentu
+[0.299s] [ 46%] Built target move_example
+[0.303s] [ 57%] Built target read_robot_state
+[0.306s] [ 67%] Built target sdk_example
+[0.307s] [ 78%] Built target rokae_controller
+[0.316s] [ 82%] [32mBuilding CXX object CMakeFiles/My_joint_publisher_gui.dir/src/My_joint_publisher_gui.cpp.o[0m
+[0.360s] [ 92%] Built target read_force
+[5.625s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/My_joint_publisher_gui.cpp:[m[K In lambda function:
+[5.625s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/My_joint_publisher_gui.cpp:238:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitialize_sliders_with_current_state[m[K’ was not declared in this scope
+[5.625s]   238 |             [01;31m[Kinitialize_sliders_with_current_state[m[K();
+[5.625s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.550s] gmake[2]: *** [CMakeFiles/My_joint_publisher_gui.dir/build.make:90：CMakeFiles/My_joint_publisher_gui.dir/src/My_joint_publisher_gui.cpp.o] 错误 1
+[10.550s] gmake[1]: *** [CMakeFiles/Makefile2:156：CMakeFiles/My_joint_publisher_gui.dir/all] 错误 2
+[10.551s] gmake: *** [Makefile:146：all] 错误 2
+[10.555s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

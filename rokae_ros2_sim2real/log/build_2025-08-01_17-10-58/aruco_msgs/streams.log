@@ -1,0 +1,57 @@
+[0.081s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs -- -j32 -l32
+[0.219s] [  2%] Built target aruco_msgs__cpp
+[0.227s] [ 12%] Built target aruco_msgs__rosidl_generator_c
+[0.254s] [ 12%] Built target ament_cmake_python_copy_aruco_msgs
+[0.299s] [ 23%] Built target aruco_msgs__rosidl_typesupport_cpp
+[0.302s] [ 33%] Built target aruco_msgs__rosidl_typesupport_fastrtps_cpp
+[0.303s] [ 43%] Built target aruco_msgs__rosidl_typesupport_c
+[0.305s] [ 53%] Built target aruco_msgs__rosidl_typesupport_introspection_cpp
+[0.305s] [ 64%] Built target aruco_msgs__rosidl_typesupport_introspection_c
+[0.305s] [ 74%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c
+[0.368s] [ 74%] Built target aruco_msgs
+[0.422s] [ 76%] Built target aruco_msgs__py
+[0.485s] [ 84%] Built target aruco_msgs__rosidl_generator_py
+[0.547s] [ 89%] Built target aruco_msgs__rosidl_typesupport_introspection_c__pyext
+[0.554s] [ 94%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.560s] [100%] Built target aruco_msgs__rosidl_typesupport_c__pyext
+[0.600s] Traceback (most recent call last):
+[0.601s]   File "/home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs/ament_cmake_python/aruco_msgs/setup.py", line 1, in <module>
+[0.601s]     from setuptools import find_packages
+[0.601s]   File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 16, in <module>
+[0.602s]     import setuptools.version
+[0.602s]   File "/usr/lib/python3/dist-packages/setuptools/version.py", line 1, in <module>
+[0.602s]     import pkg_resources
+[0.602s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3267, in <module>
+[0.621s]     def _initialize_master_working_set():
+[0.621s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3241, in _call_aside
+[0.622s]     f(*args, **kwargs)
+[0.622s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3279, in _initialize_master_working_set
+[0.626s]     working_set = WorkingSet._build_master()
+[0.626s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 564, in _build_master
+[0.626s]     ws = cls()
+[0.626s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 557, in __init__
+[0.626s]     self.add_entry(entry)
+[0.626s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 613, in add_entry
+[0.626s]     for dist in find_distributions(entry, True):
+[0.626s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2077, in find_on_path
+[0.627s]     for dist in factory(fullpath):
+[0.627s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2142, in distributions_from_metadata
+[0.628s]     yield Distribution.from_location(
+[0.628s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2606, in from_location
+[0.629s]     )._reload_version()
+[0.629s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 3004, in _reload_version
+[0.629s]     md_version = self._get_version()
+[0.630s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2785, in _get_version
+[0.630s]     version = _version_from_file(lines)
+[0.630s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2569, in _version_from_file
+[0.630s]     line = next(iter(version_lines), '')
+[0.630s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 2780, in _get_metadata
+[0.630s]     for line in self.get_metadata_lines(name):
+[0.630s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1422, in get_metadata_lines
+[0.631s]     return yield_lines(self.get_metadata(name))
+[0.631s]   File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1414, in get_metadata
+[0.631s]     return value.decode('utf-8')
+[0.631s] KeyboardInterrupt
+[0.657s] gmake[2]: *** [CMakeFiles/ament_cmake_python_build_aruco_msgs_egg.dir/build.make:70: CMakeFiles/ament_cmake_python_build_aruco_msgs_egg] 中断
+[0.657s] gmake[1]: *** [CMakeFiles/Makefile2:447: CMakeFiles/ament_cmake_python_build_aruco_msgs_egg.dir/all] 中断
+[0.657s] gmake: *** [Makefile:146: all] 中断

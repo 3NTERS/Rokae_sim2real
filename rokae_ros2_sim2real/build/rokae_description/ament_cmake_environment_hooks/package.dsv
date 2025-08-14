@@ -1,0 +1,4 @@
+source;share/rokae_description/local_setup.bash
+source;share/rokae_description/local_setup.dsv
+source;share/rokae_description/local_setup.sh
+source;share/rokae_description/local_setup.zsh

@@ -1,0 +1,73 @@
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:157:13:[m[K [01;31m[Kerror: [m[K‘[01m[KTimeBase[m[K’ in namespace ‘[01m[Krclcpp[m[K’ does not name a type; did you mean ‘[01m[KTimerBase[m[K’?
+  157 |     rclcpp::[01;31m[KTimeBase[m[K::SharedPtr timer_;
+      |             [01;31m[K^~~~~~~~[m[K
+      |             [32m[KTimerBase[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:169:17:[m[K [01;31m[Kerror: [m[K‘[01m[KJointData[m[K’ was not declared in this scope
+  169 |     std::vector<[01;31m[KJointData[m[K> joint_data;
+      |                 [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:169:26:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  169 |     std::vector<JointData[01;31m[K>[m[K joint_data;
+      |                          [01;31m[K^[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:169:26:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController(const string&, const string&)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:32:95:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::create_publisher<trajectory_msgs::msg::JointTrajectory>(const char [17], int, std::_Bind_helper<false, void (RobotController::*)(std::shared_ptr<trajectory_msgs::msg::JointTrajectory_<std::allocator<void> > >), RobotController*, const std::_Placeholder<1>&>::type)[m[K’
+   32 |         trajectory_subscriber_ = [01;31m[Kthis->create_publisher<trajectory_msgs::msg::JointTrajectory>([m[K
+      |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   33 | [01;31m[K            "joint_trajectory",10,[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~[m[K                                                             
+   34 | [01;31m[K            std::bind(&RobotController::trajectory_callback,this,std::placeholders::_1)[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+   35 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                                                      
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   73 | [01;36m[KNode[m[K::create_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:32:95:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Bind_helper<false, void (RobotController::*)(std::shared_ptr<trajectory_msgs::msg::JointTrajectory_<std::allocator<void> > >), RobotController*, const std::_Placeholder<1>&>::type[m[K’ is not derived from ‘[01m[Kconst rclcpp::PublisherOptionsWithAllocator<AllocatorT>[m[K’
+   32 |         trajectory_subscriber_ = [01;36m[Kthis->create_publisher<trajectory_msgs::msg::JointTrajectory>([m[K
+      |                                  [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   33 | [01;36m[K            "joint_trajectory",10,[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~[m[K                                                             
+   34 | [01;36m[K            std::bind(&RobotController::trajectory_callback,this,std::placeholders::_1)[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K        
+   35 | [01;36m[K        )[m[K;
+      |         [01;36m[K~[m[K                                                                                      
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:37:89:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotController::create_publisher<sensor_msgs::msg::JointState>(const char [14], int, std::_Bind_helper<false, void (RobotController::*)(std::shared_ptr<sensor_msgs::msg::JointState_<std::allocator<void> > >), RobotController*, const std::_Placeholder<1>&>::type)[m[K’
+   37 |         joint_command_subscriber_ = [01;31m[Kthis->create_publisher<sensor_msgs::msg::JointState>([m[K
+      |                                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   38 | [01;31m[K            "joint_command",10,[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~[m[K                                                          
+   39 | [01;31m[K            std::bind(&RobotController::joint_command_callback,this,std::placeholders::_1)[m[K
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   40 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                                                
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   73 | [01;36m[KNode[m[K::create_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:37:89:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::_Bind_helper<false, void (RobotController::*)(std::shared_ptr<sensor_msgs::msg::JointState_<std::allocator<void> > >), RobotController*, const std::_Placeholder<1>&>::type[m[K’ is not derived from ‘[01m[Kconst rclcpp::PublisherOptionsWithAllocator<AllocatorT>[m[K’
+   37 |         joint_command_subscriber_ = [01;36m[Kthis->create_publisher<sensor_msgs::msg::JointState>([m[K
+      |                                     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   38 | [01;36m[K            "joint_command",10,[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~[m[K                                                          
+   39 | [01;36m[K            std::bind(&RobotController::joint_command_callback,this,std::placeholders::_1)[m[K
+      |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+   40 | [01;36m[K        )[m[K;
+      |         [01;36m[K~[m[K                                                                                
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:43:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   43 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Ktimer_t[m[K
+gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

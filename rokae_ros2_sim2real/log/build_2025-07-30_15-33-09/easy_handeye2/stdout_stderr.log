@@ -1,0 +1,98 @@
+running egg_info
+creating ../../../build/easy_handeye2/easy_handeye2.egg-info
+writing ../../../build/easy_handeye2/easy_handeye2.egg-info/PKG-INFO
+writing dependency_links to ../../../build/easy_handeye2/easy_handeye2.egg-info/dependency_links.txt
+writing entry points to ../../../build/easy_handeye2/easy_handeye2.egg-info/entry_points.txt
+writing requirements to ../../../build/easy_handeye2/easy_handeye2.egg-info/requires.txt
+writing top-level names to ../../../build/easy_handeye2/easy_handeye2.egg-info/top_level.txt
+writing manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+reading manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+writing manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build
+creating /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib
+creating /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/handeye_publisher.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/handeye_rqt_calibrator.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/handeye_client.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/handeye_rqt_calibrator_widget.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/handeye_sampler.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/handeye_robot.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/handeye_calibration_backend_opencv.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/handeye_calibration_commander.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/__init__.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/handeye_rqt_evaluator.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/common_launch.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/handeye_calibration.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/handeye_server.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/handeye_rqt_evaluator_widget.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+copying easy_handeye2/handeye_server_robot.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2
+running build_scripts
+creating /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/scripts-3.10
+copying and adjusting scripts/rqt_calibrator.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/scripts-3.10
+copying and adjusting scripts/rqt_evaluator.py -> /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/scripts-3.10
+changing mode of /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/scripts-3.10/rqt_calibrator.py from 664 to 775
+changing mode of /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/scripts-3.10/rqt_evaluator.py from 664 to 775
+running install
+running install_lib
+creating /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/handeye_publisher.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/handeye_rqt_calibrator.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/handeye_client.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/handeye_rqt_calibrator_widget.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/handeye_sampler.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/handeye_robot.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/handeye_calibration_backend_opencv.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/handeye_calibration_commander.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/__init__.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/handeye_rqt_evaluator.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/common_launch.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/handeye_calibration.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/handeye_server.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/handeye_rqt_evaluator_widget.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/lib/easy_handeye2/handeye_server_robot.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_publisher.py to handeye_publisher.cpython-310.pyc
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_rqt_calibrator.py to handeye_rqt_calibrator.cpython-310.pyc
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_client.py to handeye_client.cpython-310.pyc
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_rqt_calibrator_widget.py to handeye_rqt_calibrator_widget.cpython-310.pyc
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_sampler.py to handeye_sampler.cpython-310.pyc
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_robot.py to handeye_robot.cpython-310.pyc
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_calibration_backend_opencv.py to handeye_calibration_backend_opencv.cpython-310.pyc
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_calibration_commander.py to handeye_calibration_commander.cpython-310.pyc
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_rqt_evaluator.py to handeye_rqt_evaluator.cpython-310.pyc
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/common_launch.py to common_launch.cpython-310.pyc
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_calibration.py to handeye_calibration.cpython-310.pyc
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_server.py to handeye_server.cpython-310.pyc
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_rqt_evaluator_widget.py to handeye_rqt_evaluator_widget.cpython-310.pyc
+byte-compiling /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2/handeye_server_robot.py to handeye_server_robot.cpython-310.pyc
+running install_data
+creating /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/ament_index
+creating /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/ament_index/resource_index
+creating /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/ament_index/resource_index/packages
+copying resource/easy_handeye2 -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/ament_index/resource_index/packages
+creating /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/easy_handeye2/resource
+copying resource/rqt_handeye.ui -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/easy_handeye2/resource
+copying resource/rqt_handeye_info.ui -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/easy_handeye2/resource
+copying resource/rqt_handeye_evaluator.ui -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/easy_handeye2/resource
+copying package.xml -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/easy_handeye2
+copying plugin_evaluator.xml -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/easy_handeye2
+copying plugin_calibrator.xml -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/easy_handeye2
+creating /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/easy_handeye2/launch
+copying launch/calibrate.launch.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/easy_handeye2/launch
+copying launch/evaluate.launch.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/easy_handeye2/launch
+copying launch/publish.launch.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/share/easy_handeye2/launch
+running install_egg_info
+Copying ../../../build/easy_handeye2/easy_handeye2.egg-info to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2-0.5.0-py3.10.egg-info
+running install_scripts
+creating /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/scripts-3.10/rqt_evaluator.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+copying /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build/scripts-3.10/rqt_calibrator.py -> /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+changing mode of /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2/rqt_evaluator.py to 775
+changing mode of /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2/rqt_calibrator.py to 775
+Installing handeye_calibration_commander script to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+Installing handeye_publisher script to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+Installing handeye_server script to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+Installing handeye_server_robot script to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+writing list of installed files to '/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/install.log'

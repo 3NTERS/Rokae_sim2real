@@ -1,0 +1,13 @@
+[0.067s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.177s] [35m[1mConsolidate compiler generated dependencies of target driver_pentu[0m
+[0.191s] [35m[1mConsolidate compiler generated dependencies of target rokae_controller[0m
+[0.214s] [ 16%] Built target move_example
+[0.221s] [ 33%] Built target sdk_example
+[0.237s] [ 50%] Built target read_robot_state
+[0.237s] [ 66%] Built target read_force
+[0.245s] [ 83%] Built target driver_pentu
+[0.247s] [ 91%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[0.567s] gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76: CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 中断
+[0.567s] gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/rokae_controller.dir/all] 中断
+[0.568s] gmake: *** [Makefile:146: all] 中断
+[0.570s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

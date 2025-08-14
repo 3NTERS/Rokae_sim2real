@@ -1,0 +1,12 @@
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::send_joint_command(const std::vector<double>&)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:108:9:[m[K [01;31m[Kerror: [m[K‘[01m[Krobot[m[K’ was not declared in this scope; did you mean ‘[01m[Krobot_[m[K’?
+  108 |         [01;31m[Krobot[m[K.moveAppend({moveJ}, remoteIP_, ec);
+      |         [01;31m[K^~~~~[m[K
+      |         [32m[Krobot_[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kstd::vector<double> RobotController::example_basicOperation(rokae::xMateErProRobot&)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:130:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  130 |     std::vector<double> example_basicOperation([01;35m[Krokae::xMateErProRobot& robot[m[K){ //读取关节角度
+      |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,4 @@
+source;share/easy_handeye2_msgs/local_setup.bash
+source;share/easy_handeye2_msgs/local_setup.dsv
+source;share/easy_handeye2_msgs/local_setup.sh
+source;share/easy_handeye2_msgs/local_setup.zsh

@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:40 (get_filename_componet):
+  Unknown CMake command "get_filename_componet".
+
+[0m
+gmake: *** [Makefile:595：cmake_check_build_system] 错误 1

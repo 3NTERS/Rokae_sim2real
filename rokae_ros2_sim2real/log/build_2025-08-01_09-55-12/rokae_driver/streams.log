@@ -1,0 +1,181 @@
+[0.031s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver -DCMAKE_INSTALL_PREFIX=/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver
+[0.310s] -- The C compiler identification is GNU 11.4.0
+[1.708s] -- The CXX compiler identification is GNU 11.4.0
+[1.728s] -- Detecting C compiler ABI info
+[1.791s] -- Detecting C compiler ABI info - done
+[1.797s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.797s] -- Detecting C compile features
+[1.798s] -- Detecting C compile features - done
+[1.801s] -- Detecting CXX compiler ABI info
+[1.963s] -- Detecting CXX compiler ABI info - done
+[1.967s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.968s] -- Detecting CXX compile features
+[1.968s] -- Detecting CXX compile features - done
+[1.978s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.118s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.379s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.533s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.553s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.587s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.739s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.188s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.236s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.528s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.569s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.614s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.656s] -- Looking for pthread.h
+[3.785s] -- Looking for pthread.h - found
+[3.785s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.900s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.901s] -- Found Threads: TRUE  
+[4.086s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[4.142s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.176s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.349s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.350s] -- Configured cppcheck include dirs: /home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include
+[4.350s] -- Configured cppcheck exclude dirs and/or files: 
+[4.352s] -- Added test 'lint_cmake' to check CMake code style
+[4.357s] -- Added test 'uncrustify' to check C / C++ code style
+[4.357s] -- Configured uncrustify additional arguments: 
+[4.360s] -- Added test 'xmllint' to check XML markup files
+[4.362s] -- Configuring done
+[4.380s] -- Generating done
+[4.388s] -- Build files have been written to: /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver
+[4.394s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver -DCMAKE_INSTALL_PREFIX=/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver
+[4.394s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[4.437s] gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“move_example” 需求。 停止。
+[4.437s] gmake[2]: *** 正在等待未完成的任务....
+[4.437s] gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“sdk_example” 需求。 停止。
+[4.437s] gmake[2]: *** 正在等待未完成的任务....
+[4.438s] gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“driver_fenjian” 需求。 停止。
+[4.438s] gmake[2]: *** 正在等待未完成的任务....
+[4.439s] gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“read_force” 需求。 停止。
+[4.439s] gmake[2]: *** 正在等待未完成的任务....
+[4.439s] gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“rokae_driver” 需求。 停止。
+[4.439s] gmake[2]: *** 正在等待未完成的任务....
+[4.439s] gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“driver_maduo” 需求。 停止。
+[4.439s] gmake[2]: *** 正在等待未完成的任务....
+[4.439s] gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“driver_hanjie” 需求。 停止。
+[4.439s] gmake[2]: *** 正在等待未完成的任务....
+[4.439s] gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“driver_pentu” 需求。 停止。
+[4.439s] gmake[2]: *** 正在等待未完成的任务....
+[4.440s] gmake[2]: *** 没有规则可制作目标“/libxCoreSDK.a”，由“driver_home” 需求。 停止。
+[4.440s] gmake[2]: *** 正在等待未完成的任务....
+[4.445s] [  5%] [32mBuilding CXX object CMakeFiles/rokae_driver.dir/src/rokae_driver.cpp.o[0m
+[4.446s] [ 22%] [32mBuilding CXX object CMakeFiles/move_example.dir/src/move_example.cpp.o[0m
+[4.446s] [ 22%] [32mBuilding CXX object CMakeFiles/driver_fenjian.dir/src/driver_fenjian.cpp.o[0m
+[4.446s] [ 22%] [32mBuilding CXX object CMakeFiles/sdk_example.dir/src/sdk_example.cpp.o[0m
+[4.446s] [ 27%] [32mBuilding CXX object CMakeFiles/driver_hanjie.dir/src/driver_hanjie.cpp.o[0m
+[4.447s] [ 33%] [32mBuilding CXX object CMakeFiles/read_force.dir/src/read_force.cpp.o[0m
+[4.447s] [ 38%] [32mBuilding CXX object CMakeFiles/driver_pentu.dir/src/driver_pentu.cpp.o[0m
+[4.447s] [ 44%] [32mBuilding CXX object CMakeFiles/driver_maduo.dir/src/driver_maduo.cpp.o[0m
+[4.448s] [ 50%] [32mBuilding CXX object CMakeFiles/driver_home.dir/src/driver_home.cpp.o[0m
+[6.703s] gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/sdk_example.dir/all] 错误 2
+[6.703s] gmake[1]: *** 正在等待未完成的任务....
+[6.723s] gmake[1]: *** [CMakeFiles/Makefile2:179：CMakeFiles/move_example.dir/all] 错误 2
+[7.225s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_hanjie.cpp:[m[K In lambda function:
+[7.225s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_hanjie.cpp:53:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.225s]    53 |             if ([01;35m[Kindex_ < timeData_.size() - 1[m[K) {
+[7.225s]       |                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.226s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_hanjie.cpp:89:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.226s]    89 |                         if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[7.226s]       |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.226s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_hanjie.cpp:79:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.226s]    79 |                         double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 100.0;
+[7.226s]       |                                [01;35m[K^[m[K
+[7.226s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_hanjie.cpp:117:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.226s]   117 |                         if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[7.226s]       |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.226s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_hanjie.cpp:107:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.226s]   107 |                         double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 400.0;
+[7.226s]       |                                [01;35m[K^[m[K
+[7.228s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_fenjian.cpp:[m[K In lambda function:
+[7.228s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_fenjian.cpp:55:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.228s]    55 |             if ([01;35m[Kindex_ < timeData_.size() - 1[m[K) {
+[7.228s]       |                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.229s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:[m[K In lambda function:
+[7.229s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:53:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.229s]    53 |             if ([01;35m[Kindex_ < timeData_.size() - 1[m[K) {
+[7.230s]       |                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.230s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:89:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.230s]    89 |                         if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[7.230s]       |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.230s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:79:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.230s]    79 |                         double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 100.0;
+[7.230s]       |                                [01;35m[K^[m[K
+[7.230s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:117:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.230s]   117 |                         if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[7.230s]       |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.230s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:107:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.230s]   107 |                         double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 500.0;
+[7.230s]       |                                [01;35m[K^[m[K
+[7.231s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_fenjian.cpp:167:29:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[7.231s]   167 |                 if ([01;35m[Krunning = true[m[K){
+[7.231s]       |                     [01;35m[K~~~~~~~~^~~~~~[m[K
+[7.231s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_fenjian.cpp:178:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.231s]   178 |                 if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[7.231s]       |                     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.231s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_fenjian.cpp:169:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.231s]   169 |                 double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 100.0;
+[7.231s]       |                        [01;35m[K^[m[K
+[7.232s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_driver.cpp:[m[K In lambda function:
+[7.232s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_driver.cpp:53:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.232s]    53 |             if ([01;35m[Kindex_ < timeData_.size() - 1[m[K) {
+[7.232s]       |                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.233s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_driver.cpp:97:29:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[7.233s]    97 |                 if ([01;35m[Krunning = true[m[K){
+[7.233s]       |                     [01;35m[K~~~~~~~~^~~~~~[m[K
+[7.234s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_driver.cpp:108:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.234s]   108 |                 if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[7.234s]       |                     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.234s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_driver.cpp:99:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.234s]    99 |                 double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 100.0;
+[7.234s]       |                        [01;35m[K^[m[K
+[7.236s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_home.cpp:[m[K In lambda function:
+[7.236s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_home.cpp:55:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.236s]    55 |             if ([01;35m[Kindex_ < timeData_.size() - 1[m[K) {
+[7.236s]       |                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.237s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_home.cpp:99:29:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[7.237s]    99 |                 if ([01;35m[Krunning = true[m[K){
+[7.237s]       |                     [01;35m[K~~~~~~~~^~~~~~[m[K
+[7.237s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_home.cpp:110:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.237s]   110 |                 if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[7.238s]       |                     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.238s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_home.cpp:101:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.238s]   101 |                 double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 100.0;
+[7.238s]       |                        [01;35m[K^[m[K
+[7.305s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_maduo.cpp:[m[K In lambda function:
+[7.305s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_maduo.cpp:55:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.305s]    55 |             if ([01;35m[Kindex_ < timeData_.size() - 1[m[K) {
+[7.305s]       |                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.306s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_maduo.cpp:122:29:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[7.306s]   122 |                 if ([01;35m[Krunning = true[m[K){
+[7.306s]       |                     [01;35m[K~~~~~~~~^~~~~~[m[K
+[7.306s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_maduo.cpp:133:28:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[7.306s]   133 |                 if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[7.306s]       |                     [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.307s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_maduo.cpp:124:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[7.307s]   124 |                 double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 100.0;
+[7.307s]       |                        [01;35m[K^[m[K
+[8.126s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_driver.cpp:129:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[8.126s]   129 |         [01;35m[K}[m[K;
+[8.126s]       |         [01;35m[K^[m[K
+[8.127s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_home.cpp:131:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[8.127s]   131 |         [01;35m[K}[m[K;
+[8.127s]       |         [01;35m[K^[m[K
+[8.127s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_fenjian.cpp:199:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[8.127s]   199 |         [01;35m[K}[m[K;
+[8.127s]       |         [01;35m[K^[m[K
+[8.195s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_maduo.cpp:154:9:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[8.195s]   154 |         [01;35m[K}[m[K;
+[8.195s]       |         [01;35m[K^[m[K
+[8.799s] gmake[1]: *** [CMakeFiles/Makefile2:283：CMakeFiles/driver_pentu.dir/all] 错误 2
+[8.815s] gmake[1]: *** [CMakeFiles/Makefile2:257：CMakeFiles/driver_hanjie.dir/all] 错误 2
+[8.912s] gmake[1]: *** [CMakeFiles/Makefile2:205：CMakeFiles/rokae_driver.dir/all] 错误 2
+[8.939s] gmake[1]: *** [CMakeFiles/Makefile2:361：CMakeFiles/driver_home.dir/all] 错误 2
+[8.940s] gmake[1]: *** [CMakeFiles/Makefile2:335：CMakeFiles/driver_fenjian.dir/all] 错误 2
+[8.963s] gmake[1]: *** [CMakeFiles/Makefile2:309：CMakeFiles/driver_maduo.dir/all] 错误 2
+[10.858s] gmake[1]: *** [CMakeFiles/Makefile2:231：CMakeFiles/read_force.dir/all] 错误 2
+[10.858s] gmake: *** [Makefile:146：all] 错误 2
+[10.860s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

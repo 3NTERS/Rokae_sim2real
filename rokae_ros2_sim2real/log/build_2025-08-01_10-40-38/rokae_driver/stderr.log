@@ -1,0 +1,44 @@
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_maduo.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/u_int8.hpp: 没有那个文件或目录
+   13 | #include [01;31m[K<std_msgs/msg/u_int8.hpp>[m[K  // 注意正确的头文件名
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/driver_maduo.dir/build.make:76：CMakeFiles/driver_maduo.dir/src/driver_maduo.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:231：CMakeFiles/driver_maduo.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_home.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/u_int8.hpp: 没有那个文件或目录
+   13 | #include [01;31m[K<std_msgs/msg/u_int8.hpp>[m[K  // 注意正确的头文件名
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/driver_home.dir/build.make:76：CMakeFiles/driver_home.dir/src/driver_home.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:205：CMakeFiles/driver_home.dir/all] 错误 2
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_fenjian.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/u_int8.hpp: 没有那个文件或目录
+   13 | #include [01;31m[K<std_msgs/msg/u_int8.hpp>[m[K  // 注意正确的头文件名
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/driver_fenjian.dir/build.make:76：CMakeFiles/driver_fenjian.dir/src/driver_fenjian.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/driver_fenjian.dir/all] 错误 2
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/read_force.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+    2 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/read_force.dir/build.make:76：CMakeFiles/read_force.dir/src/read_force.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:309：CMakeFiles/read_force.dir/all] 错误 2
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_hanjie.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+   15 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/driver_hanjie.dir/build.make:76：CMakeFiles/driver_hanjie.dir/src/driver_hanjie.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:179：CMakeFiles/driver_hanjie.dir/all] 错误 2
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+   15 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/driver_pentu.dir/build.make:76：CMakeFiles/driver_pentu.dir/src/driver_pentu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:257：CMakeFiles/driver_pentu.dir/all] 错误 2
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_driver.cpp:15:10:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: 没有那个文件或目录
+   15 | #include [01;31m[K<std_msgs/msg/string.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rokae_driver.dir/build.make:76：CMakeFiles/rokae_driver.dir/src/rokae_driver.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:335：CMakeFiles/rokae_driver.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

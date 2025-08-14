@@ -1,0 +1,87 @@
+[0.057s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver -DCMAKE_INSTALL_PREFIX=/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver
+[0.207s] -- The C compiler identification is GNU 11.4.0
+[0.333s] -- The CXX compiler identification is GNU 11.4.0
+[0.351s] -- Detecting C compiler ABI info
+[0.529s] -- Detecting C compiler ABI info - done
+[0.544s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.545s] -- Detecting C compile features
+[0.546s] -- Detecting C compile features - done
+[0.552s] -- Detecting CXX compiler ABI info
+[0.738s] -- Detecting CXX compiler ABI info - done
+[0.755s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.756s] -- Detecting CXX compile features
+[0.757s] -- Detecting CXX compile features - done
+[0.775s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.141s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.490s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[1.797s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.840s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.902s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.980s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.075s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.386s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.416s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.809s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.893s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.013s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.070s] -- Looking for pthread.h
+[3.233s] -- Looking for pthread.h - found
+[3.234s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.415s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.417s] -- Found Threads: TRUE  
+[3.648s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[3.709s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.761s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.201s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.202s] -- Configured cppcheck include dirs: /home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include
+[4.202s] -- Configured cppcheck exclude dirs and/or files: 
+[4.208s] -- Added test 'lint_cmake' to check CMake code style
+[4.217s] -- Added test 'uncrustify' to check C / C++ code style
+[4.217s] -- Configured uncrustify additional arguments: 
+[4.222s] -- Added test 'xmllint' to check XML markup files
+[4.229s] -- Configuring done
+[4.276s] -- Generating done
+[4.296s] -- Build files have been written to: /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver
+[4.313s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake /home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver -DCMAKE_INSTALL_PREFIX=/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_driver
+[4.316s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[4.454s] [  8%] [32mBuilding CXX object CMakeFiles/read_force.dir/src/read_force.cpp.o[0m
+[4.454s] [ 16%] [32mBuilding CXX object CMakeFiles/driver_pentu.dir/src/driver_pentu.cpp.o[0m
+[4.456s] [ 25%] [32mBuilding CXX object CMakeFiles/move_example.dir/src/move_example.cpp.o[0m
+[4.457s] [ 33%] [32mBuilding CXX object CMakeFiles/read_robot_state.dir/src/read_robot_state.cpp.o[0m
+[4.459s] [ 41%] [32mBuilding CXX object CMakeFiles/sdk_example.dir/src/sdk_example.cpp.o[0m
+[4.463s] [ 50%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[5.307s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:16:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msga/msg/joint_state.hpp: 没有那个文件或目录
+[5.307s]    16 | #include [01;31m[K<sensor_msga/msg/joint_state.hpp>[m[K
+[5.307s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.307s] compilation terminated.
+[5.313s] gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+[5.314s] gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+[5.314s] gmake[1]: *** 正在等待未完成的任务....
+[7.298s] [ 58%] [32m[1mLinking CXX executable read_robot_state[0m
+[8.104s] [ 66%] [32m[1mLinking CXX executable move_example[0m
+[8.136s] [ 75%] [32m[1mLinking CXX executable sdk_example[0m
+[8.232s] [ 75%] Built target read_robot_state
+[8.901s] [ 75%] Built target move_example
+[8.944s] [ 75%] Built target sdk_example
+[10.076s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:[m[K In lambda function:
+[10.077s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:53:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[10.077s]    53 |             if ([01;35m[Kindex_ < timeData_.size() - 1[m[K) {
+[10.077s]       |                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.078s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:89:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[10.078s]    89 |                         if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[10.078s]       |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.078s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:79:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.078s]    79 |                         double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 100.0;
+[10.078s]       |                                [01;35m[K^[m[K
+[10.079s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:117:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[10.079s]   117 |                         if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[10.079s]       |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.079s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:107:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[10.079s]   107 |                         double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 500.0;
+[10.079s]       |                                [01;35m[K^[m[K
+[14.599s] [ 83%] [32m[1mLinking CXX executable driver_pentu[0m
+[15.492s] [ 83%] Built target driver_pentu
+[20.214s] [ 91%] [32m[1mLinking CXX executable read_force[0m
+[21.476s] [ 91%] Built target read_force
+[21.477s] gmake: *** [Makefile:146：all] 错误 2
+[21.482s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

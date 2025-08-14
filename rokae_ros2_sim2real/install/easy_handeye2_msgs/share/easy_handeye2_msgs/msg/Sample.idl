@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from easy_handeye2_msgs/msg/Sample.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Transform.idl"
+
+module easy_handeye2_msgs {
+  module msg {
+    struct Sample {
+      geometry_msgs::msg::Transform robot;
+
+      geometry_msgs::msg::Transform tracking;
+    };
+  };
+};

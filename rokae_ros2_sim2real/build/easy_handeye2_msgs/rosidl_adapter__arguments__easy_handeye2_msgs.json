@@ -1,0 +1,23 @@
+{
+  "package_name": "easy_handeye2_msgs",
+  "non_idl_tuples": [
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:msg/HandeyeCalibration.msg",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:msg/HandeyeCalibrationParameters.msg",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:msg/Sample.msg",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:msg/SampleList.msg",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:msg/TargetPoseList.msg",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/ListAlgorithms.srv",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/SetAlgorithm.srv",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/ComputeCalibration.srv",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/SaveCalibration.srv",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/RemoveSample.srv",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/TakeSample.srv",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/SaveSamples.srv",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:srv/calibration/LoadSamples.srv",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:srv/robot_movements/CheckStartingPose.srv",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:srv/robot_movements/EnumerateTargetPoses.srv",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:srv/robot_movements/SelectTargetPose.srv",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:srv/robot_movements/PlanToSelectedTargetPose.srv",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2_msgs:srv/robot_movements/ExecutePlan.srv"
+  ]
+}

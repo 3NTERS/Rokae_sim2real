@@ -1,0 +1,1 @@
+Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_msgs -- -j32 -l32

@@ -1,0 +1,8 @@
+/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/IMUInfo.idl
+/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Extrinsics.idl
+/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/Metadata.idl
+/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:msg/RGBD.idl
+/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/DeviceInfo.idl
+/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/CalibConfigRead.idl
+/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:srv/CalibConfigWrite.idl
+/home/rokae/workspace/rokae_ros2_sim2real/build/realsense2_camera_msgs/rosidl_adapter/realsense2_camera_msgs:action/TriggeredCalibration.idl

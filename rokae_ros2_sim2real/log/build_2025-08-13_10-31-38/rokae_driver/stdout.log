@@ -1,0 +1,22 @@
+[  3%] [34m[1mAutomatic MOC and UIC for target driver_pentu[0m
+[  7%] [34m[1mAutomatic MOC and UIC for target read_robot_state[0m
+[ 10%] [34m[1mAutomatic MOC and UIC for target move_example[0m
+[ 14%] [34m[1mAutomatic MOC and UIC for target read_force[0m
+[ 17%] [34m[1mAutomatic MOC and UIC for target My_joint_publisher_gui[0m
+[ 21%] [34m[1mAutomatic MOC and UIC for target rokae_controller[0m
+[ 25%] [34m[1mAutomatic MOC and UIC for target sdk_example[0m
+[ 25%] Built target driver_pentu_autogen
+[ 25%] Built target read_robot_state_autogen
+[ 25%] Built target move_example_autogen
+[ 25%] Built target My_joint_publisher_gui_autogen
+[ 25%] Built target sdk_example_autogen
+[ 25%] Built target rokae_controller_autogen
+[ 25%] Built target read_force_autogen
+[35m[1mConsolidate compiler generated dependencies of target My_joint_publisher_gui[0m
+[ 35%] Built target driver_pentu
+[ 46%] Built target move_example
+[ 57%] Built target read_robot_state
+[ 67%] Built target sdk_example
+[ 78%] Built target rokae_controller
+[ 82%] [32mBuilding CXX object CMakeFiles/My_joint_publisher_gui.dir/src/My_joint_publisher_gui.cpp.o[0m
+[ 92%] Built target read_force

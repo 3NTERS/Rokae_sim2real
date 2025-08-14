@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/PKG-INFO
+writing dependency_links to ../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/dependency_links.txt
+writing entry points to ../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/entry_points.txt
+writing requirements to ../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/requires.txt
+writing top-level names to ../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/top_level.txt
+reading manifest file '../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/SOURCES.txt'
+adding license file 'LICENSE.md'
+writing manifest file '../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/lib/python3.10/site-packages/easy_handeye2_demo-0.5.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/easy_handeye2_demo/easy_handeye2_demo.egg-info to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/lib/python3.10/site-packages/easy_handeye2_demo-0.5.0-py3.10.egg-info
+running install_scripts
+Installing tracking_simulator script to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo/lib/easy_handeye2_demo
+writing list of installed files to '/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2_demo/install.log'

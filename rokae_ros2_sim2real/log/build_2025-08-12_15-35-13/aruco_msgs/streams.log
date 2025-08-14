@@ -1,0 +1,164 @@
+[0.083s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs -- -j32 -l32
+[0.231s] [  2%] Built target aruco_msgs__cpp
+[0.235s] [ 12%] Built target aruco_msgs__rosidl_generator_c
+[0.277s] [ 12%] Built target ament_cmake_python_copy_aruco_msgs
+[0.307s] [ 23%] Built target aruco_msgs__rosidl_typesupport_cpp
+[0.316s] [ 33%] Built target aruco_msgs__rosidl_typesupport_introspection_cpp
+[0.318s] [ 43%] Built target aruco_msgs__rosidl_typesupport_fastrtps_cpp
+[0.321s] [ 53%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c
+[0.324s] [ 64%] Built target aruco_msgs__rosidl_typesupport_introspection_c
+[0.324s] [ 74%] Built target aruco_msgs__rosidl_typesupport_c
+[0.383s] [ 74%] Built target aruco_msgs
+[0.447s] [ 76%] Built target aruco_msgs__py
+[0.518s] [ 84%] Built target aruco_msgs__rosidl_generator_py
+[0.590s] [ 89%] Built target aruco_msgs__rosidl_typesupport_c__pyext
+[0.592s] [ 94%] Built target aruco_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.598s] [100%] Built target aruco_msgs__rosidl_typesupport_introspection_c__pyext
+[0.822s] running egg_info
+[0.823s] writing aruco_msgs.egg-info/PKG-INFO
+[0.824s] writing dependency_links to aruco_msgs.egg-info/dependency_links.txt
+[0.824s] writing top-level names to aruco_msgs.egg-info/top_level.txt
+[0.828s] reading manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+[0.829s] writing manifest file 'aruco_msgs.egg-info/SOURCES.txt'
+[0.890s] [100%] Built target ament_cmake_python_build_aruco_msgs_egg
+[0.920s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs -- -j32 -l32
+[0.923s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs
+[0.979s] -- Install configuration: "Release"
+[0.983s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/ament_index/resource_index/rosidl_interfaces/aruco_msgs
+[0.983s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs
+[0.984s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg
+[0.984s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker.h
+[0.984s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.984s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail
+[0.984s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__type_support.h
+[0.984s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__functions.c
+[0.984s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__type_support.h
+[0.984s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__functions.c
+[0.984s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__struct.h
+[0.984s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__functions.h
+[0.984s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__functions.h
+[0.985s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__struct.h
+[0.985s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker_array.h
+[0.985s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/environment/library_path.sh
+[0.985s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/environment/library_path.dsv
+[0.985s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_c.so
+[0.985s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs
+[0.985s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg
+[0.985s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail
+[0.985s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[0.985s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+[0.985s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.987s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_c.so
+[0.987s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs
+[0.987s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg
+[0.987s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker.hpp
+[0.987s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail
+[0.987s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__builder.hpp
+[0.987s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__struct.hpp
+[0.987s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__type_support.hpp
+[0.987s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__builder.hpp
+[0.987s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__traits.hpp
+[0.988s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__type_support.hpp
+[0.991s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__traits.hpp
+[0.991s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__struct.hpp
+[0.991s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/marker_array.hpp
+[0.991s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.991s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs
+[0.991s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg
+[0.991s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail
+[0.991s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[0.991s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[0.991s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/dds_fastrtps
+[0.991s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.992s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.992s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs
+[0.992s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg
+[0.992s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.992s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail
+[0.992s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[0.992s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__type_support.c
+[1.000s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+[1.000s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__type_support.c
+[1.001s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_c.so
+[1.001s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_c.so
+[1.001s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs
+[1.001s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg
+[1.001s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail
+[1.001s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__type_support.cpp
+[1.002s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+[1.002s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker_array__type_support.cpp
+[1.002s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/include/aruco_msgs/aruco_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[1.002s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_introspection_cpp.so
+[1.002s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/lib/libaruco_msgs__rosidl_typesupport_cpp.so
+[1.002s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/environment/pythonpath.sh
+[1.003s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/environment/pythonpath.dsv
+[1.003s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.5-py3.10.egg-info
+[1.003s] -- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.5-py3.10.egg-info/dependency_links.txt
+[1.011s] -- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.5-py3.10.egg-info/PKG-INFO
+[1.011s] -- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.5-py3.10.egg-info/SOURCES.txt
+[1.012s] -- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs-5.0.5-py3.10.egg-info/top_level.txt
+[1.012s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs
+[1.012s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg
+[1.012s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_array_s.c
+[1.012s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker.py
+[1.012s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_array.py
+[1.012s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/__init__.py
+[1.012s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg/_marker_s.c
+[1.012s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.012s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.012s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.013s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_c.c
+[1.013s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/__init__.py
+[1.013s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.013s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/libaruco_msgs__rosidl_generator_py.so
+[1.013s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/_aruco_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.033s] Listing '/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs'...
+[1.033s] Listing '/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/msg'...
+[1.042s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.047s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[1.048s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/local/lib/python3.10/dist-packages/aruco_msgs/aruco_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.048s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/lib/libaruco_msgs__rosidl_generator_py.so
+[1.048s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/msg/Marker.idl
+[1.049s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/msg/MarkerArray.idl
+[1.049s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/msg/Marker.msg
+[1.049s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/msg/MarkerArray.msg
+[1.050s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/ament_index/resource_index/package_run_dependencies/aruco_msgs
+[1.050s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/ament_index/resource_index/parent_prefix_path/aruco_msgs
+[1.050s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/environment/ament_prefix_path.sh
+[1.050s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/environment/ament_prefix_path.dsv
+[1.050s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/environment/path.sh
+[1.050s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/environment/path.dsv
+[1.050s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/local_setup.bash
+[1.051s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/local_setup.sh
+[1.051s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/local_setup.zsh
+[1.053s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/local_setup.dsv
+[1.053s] -- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/package.dsv
+[1.055s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/ament_index/resource_index/packages/aruco_msgs
+[1.055s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cExport.cmake
+[1.056s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cExport-release.cmake
+[1.056s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.057s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[1.057s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_cppExport.cmake
+[1.057s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.057s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[1.057s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.057s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[1.057s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cExport.cmake
+[1.058s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cExport-release.cmake
+[1.059s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.059s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[1.059s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cppExport.cmake
+[1.061s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgs__rosidl_typesupport_cppExport-release.cmake
+[1.061s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_pyExport.cmake
+[1.062s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/export_aruco_msgs__rosidl_generator_pyExport-release.cmake
+[1.062s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake-extras.cmake
+[1.062s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.062s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.062s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.063s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.063s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.063s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.063s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig.cmake
+[1.064s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake/aruco_msgsConfig-version.cmake
+[1.064s] -- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/package.xml
+[1.074s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --install /home/rokae/workspace/rokae_ros2_sim2real/build/aruco_msgs

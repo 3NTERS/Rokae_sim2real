@@ -1,0 +1,7 @@
+{
+  "package_name": "aruco_msgs",
+  "non_idl_tuples": [
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_msgs:msg/Marker.msg",
+    "/home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_msgs:msg/MarkerArray.msg"
+  ]
+}

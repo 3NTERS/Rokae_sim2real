@@ -1,0 +1,97 @@
+[0.037s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.178s] [  3%] [34m[1mAutomatic MOC and UIC for target rokae_controller[0m
+[0.178s] [ 10%] [34m[1mAutomatic MOC and UIC for target driver_pentu[0m
+[0.179s] [ 10%] [34m[1mAutomatic MOC and UIC for target sdk_example[0m
+[0.179s] [ 14%] [34m[1mAutomatic MOC and UIC for target My_joint_publisher_gui[0m
+[0.180s] [ 17%] [34m[1mAutomatic MOC and UIC for target read_robot_state[0m
+[0.181s] [ 21%] [34m[1mAutomatic MOC and UIC for target move_example[0m
+[0.181s] [ 25%] [34m[1mAutomatic MOC and UIC for target read_force[0m
+[0.229s] [ 25%] Built target driver_pentu_autogen
+[0.231s] [ 25%] Built target rokae_controller_autogen
+[0.233s] [ 25%] Built target read_robot_state_autogen
+[0.234s] [ 25%] Built target read_force_autogen
+[0.235s] [ 25%] Built target sdk_example_autogen
+[0.236s] [ 25%] Built target move_example_autogen
+[0.260s] [35m[1mConsolidate compiler generated dependencies of target driver_pentu[0m
+[0.266s] [35m[1mConsolidate compiler generated dependencies of target read_force[0m
+[0.268s] [35m[1mConsolidate compiler generated dependencies of target rokae_controller[0m
+[0.269s] [35m[1mConsolidate compiler generated dependencies of target read_robot_state[0m
+[0.272s] [35m[1mConsolidate compiler generated dependencies of target sdk_example[0m
+[0.273s] [35m[1mConsolidate compiler generated dependencies of target move_example[0m
+[0.307s] [ 28%] [32mBuilding CXX object CMakeFiles/driver_pentu.dir/driver_pentu_autogen/mocs_compilation.cpp.o[0m
+[0.307s] [ 32%] [32mBuilding CXX object CMakeFiles/read_force.dir/src/read_force.cpp.o[0m
+[0.308s] [ 35%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/rokae_controller_autogen/mocs_compilation.cpp.o[0m
+[0.308s] [ 42%] [32mBuilding CXX object CMakeFiles/read_robot_state.dir/src/read_robot_state.cpp.o[0m
+[0.309s] [ 42%] [32mBuilding CXX object CMakeFiles/move_example.dir/move_example_autogen/mocs_compilation.cpp.o[0m
+[0.309s] [ 46%] [32mBuilding CXX object CMakeFiles/sdk_example.dir/sdk_example_autogen/mocs_compilation.cpp.o[0m
+[0.309s] [ 53%] [32mBuilding CXX object CMakeFiles/read_force.dir/read_force_autogen/mocs_compilation.cpp.o[0m
+[0.310s] [ 53%] [32mBuilding CXX object CMakeFiles/read_robot_state.dir/read_robot_state_autogen/mocs_compilation.cpp.o[0m
+[0.310s] [ 57%] [32mBuilding CXX object CMakeFiles/driver_pentu.dir/src/driver_pentu.cpp.o[0m
+[0.311s] [ 60%] [32mBuilding CXX object CMakeFiles/move_example.dir/src/move_example.cpp.o[0m
+[0.311s] [ 64%] [32mBuilding CXX object CMakeFiles/sdk_example.dir/src/sdk_example.cpp.o[0m
+[0.317s] [ 67%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[2.144s] 
+[2.144s] AutoMoc subprocess error
+[2.144s] ------------------------
+[2.144s] The moc process failed to compile
+[2.145s]   "SRC:/src/My_joint_publisher_gui.cpp"
+[2.145s] into
+[2.145s]   "BIN:/My_joint_publisher_gui_autogen/include/My_joint_publisher_gui.moc"
+[2.145s] included by
+[2.145s]   "SRC:/src/My_joint_publisher_gui.cpp"
+[2.146s] 
+[2.146s] Command
+[2.146s] -------
+[2.146s] /usr/lib/qt5/bin/moc -DDEFAULT_RMW_IMPLEMENTATION=rmw_fastrtps_cpp -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DRCUTILS_ENABLE_FAULT_INJECTION -I/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/include -I/usr/include/eigen3 -I/opt/ros/humble/include/rclcpp -I/opt/ros/humble/include/std_msgs -I/opt/ros/humble/include/std_srvs -I/opt/ros/humble/include/sensor_msgs -I/opt/ros/humble/include/trajectory_msgs -I/opt/ros/humble/include/geometry_msgs -I/opt/ros/humble/include/ament_index_cpp -I/opt/ros/humble/include/libstatistics_collector -I/opt/ros/humble/include/builtin_interfaces -I/opt/ros/humble/include/rosidl_runtime_c -I/opt/ros/humble/include/rcutils -I/opt/ros/humble/include/rosidl_typesupport_interface -I/opt/ros/humble/include/fastcdr -I/opt/ros/humble/include/rosidl_runtime_cpp -I/opt/ros/humble/include/rosidl_typesupport_fastrtps_cpp -I/opt/ros/humble/include/rmw -I/opt/ros/humble/include/rosidl_typesupport_fastrtps_c -I/opt/ros/humble/include/rosidl_typesupport_introspection_c -I/opt/ros/humble/include/rosidl_typesupport_introspection_cpp -I/opt/ros/humble/include/rcl -I/opt/ros/humble/include/rcl_interfaces -I/opt/ros/humble/include/rcl_logging_interface -I/opt/ros/humble/include/rcl_yaml_param_parser -I/opt/ros/humble/include/libyaml_vendor -I/opt/ros/humble/include/tracetools -I/opt/ros/humble/include/rcpputils -I/opt/ros/humble/include/statistics_msgs -I/opt/ros/humble/include/rosgraph_msgs -I/opt/ros/humble/include/rosidl_typesupport_cpp -I/opt/ros/humble/include/rosidl_typesupport_c -I/usr/include/x86_64-linux-gnu/qt5 -I/usr/include/x86_64-linux-gnu/qt5/QtCore -I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++ -I/usr/include/x86_64-linux-gnu/qt5/QtWidgets -I/usr/include/x86_64-linux-gnu/qt5/QtGui -I/usr/include/c++/11 -I/usr/include/x86_64-linux-gnu/c++/11 -I/usr/include/c++/11/backward -I/usr/lib/gcc/x86_64-linux-gnu/11/include -I/usr/local/include -I/usr/include/x86_64-linux-gnu -I/usr/include --include /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver/My_joint_publisher_gui_autogen/moc_predefs.h --output-dep-file -o /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver/My_joint_publisher_gui_autogen/include/My_joint_publisher_gui.moc /home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/My_joint_publisher_gui.cpp
+[2.146s] 
+[2.146s] Output
+[2.147s] ------
+[2.147s] /home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/My_joint_publisher_gui.cpp:116: Error: Class declaration lacks Q_OBJECT macro.
+[2.147s] 
+[2.147s] gmake[2]: *** [CMakeFiles/My_joint_publisher_gui_autogen.dir/build.make:71：CMakeFiles/My_joint_publisher_gui_autogen] 错误 1
+[2.148s] gmake[1]: *** [CMakeFiles/Makefile2:338：CMakeFiles/My_joint_publisher_gui_autogen.dir/all] 错误 2
+[2.148s] gmake[1]: *** 正在等待未完成的任务....
+[4.806s] [ 71%] [32m[1mLinking CXX executable read_robot_state[0m
+[6.032s] [ 71%] Built target read_robot_state
+[6.563s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:[m[K In lambda function:
+[6.563s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:53:24:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.563s]    53 |             if ([01;35m[Kindex_ < timeData_.size() - 1[m[K) {
+[6.563s]       |                 [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.564s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:89:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.564s]    89 |                         if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[6.564s]       |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.564s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:79:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.564s]    79 |                         double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 100.0;
+[6.565s]       |                                [01;35m[K^[m[K
+[6.565s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:117:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<double>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.565s]   117 |                         if ([01;35m[Kindex_ >= timeData_.size() - 2[m[K) {
+[6.565s]       |                             [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.565s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_pentu.cpp:107:32:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kt[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.566s]   107 |                         double [01;35m[Kt[m[K = timeData_[index_] + (timeData_[index_ + 1] - timeData_[index_]) * stepCount_ / 500.0;
+[6.566s]       |                                [01;35m[K^[m[K
+[6.824s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In constructor ‘[01m[KRobotController::RobotController(const string&, const string&)[m[K’:
+[6.825s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:181:9:[m[K [01;35m[Kwarning: [m[K‘[01m[KRobotController::pauseCount_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.825s]   181 |     int [01;35m[KpauseCount_[m[K;
+[6.825s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[6.825s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:176:21:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Krokae::xMateErProRobot RobotController::robot_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.825s]   176 |     xMateErProRobot [01;35m[Krobot_[m[K;
+[6.825s]       |                     [01;35m[K^~~~~~[m[K
+[6.825s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:27:5:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[6.826s]    27 |     [01;35m[KRobotController[m[K(const string& remoteIP, const string& localIP)
+[6.826s]       |     [01;35m[K^~~~~~~~~~~~~~~[m[K
+[7.347s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kstd::vector<double> RobotController::example_basicOperation(rokae::xMateErProRobot&)[m[K’:
+[7.347s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:125:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krobot[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.347s]   125 |     std::vector<double> example_basicOperation([01;35m[Krokae::xMateErProRobot& robot[m[K){ //读取关节角度
+[7.348s]       |                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[7.762s] [ 75%] [32m[1mLinking CXX executable move_example[0m
+[8.038s] [ 78%] [32m[1mLinking CXX executable sdk_example[0m
+[8.656s] [ 78%] Built target move_example
+[8.983s] [ 78%] Built target sdk_example
+[13.220s] [ 82%] [32m[1mLinking CXX executable driver_pentu[0m
+[14.166s] [ 82%] Built target driver_pentu
+[21.569s] [ 85%] [32m[1mLinking CXX executable read_force[0m
+[22.023s] [ 85%] Built target read_force
+[31.476s] [ 89%] [32m[1mLinking CXX executable rokae_controller[0m
+[32.474s] [ 89%] Built target rokae_controller
+[32.476s] gmake: *** [Makefile:146：all] 错误 2
+[32.480s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

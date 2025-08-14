@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target sdk_example[0m
+[  5%] [32mBuilding CXX object CMakeFiles/driver_hanjie.dir/src/driver_hanjie.cpp.o[0m
+[ 16%] Built target move_example
+[ 27%] Built target read_force
+[ 33%] [32mBuilding CXX object CMakeFiles/driver_fenjian.dir/src/driver_fenjian.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/driver_maduo.dir/src/driver_maduo.cpp.o[0m
+[ 50%] Built target driver_pentu
+[ 61%] Built target sdk_example
+[ 66%] [32mBuilding CXX object CMakeFiles/rokae_driver.dir/src/rokae_driver.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/driver_home.dir/src/driver_home.cpp.o[0m
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_hanjie.cpp: 没有那个文件或目录
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_fenjian.cpp: 没有那个文件或目录
+compilation terminated.
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_maduo.cpp: 没有那个文件或目录
+compilation terminated.
+gmake[2]: *** [CMakeFiles/driver_fenjian.dir/build.make:76：CMakeFiles/driver_fenjian.dir/src/driver_fenjian.cpp.o] 错误 1
+gmake[2]: *** [CMakeFiles/driver_hanjie.dir/build.make:76：CMakeFiles/driver_hanjie.dir/src/driver_hanjie.cpp.o] 错误 1
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_home.cpp: 没有那个文件或目录
+compilation terminated.
+gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/driver_fenjian.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake[1]: *** [CMakeFiles/Makefile2:179：CMakeFiles/driver_hanjie.dir/all] 错误 2
+gmake[2]: *** [CMakeFiles/driver_maduo.dir/build.make:76：CMakeFiles/driver_maduo.dir/src/driver_maduo.cpp.o] 错误 1
+gmake[2]: *** [CMakeFiles/driver_home.dir/build.make:76：CMakeFiles/driver_home.dir/src/driver_home.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:231：CMakeFiles/driver_maduo.dir/all] 错误 2
+gmake[1]: *** [CMakeFiles/Makefile2:205：CMakeFiles/driver_home.dir/all] 错误 2
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_driver.cpp: 没有那个文件或目录
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rokae_driver.dir/build.make:76：CMakeFiles/rokae_driver.dir/src/rokae_driver.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:335：CMakeFiles/rokae_driver.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

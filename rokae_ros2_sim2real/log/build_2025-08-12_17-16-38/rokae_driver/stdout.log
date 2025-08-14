@@ -1,0 +1,6 @@
+[ 16%] Built target move_example
+[ 33%] Built target read_robot_state
+[ 41%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[ 58%] Built target driver_pentu
+[ 75%] Built target read_force
+[ 91%] Built target sdk_example

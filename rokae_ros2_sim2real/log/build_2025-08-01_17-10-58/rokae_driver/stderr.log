@@ -1,0 +1,3 @@
+gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76: CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/rokae_controller.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

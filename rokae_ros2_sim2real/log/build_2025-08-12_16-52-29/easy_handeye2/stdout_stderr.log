@@ -1,0 +1,25 @@
+running egg_info
+writing ../../../build/easy_handeye2/easy_handeye2.egg-info/PKG-INFO
+writing dependency_links to ../../../build/easy_handeye2/easy_handeye2.egg-info/dependency_links.txt
+writing entry points to ../../../build/easy_handeye2/easy_handeye2.egg-info/entry_points.txt
+writing requirements to ../../../build/easy_handeye2/easy_handeye2.egg-info/requires.txt
+writing top-level names to ../../../build/easy_handeye2/easy_handeye2.egg-info/top_level.txt
+reading manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+writing manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+running build
+running build_py
+running build_scripts
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2-0.5.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/easy_handeye2/easy_handeye2.egg-info to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2-0.5.0-py3.10.egg-info
+running install_scripts
+changing mode of /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2/rqt_evaluator.py to 775
+changing mode of /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2/rqt_calibrator.py to 775
+Installing handeye_calibration_commander script to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+Installing handeye_publisher script to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+Installing handeye_server script to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+Installing handeye_server_robot script to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+writing list of installed files to '/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/install.log'

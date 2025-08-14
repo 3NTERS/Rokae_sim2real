@@ -1,0 +1,38 @@
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:175:28:[m[K [01;31m[Kerror: [m[K‘[01m[KremoteIP_[m[K’ is not a type
+  175 |     xMateErProRobot robot_([01;31m[KremoteIP_[m[K);
+      |                            [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::send_joint_command(const std::vector<double>&)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:109:58:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krokae::xMateErProRobot RobotController::robot_(int)[m[K’
+  109 |         current_joint_positions_= example_basicOperation([01;31m[Krobot_[m[K);
+      |                                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:175:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  175 |     xMateErProRobot [01;36m[Krobot_[m[K(remoteIP_);
+      |                     [01;36m[K^~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::publish_joint_states()[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:118:55:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Krokae::xMateErProRobot RobotController::robot_(int)[m[K’
+  118 |         joint_state.position = example_basicOperation([01;31m[Krobot_[m[K);
+      |                                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:175:21:[m[K [01;36m[Knote: [m[Kdeclared here
+  175 |     xMateErProRobot [01;36m[Krobot_[m[K(remoteIP_);
+      |                     [01;36m[K^~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::connect()[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:145:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krokae::xMateErProRobot RobotController::robot_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  145 |         [01;31m[Krobot_[m[K.connectToRobot(remoteIP_, localIP_);
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::setpowerdown()[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:150:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krokae::xMateErProRobot RobotController::robot_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  150 |         [01;31m[Krobot_[m[K.setPowerState(false, ec);
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:[m[K In member function ‘[01m[Kvoid RobotController::configureRobot()[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:155:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krokae::xMateErProRobot RobotController::robot_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  155 |         [01;31m[Krobot_[m[K.setOperateMode(rokae::OperateMode::automatic, ec);
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:156:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krokae::xMateErProRobot RobotController::robot_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  156 |         [01;31m[Krobot_[m[K.setMotionControlMode(MotionControlMode::RtCommand, ec);
+      |         [01;31m[K^~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:157:9:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Krokae::xMateErProRobot RobotController::robot_(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+  157 |         [01;31m[Krobot_[m[K.setPowerState(true, ec);
+      |         [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

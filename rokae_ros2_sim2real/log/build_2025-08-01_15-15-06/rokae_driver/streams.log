@@ -1,0 +1,35 @@
+[0.018s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.066s] [  5%] [32mBuilding CXX object CMakeFiles/sdk_example.dir/src/sdk_example.cpp.o[0m
+[0.066s] [ 16%] Built target move_example
+[0.069s] [ 22%] [32mBuilding CXX object CMakeFiles/driver_fenjian.dir/src/driver_fenjian.cpp.o[0m
+[0.070s] [ 27%] [32mBuilding CXX object CMakeFiles/rokae_driver.dir/src/rokae_driver.cpp.o[0m
+[0.079s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_fenjian.cpp: 没有那个文件或目录
+[0.079s] compilation terminated.
+[0.079s] gmake[2]: *** [CMakeFiles/driver_fenjian.dir/build.make:76：CMakeFiles/driver_fenjian.dir/src/driver_fenjian.cpp.o] 错误 1
+[0.079s] [ 38%] Built target driver_pentu
+[0.080s] [ 44%] [32mBuilding CXX object CMakeFiles/driver_maduo.dir/src/driver_maduo.cpp.o[0m
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/driver_hanjie.dir/src/driver_hanjie.cpp.o[0m
+[0.081s] [ 61%] Built target read_force
+[0.081s] [ 66%] [32mBuilding CXX object CMakeFiles/driver_home.dir/src/driver_home.cpp.o[0m
+[0.081s] gmake[1]: *** [CMakeFiles/Makefile2:153：CMakeFiles/driver_fenjian.dir/all] 错误 2
+[0.081s] gmake[1]: *** 正在等待未完成的任务....
+[0.081s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_driver.cpp: 没有那个文件或目录
+[0.081s] compilation terminated.
+[0.081s] gmake[2]: *** [CMakeFiles/rokae_driver.dir/build.make:76：CMakeFiles/rokae_driver.dir/src/rokae_driver.cpp.o] 错误 1
+[0.081s] gmake[1]: *** [CMakeFiles/Makefile2:335：CMakeFiles/rokae_driver.dir/all] 错误 2
+[0.083s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_maduo.cpp: 没有那个文件或目录
+[0.083s] compilation terminated.
+[0.083s] gmake[2]: *** [CMakeFiles/driver_maduo.dir/build.make:76：CMakeFiles/driver_maduo.dir/src/driver_maduo.cpp.o] 错误 1
+[0.084s] gmake[1]: *** [CMakeFiles/Makefile2:231：CMakeFiles/driver_maduo.dir/all] 错误 2
+[0.084s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_hanjie.cpp: 没有那个文件或目录
+[0.084s] compilation terminated.
+[0.084s] gmake[2]: *** [CMakeFiles/driver_hanjie.dir/build.make:76：CMakeFiles/driver_hanjie.dir/src/driver_hanjie.cpp.o] 错误 1
+[0.084s] gmake[1]: *** [CMakeFiles/Makefile2:179：CMakeFiles/driver_hanjie.dir/all] 错误 2
+[0.084s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/driver_home.cpp: 没有那个文件或目录
+[0.084s] compilation terminated.
+[0.084s] gmake[2]: *** [CMakeFiles/driver_home.dir/build.make:76：CMakeFiles/driver_home.dir/src/driver_home.cpp.o] 错误 1
+[0.085s] gmake[1]: *** [CMakeFiles/Makefile2:205：CMakeFiles/driver_home.dir/all] 错误 2
+[1.109s] [ 72%] [32m[1mLinking CXX executable sdk_example[0m
+[1.342s] [ 72%] Built target sdk_example
+[1.342s] gmake: *** [Makefile:146：all] 错误 2
+[1.344s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_demo:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

@@ -1,0 +1,20 @@
+[0.063s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target read_robot_state[0m
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target read_force[0m
+[0.170s] [35m[1mConsolidate compiler generated dependencies of target move_example[0m
+[0.175s] [35m[1mConsolidate compiler generated dependencies of target driver_pentu[0m
+[0.178s] [35m[1mConsolidate compiler generated dependencies of target sdk_example[0m
+[0.199s] [  8%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[0.220s] [ 25%] Built target read_robot_state
+[0.222s] [ 41%] Built target read_force
+[0.225s] [ 58%] Built target move_example
+[0.226s] [ 75%] Built target sdk_example
+[0.231s] [ 91%] Built target driver_pentu
+[0.827s] [01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:16:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/joint_state.hpp: 没有那个文件或目录
+[0.827s]    16 | #include [01;31m[K<sensor_msgs/msg/joint_state.hpp>[m[K
+[0.827s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.828s] compilation terminated.
+[0.834s] gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:76：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+[0.834s] gmake[1]: *** [CMakeFiles/Makefile2:251：CMakeFiles/rokae_controller.dir/all] 错误 2
+[0.835s] gmake: *** [Makefile:146：all] 错误 2
+[0.863s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rokae/workspace/ws_moveit/install/moveit_configs_utils:/home/rokae/workspace/ws_moveit/install/launch_param_builder:/opt/ros/humble /usr/bin/cmake --build /home/rokae/workspace/rokae_ros2_sim2real/build/rokae_driver -- -j32 -l32

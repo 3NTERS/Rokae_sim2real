@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from easy_handeye2_msgs/msg/TargetPoseList.msg
+// generated code does not contain a copyright notice
+
+#include "easy_handeye2_msgs/msg/HandeyeCalibrationParameters.idl"
+#include "geometry_msgs/msg/PoseStamped.idl"
+
+module easy_handeye2_msgs {
+  module msg {
+    struct TargetPoseList {
+      easy_handeye2_msgs::msg::HandeyeCalibrationParameters parameters;
+
+      geometry_msgs::msg::PoseStamped home_pose;
+
+      sequence<geometry_msgs::msg::PoseStamped> target_poses;
+
+      int64 current_target_pose_index;
+    };
+  };
+};

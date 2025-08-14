@@ -1,0 +1,71 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rokae/workspace/rokae_ros2_sim2real/build/aruco
+[35m[1mConsolidate compiler generated dependencies of target aruco[0m
+[  5%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/dictionary_based.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerlabeler.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractaldetector.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/cvdrawingutils.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markermap.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/cameraparameters.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/debug.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/dictionary.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/marker.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractallabeler.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/ippe.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalposetracker.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerdetector.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/markerdetector_impl.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/posetracker.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalmarker.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/aruco.dir/src/aruco/fractallabelers/fractalmarkerset.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libaruco.so[0m
+[100%] Built target aruco
+-- Install configuration: "Release"
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/lib/libaruco.so
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/marker.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/debug.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/levmarq.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/markerlabeler.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/fractallabelers
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/fractallabelers/fractalmarker.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/fractallabelers/fractalposetracker.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/fractallabelers/fractallabeler.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/fractallabelers/fractalmarkerset.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/ippe.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/fractaldetector.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/aruco_export.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/cvdrawingutils.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/timers.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/cameraparameters.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/markerdetector.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/dictionary.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/picoflann.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/markerdetector_impl.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/aruco.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/dictionary_based.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/markermap.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/posetracker.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/include/aruco/aruco_cvversioning.h
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/environment/library_path.sh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/environment/library_path.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/ament_index/resource_index/package_run_dependencies/aruco
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/ament_index/resource_index/parent_prefix_path/aruco
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/environment/ament_prefix_path.sh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/environment/path.sh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/environment/path.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/local_setup.bash
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/local_setup.sh
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/local_setup.zsh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/local_setup.dsv
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/package.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/ament_index/resource_index/packages/aruco
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/cmake/arucoConfig.cmake
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/cmake/arucoConfig-version.cmake
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/package.xml

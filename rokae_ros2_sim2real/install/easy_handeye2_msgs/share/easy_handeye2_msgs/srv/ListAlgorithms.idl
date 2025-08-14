@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from easy_handeye2_msgs/srv/calibration/ListAlgorithms.srv
+// generated code does not contain a copyright notice
+
+
+module easy_handeye2_msgs {
+  module srv {
+    struct ListAlgorithms_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct ListAlgorithms_Response {
+      sequence<string> algorithms;
+
+      string current_algorithm;
+    };
+  };
+};

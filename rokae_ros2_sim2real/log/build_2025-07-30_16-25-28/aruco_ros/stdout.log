@@ -1,0 +1,113 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found OpenCV: /usr (found version "4.5.4") 
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found image_transport: 3.1.10 (/opt/ros/humble/share/image_transport/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.15 (/opt/ros/humble/share/rclpy/cmake)
+-- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.25.12 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found aruco: 5.0.5 (/home/rokae/workspace/rokae_ros2_sim2real/install/aruco/share/aruco/cmake)
+-- Found aruco_msgs: 5.0.5 (/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs/share/aruco_msgs/cmake)
+-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/rokae/workspace/rokae_ros2_sim2real/src/aruco_ros/aruco_ros/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/rokae/workspace/rokae_ros2_sim2real/build/aruco_ros
+[  9%] [32mBuilding CXX object CMakeFiles/aruco_ros_utils.dir/src/aruco_ros_utils.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/double.dir/src/simple_double.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/marker_publisher.dir/src/aruco_ros_utils.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/single.dir/src/simple_single.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/double.dir/src/aruco_ros_utils.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/single.dir/src/aruco_ros_utils.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/marker_publisher.dir/src/marker_publish.cpp.o[0m
+[ 72%] [32m[1mLinking CXX shared library libaruco_ros_utils.so[0m
+[ 72%] Built target aruco_ros_utils
+[ 81%] [32m[1mLinking CXX executable double[0m
+[ 81%] Built target double
+[ 90%] [32m[1mLinking CXX executable marker_publisher[0m
+[100%] [32m[1mLinking CXX executable single[0m
+[100%] Built target marker_publisher
+[100%] Built target single
+-- Install configuration: ""
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/libaruco_ros_utils.so
+-- Set runtime path of "/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/libaruco_ros_utils.so" to ""
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/aruco_ros/marker_publisher
+-- Set runtime path of "/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/aruco_ros/marker_publisher" to ""
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/aruco_ros/single
+-- Set runtime path of "/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/aruco_ros/single" to ""
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/aruco_ros/double
+-- Set runtime path of "/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/lib/aruco_ros/double" to ""
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/include
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/include/aruco_ros
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker26_5cm_margin_2cm.jpg
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker582_5cm.jpg
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker26_5cm_margin_1cm.jpg
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/new_coordinates.png
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker582_5cm_margin_2cm.jpg
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker_in_object.jpg
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/reem_gazebo_floating_marker.png
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker26_5cm.jpg
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/reem_gazebo_floating_marker_world.png
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/etc/marker_in_hand.jpg
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/launch
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/launch/single.launch.py
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/launch/double.launch.py
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/launch/marker_publisher.launch.py
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/ament_index/resource_index/package_run_dependencies/aruco_ros
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/ament_index/resource_index/parent_prefix_path/aruco_ros
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/environment/ament_prefix_path.sh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/environment/ament_prefix_path.dsv
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/environment/path.sh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/environment/path.dsv
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/local_setup.bash
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/local_setup.sh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/local_setup.zsh
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/local_setup.dsv
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/package.dsv
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/ament_index/resource_index/packages/aruco_ros
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/cmake/aruco_rosConfig.cmake
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/cmake/aruco_rosConfig-version.cmake
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/aruco_ros/share/aruco_ros/package.xml

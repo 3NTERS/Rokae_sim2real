@@ -1,0 +1,13 @@
+
+AutoMoc error
+-------------
+"SRC:/src/My_joint_publisher_gui.cpp"
+contains a "Q_OBJECT" macro, but does not include "My_joint_publisher_gui.moc"!
+Consider to
+  - add #include "My_joint_publisher_gui.moc"
+  - enable SKIP_AUTOMOC for this file
+
+gmake[2]: *** [CMakeFiles/My_joint_publisher_gui_autogen.dir/build.make:71：CMakeFiles/My_joint_publisher_gui_autogen] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:338：CMakeFiles/My_joint_publisher_gui_autogen.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2
