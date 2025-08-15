@@ -1,0 +1,24 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/rokae_udp_bridge.dir/src/rokae_udp_bridge.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rokae_udp_bridge[0m
+[100%] Built target rokae_udp_bridge
+-- Install configuration: ""
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/lib/rokae_udp_bridge/rokae_udp_bridge
+-- Set runtime path of "/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/lib/rokae_udp_bridge/rokae_udp_bridge" to ""
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/launch
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/launch/config.yaml
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/launch/rokae_bridge.launch.py
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/ament_index/resource_index/package_run_dependencies/rokae_udp_bridge
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/ament_index/resource_index/parent_prefix_path/rokae_udp_bridge
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/environment/path.sh
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/environment/path.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/local_setup.bash
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/local_setup.sh
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/local_setup.zsh
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/local_setup.dsv
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/package.dsv
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/ament_index/resource_index/packages/rokae_udp_bridge
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/cmake/rokae_udp_bridgeConfig.cmake
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/cmake/rokae_udp_bridgeConfig-version.cmake
+-- Up-to-date: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/package.xml

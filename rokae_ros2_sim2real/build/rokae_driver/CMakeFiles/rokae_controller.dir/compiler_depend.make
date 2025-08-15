@@ -936,6 +936,12 @@ CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o: /home/rokae/workspac
   /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/header__traits.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp \
   /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+  /opt/ros/humble/include/control_msgs/control_msgs/msg/joint_jog.hpp \
+  /opt/ros/humble/include/control_msgs/control_msgs/msg/detail/joint_jog__struct.hpp \
+  /opt/ros/humble/include/control_msgs/control_msgs/msg/detail/joint_jog__builder.hpp \
+  /opt/ros/humble/include/control_msgs/control_msgs/msg/detail/joint_jog__traits.hpp \
+  /opt/ros/humble/include/control_msgs/control_msgs/msg/detail/joint_jog__type_support.hpp \
+  /opt/ros/humble/include/control_msgs/control_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
   /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp \
   /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp \
   /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp \
@@ -960,6 +966,12 @@ CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o: /home/rokae/workspac
 /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp:
 
 /opt/ros/humble/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp:
+
+/opt/ros/humble/include/control_msgs/control_msgs/msg/detail/joint_jog__traits.hpp:
+
+/opt/ros/humble/include/control_msgs/control_msgs/msg/detail/joint_jog__builder.hpp:
+
+/opt/ros/humble/include/control_msgs/control_msgs/msg/joint_jog.hpp:
 
 /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp:
 
@@ -2145,6 +2157,8 @@ rokae_controller_autogen/mocs_compilation.cpp:
 
 /usr/include/time.h:
 
+/opt/ros/humble/include/control_msgs/control_msgs/msg/rosidl_generator_cpp__visibility_control.hpp:
+
 /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
@@ -2240,6 +2254,8 @@ rokae_controller_autogen/mocs_compilation.cpp:
 /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
 
 /usr/include/eigen3/Eigen/src/Core/Reshaped.h:
+
+/opt/ros/humble/include/control_msgs/control_msgs/msg/detail/joint_jog__type_support.hpp:
 
 /usr/include/c++/11/bits/stl_tree.h:
 
@@ -2484,6 +2500,8 @@ rokae_controller_autogen/mocs_compilation.cpp:
 /usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
 
 /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
+
+/opt/ros/humble/include/control_msgs/control_msgs/msg/detail/joint_jog__struct.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
 

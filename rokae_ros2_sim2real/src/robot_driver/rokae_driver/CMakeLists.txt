@@ -12,6 +12,7 @@ find_package(std_msgs REQUIRED)
 find_package(std_srvs REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
+find_package(control_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
 find_package(Qt5 REQUIRED COMPONENTS Core Widgets)
 
@@ -51,6 +52,7 @@ foreach(cpp_file ${CPP_FILES})
 	std_msgs
 	std_srvs
 	sensor_msgs
+	control_msgs
 	trajectory_msgs
 	geometry_msgs)
 	install(TARGETS

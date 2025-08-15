@@ -14,6 +14,7 @@
 #include <rclcpp/rclcpp.hpp>
 #include <std_msgs/msg/string.hpp>
 #include <sensor_msgs/msg/joint_state.hpp>
+#include <control_msgs/msg/joint_jog.hpp>
 #include <trajectory_msgs/msg/joint_trajectory.hpp>
 #include <trajectory_msgs/msg/joint_trajectory_point.hpp>
 
@@ -38,6 +39,14 @@ public:
             "joint_command",10,
             std::bind(&RobotController::joint_command_callback,this,std::placeholders::_1)
         );
+        // 在构造函数或初始化函数中
+        // joint_state_sub_ = this->create_subscription<sensor_msgs::msg::JointState>(
+        //     "joint_states", 10, 
+        //     std::bind(&YourClass::joint_state_callback, this, std::placeholders::_1));
+
+        // joint_jog_sub_ = this->create_subscription<control_msgs::msg::JointJog>(
+        //     "joint_jog", 10, 
+        //     std::bind(&YourClass::joint_jog_callback, this, std::placeholders::_1));
         
         //定时器
         timer_ = this->create_wall_timer(
@@ -85,14 +94,31 @@ private:
         send_joint_command(target_joint_positions_);
     }
 
-    void joint_command_callback(const sensor_msgs::msg::JointState::SharedPtr msg){
-        if(msg->position.size()!=joint_names_.size()){
+    void joint_command_callback(const sensor_msgs::msg::JointState::SharedPtr msg) {
+        if(msg->position.size() != joint_names_.size()) {
             return;
         }
-        //更新目标位置
-        target_joint_positions_ =msg ->position;
-        std::cout << "get target_pos"<< std::endl;
-        //发送命令到实机
+        // 更新目标位置（绝对位置）
+        target_joint_positions_ = msg->position;
+        std::cout << "get target_pos from JointState" << std::endl;
+        // 发送命令到实机
+        send_joint_command(target_joint_positions_);
+    }
+
+    // 新的JointJog回调函数
+    void joint_jog_callback(const control_msgs::msg::JointJog::SharedPtr msg) {
+        if(msg->joint_names.size() != joint_names_.size() || 
+        msg->displacements.size() != joint_names_.size()) {
+            return;
+        }
+        
+        // 将位移增量添加到当前位置
+        for(size_t i = 0; i < joint_names_.size(); ++i) {
+            target_joint_positions_[i] += msg->displacements[i];
+        }
+        
+        std::cout << "get target_displacement from JointJog" << std::endl;
+        // 发送命令到实机
         send_joint_command(target_joint_positions_);
     }
 

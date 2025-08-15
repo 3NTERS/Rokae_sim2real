@@ -16,6 +16,7 @@
   <depend>wrench_publisher</depend>
   <depend>trajectroy_msgs</depend>
   <depend>sensor_msgs</depend>
+  <depend>sontrol_msgs</depend>
   <depend>qtbase5-dev</depend>
 
   <test_depend>ament_lint_auto</test_depend>

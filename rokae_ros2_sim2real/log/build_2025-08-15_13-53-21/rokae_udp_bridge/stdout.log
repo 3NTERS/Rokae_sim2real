@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target rokae_udp_bridge[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rokae_udp_bridge.dir/src/rokae_udp_bridge.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rokae_udp_bridge[0m
+[100%] Built target rokae_udp_bridge
+-- Install configuration: ""
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/lib/rokae_udp_bridge/rokae_udp_bridge
+-- Set runtime path of "/home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/lib/rokae_udp_bridge/rokae_udp_bridge" to ""
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/launch
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/launch/config.yaml
+-- Installing: /home/rokae/workspace/rokae_ros2_sim2real/install/rokae_udp_bridge/share/rokae_udp_bridge/launch/rokae_bridge.launch.py

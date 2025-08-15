@@ -1,0 +1,15 @@
+robot_udp_bridge:
+  ros__parameters:
+    # 网络配置
+    isaac_ip: "192.168.1.29"    # Isaac Gym所在IP
+    isaac_port: 5666            # Isaac Gym监听端口
+    local_port: 5006            # 本地UDP端口
+    
+    # 机器人配置
+    joint_count: 23             #
+    
+    # 通讯频率 (在代码中硬编码为100Hz)
+    send_frequency: 50.0
+    
+    # 延迟监控
+    latency_warning_threshold: 0.02  # 20ms

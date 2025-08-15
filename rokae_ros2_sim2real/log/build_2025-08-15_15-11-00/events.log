@@ -1,0 +1,34 @@
+[0.000000] (-) TimerEvent: {}
+[0.001108] (aruco) JobQueued: {'identifier': 'aruco', 'dependencies': OrderedDict()}
+[0.001929] (aruco_msgs) JobQueued: {'identifier': 'aruco_msgs', 'dependencies': OrderedDict()}
+[0.002190] (easy_handeye2_msgs) JobQueued: {'identifier': 'easy_handeye2_msgs', 'dependencies': OrderedDict()}
+[0.002388] (realsense2_camera_msgs) JobQueued: {'identifier': 'realsense2_camera_msgs', 'dependencies': OrderedDict()}
+[0.002483] (rokae_description) JobQueued: {'identifier': 'rokae_description', 'dependencies': OrderedDict()}
+[0.002688] (rokae_driver) JobQueued: {'identifier': 'rokae_driver', 'dependencies': OrderedDict()}
+[0.002752] (rokae_udp_bridge) JobQueued: {'identifier': 'rokae_udp_bridge', 'dependencies': OrderedDict()}
+[0.002805] (aruco_ros) JobQueued: {'identifier': 'aruco_ros', 'dependencies': OrderedDict([('aruco', '/home/rokae/workspace/rokae_ros2_sim2real/install/aruco'), ('aruco_msgs', '/home/rokae/workspace/rokae_ros2_sim2real/install/aruco_msgs')])}
+[0.002876] (easy_handeye2) JobQueued: {'identifier': 'easy_handeye2', 'dependencies': OrderedDict([('easy_handeye2_msgs', '/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs')])}
+[0.002938] (realsense2_camera) JobQueued: {'identifier': 'realsense2_camera', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera_msgs')])}
+[0.003043] (realsense2_description) JobQueued: {'identifier': 'realsense2_description', 'dependencies': OrderedDict([('realsense2_camera_msgs', '/home/rokae/workspace/rokae_ros2_sim2real/install/realsense2_camera_msgs')])}
+[0.003125] (easy_handeye2_demo) JobQueued: {'identifier': 'easy_handeye2_demo', 'dependencies': OrderedDict([('easy_handeye2_msgs', '/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs'), ('easy_handeye2', '/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2')])}
+[0.003279] (easy_handeye2_msgs) JobStarted: {'identifier': 'easy_handeye2_msgs'}
+[0.022834] (realsense2_camera_msgs) JobStarted: {'identifier': 'realsense2_camera_msgs'}
+[0.039384] (aruco) JobStarted: {'identifier': 'aruco'}
+[0.056822] (aruco_msgs) JobStarted: {'identifier': 'aruco_msgs'}
+[0.073743] (rokae_description) JobStarted: {'identifier': 'rokae_description'}
+[0.090349] (rokae_driver) JobStarted: {'identifier': 'rokae_driver'}
+[0.096274] (rokae_driver) JobEnded: {'identifier': 'rokae_driver', 'rc': 0}
+[0.098163] (rokae_udp_bridge) JobStarted: {'identifier': 'rokae_udp_bridge'}
+[0.099423] (-) TimerEvent: {}
+[0.114931] (easy_handeye2_msgs) JobEnded: {'identifier': 'easy_handeye2_msgs', 'rc': 'SIGINT'}
+[0.116707] (realsense2_camera_msgs) JobEnded: {'identifier': 'realsense2_camera_msgs', 'rc': 'SIGINT'}
+[0.117322] (aruco) JobEnded: {'identifier': 'aruco', 'rc': 'SIGINT'}
+[0.117706] (aruco_msgs) JobEnded: {'identifier': 'aruco_msgs', 'rc': 'SIGINT'}
+[0.118019] (rokae_description) JobEnded: {'identifier': 'rokae_description', 'rc': 'SIGINT'}
+[0.118308] (rokae_udp_bridge) JobEnded: {'identifier': 'rokae_udp_bridge', 'rc': 'SIGINT'}
+[0.127041] (aruco_ros) JobSkipped: {'identifier': 'aruco_ros'}
+[0.127146] (easy_handeye2) JobSkipped: {'identifier': 'easy_handeye2'}
+[0.127184] (realsense2_camera) JobSkipped: {'identifier': 'realsense2_camera'}
+[0.127216] (realsense2_description) JobSkipped: {'identifier': 'realsense2_description'}
+[0.127245] (easy_handeye2_demo) JobSkipped: {'identifier': 'easy_handeye2_demo'}
+[0.127274] (-) EventReactorShutdown: {}

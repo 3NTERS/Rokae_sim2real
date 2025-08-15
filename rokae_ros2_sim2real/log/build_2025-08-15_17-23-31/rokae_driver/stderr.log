@@ -1,0 +1,7 @@
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_driver/rokae_driver/src/rokae_controller.cpp:17:10:[m[K [01;31m[Kfatal error: [m[Kcontrol_msgs/msg/joint_jog.hpp: 没有那个文件或目录
+   17 | #include [01;31m[K<control_msgs/msg/joint_jog.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rokae_controller.dir/build.make:90：CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:286：CMakeFiles/rokae_controller.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

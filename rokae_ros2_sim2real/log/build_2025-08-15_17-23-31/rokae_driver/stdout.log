@@ -1,0 +1,21 @@
+[  3%] [34m[1mAutomatic MOC and UIC for target driver_pentu[0m
+[ 10%] [34m[1mAutomatic MOC and UIC for target read_force[0m
+[ 14%] [34m[1mAutomatic MOC and UIC for target read_robot_state[0m
+[ 14%] [34m[1mAutomatic MOC and UIC for target My_joint_publisher_gui[0m
+[ 17%] [34m[1mAutomatic MOC and UIC for target rokae_controller[0m
+[ 21%] [34m[1mAutomatic MOC and UIC for target move_example[0m
+[ 25%] [34m[1mAutomatic MOC and UIC for target sdk_example[0m
+[ 25%] Built target read_force_autogen
+[ 25%] Built target My_joint_publisher_gui_autogen
+[ 25%] Built target read_robot_state_autogen
+[ 25%] Built target driver_pentu_autogen
+[ 25%] Built target rokae_controller_autogen
+[ 25%] Built target move_example_autogen
+[ 25%] Built target sdk_example_autogen
+[ 35%] Built target read_robot_state
+[ 46%] Built target read_force
+[ 60%] [32mBuilding CXX object CMakeFiles/rokae_controller.dir/src/rokae_controller.cpp.o[0m
+[ 60%] Built target sdk_example
+[ 71%] Built target My_joint_publisher_gui
+[ 82%] Built target driver_pentu
+[ 92%] Built target move_example

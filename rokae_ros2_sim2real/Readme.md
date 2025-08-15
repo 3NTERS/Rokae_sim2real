@@ -13,6 +13,14 @@
 
 后在Rviz2中将出现相机相对于基座的坐标系
 
+## UDP
+检查端口状态
+- sudo tcpdump -i any udp port 5666
+允许端口udp
+- sudo ufw allow 5666/udp
+- 上位机端口192.168.29 下位机端口192.168.27
+
+
 ## Q&A
 1. 机械臂急停但标定未结束怎么办？
 > 运行`ros launch rokae_driver rokae_controller` 再次启动控制部分，GUI此时可用。在将机械臂复位到安全位置后关闭此进程即可继续标定。

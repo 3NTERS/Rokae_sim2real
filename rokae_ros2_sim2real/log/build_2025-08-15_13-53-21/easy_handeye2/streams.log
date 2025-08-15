@@ -1,0 +1,27 @@
+[1.362s] Invoking command in '/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2': AMENT_PREFIX_PATH=/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/easy_handeye2 build --build-base /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build install --record /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/install.log --single-version-externally-managed install_data
+[1.865s] running egg_info
+[1.867s] writing ../../../build/easy_handeye2/easy_handeye2.egg-info/PKG-INFO
+[1.867s] writing dependency_links to ../../../build/easy_handeye2/easy_handeye2.egg-info/dependency_links.txt
+[1.868s] writing entry points to ../../../build/easy_handeye2/easy_handeye2.egg-info/entry_points.txt
+[1.868s] writing requirements to ../../../build/easy_handeye2/easy_handeye2.egg-info/requires.txt
+[1.868s] writing top-level names to ../../../build/easy_handeye2/easy_handeye2.egg-info/top_level.txt
+[1.873s] reading manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+[1.875s] writing manifest file '../../../build/easy_handeye2/easy_handeye2.egg-info/SOURCES.txt'
+[1.876s] running build
+[1.876s] running build_py
+[1.877s] running build_scripts
+[1.878s] running install
+[1.878s] running install_lib
+[1.881s] running install_data
+[1.882s] running install_egg_info
+[1.887s] removing '/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2-0.5.0-py3.10.egg-info' (and everything under it)
+[1.888s] Copying ../../../build/easy_handeye2/easy_handeye2.egg-info to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages/easy_handeye2-0.5.0-py3.10.egg-info
+[1.889s] running install_scripts
+[1.930s] changing mode of /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2/rqt_evaluator.py to 775
+[1.930s] changing mode of /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2/rqt_calibrator.py to 775
+[1.932s] Installing handeye_calibration_commander script to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+[1.933s] Installing handeye_publisher script to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+[1.933s] Installing handeye_server script to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+[1.933s] Installing handeye_server_robot script to /home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/easy_handeye2
+[1.934s] writing list of installed files to '/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/install.log'
+[1.978s] Invoked command in '/home/rokae/workspace/rokae_ros2_sim2real/src/easy_handeye2/easy_handeye2' returned '0': AMENT_PREFIX_PATH=/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2/lib/python3.10/site-packages:/home/rokae/workspace/rokae_ros2_sim2real/install/easy_handeye2_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/easy_handeye2 build --build-base /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/build install --record /home/rokae/workspace/rokae_ros2_sim2real/build/easy_handeye2/install.log --single-version-externally-managed install_data

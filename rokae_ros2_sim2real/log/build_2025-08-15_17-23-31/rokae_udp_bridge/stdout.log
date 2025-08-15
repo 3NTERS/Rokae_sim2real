@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target rokae_udp_bridge[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/rokae_udp_bridge.dir/src/rokae_udp_bridge.cpp.o[0m
+[100%] [32m[1mLinking CXX executable rokae_udp_bridge[0m
+[100%] Built target rokae_udp_bridge

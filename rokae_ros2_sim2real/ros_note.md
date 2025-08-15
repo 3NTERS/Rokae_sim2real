@@ -16,3 +16,10 @@
       - eas_eyehand
 - ros2 launch easy_handeye2 publish.launch.py 
 
+1. 写接收数据（JointJog）后的执行函数，验证100hz输出的关节角度能否执行
+2. 验证抓取点是否准（让夹爪去抓）
+- 不准则需要重新标定
+3. 跑实验需要确定控制频率是否稳定（）
+- 50HZ
+ 
+

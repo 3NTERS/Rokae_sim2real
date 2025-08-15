@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f0d553666132a560fd7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rokae_udp_bridge",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rokae_udp_bridge::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rokae_udp_bridge-768e467e60b9f83dc784.json",
+					"name" : "rokae_udp_bridge",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rokae_udp_bridge_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rokae_udp_bridge_uninstall-f7b1031c559fc74d5ed6.json",
+					"name" : "rokae_udp_bridge_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-38c33bd4bf3b41881e28.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rokae/workspace/rokae_ros2_sim2real/build/rokae_udp_bridge",
+		"source" : "/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,37 @@
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge/src/rokae_udp_bridge.cpp:[m[K In member function ‘[01m[Kvoid rokaeUDPBridge::jointStateCallback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge/src/rokae_udp_bridge.cpp:100:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  100 |         if ([01;35m[Kmsg->position.size() >= joint_count_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge/src/rokae_udp_bridge.cpp:101:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  101 |             for (size_t i = 0; [01;35m[Ki < joint_count_[m[K; ++i) {
+      |                                [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge/src/rokae_udp_bridge.cpp:106:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kstd::vector<double, std::allocator<double> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  106 |         if ([01;35m[Kmsg->velocity.size() >= joint_count_[m[K) {
+      |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge/src/rokae_udp_bridge.cpp:107:34:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  107 |             for (size_t i = 0; [01;35m[Ki < joint_count_[m[K; ++i) {
+      |                                [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge/src/rokae_udp_bridge.cpp:[m[K In member function ‘[01m[Kvoid rokaeUDPBridge::sendJointStateThread()[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge/src/rokae_udp_bridge.cpp:142:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  142 |                 for (size_t i = 0; [01;35m[Ki < joint_count_[m[K; ++i) {
+      |                                    [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge/src/rokae_udp_bridge.cpp:149:38:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  149 |                 for (size_t i = 0; [01;35m[Ki < joint_count_[m[K; ++i) {
+      |                                    [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge/src/rokae_udp_bridge.cpp:[m[K In member function ‘[01m[Kvoid rokaeUDPBridge::parseActionData(uint8_t*, ssize_t)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge/src/rokae_udp_bridge.cpp:198:25:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  198 |         if ([01;35m[Kjoint_count != joint_count_[m[K || size < offset + joint_count * sizeof(float)) {
+      |             [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge/src/rokae_udp_bridge.cpp:198:49:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kssize_t[m[K’ {aka ‘[01m[Klong int[m[K’} and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  198 |         if (joint_count != joint_count_ || [01;35m[Ksize < offset + joint_count * sizeof(float)[m[K) {
+      |                                            [01;35m[K~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge/src/rokae_udp_bridge.cpp:[m[K In member function ‘[01m[Kvoid rokaeUDPBridge::publishJointCommand(const std::vector<float>&)[m[K’:
+[01m[K/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge/src/rokae_udp_bridge.cpp:234:30:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  234 |         for (size_t i = 0; [01;35m[Ki < joint_count_[m[K; ++i) {
+      |                            [01;35m[K~~^~~~~~~~~~~~~~[m[K
+[31mCMake Error at cmake_install.cmake:66 (file):
+  file INSTALL cannot find
+  "/home/rokae/workspace/rokae_ros2_sim2real/src/robot_communication/rokae_udp_bridge/config":
+  No such file or directory.
+
+[0m
